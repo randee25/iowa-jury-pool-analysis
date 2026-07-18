@@ -15,10 +15,6 @@ state_crim_panel_race <- read_csv("data/raw/state_crim_panel_race.csv")  # state
 state_pool_race <- read_csv("data/raw/state_pool_race.csv")      # statewide jury pool race data
 
 # ---- Clean column names ----
-
-
-# ---- Clean column names ----
-
 crim_empanelment <- clean_names(crim_empanelment)
 crim_panel_mr <- clean_names(crim_panel_mr)
 pool_mr <- clean_names(pool_mr)
