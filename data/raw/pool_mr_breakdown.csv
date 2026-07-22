@@ -1,844 +1,844 @@
-﻿CD_COURT_NAME,MULTI_RACE_BREAKOUT,MULTI_RACE_COUNT,HLSO_ETHNICITY_COUNT,,,Note: Only counties that had Multi Race information appear in this section.
-011 Adair County District Court,"Multi Race Black/African American, White",1,0,,,
-011 Adair County District Court,"Multi Race Other, White",1,1,,,
-021 Adams County District Court,Multi Race ,1,0,,,
-021 Adams County District Court,"Multi Race Black/African American, White",1,0,,,
-021 Adams County District Court,"Multi Race Unknown, White",1,0,,,
-021 Adams County District Court,Multi Race White,1,1,,,
-031 Allamakee County District Court,Multi Race ,2,0,,,
-031 Allamakee County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,1,,,
-031 Allamakee County District Court,"Multi Race Asian, White",1,0,,,
-031 Allamakee County District Court,"Multi Race Black/African American, White",2,0,,,
-031 Allamakee County District Court,"Multi Race Other, White",1,1,,,
-041 Appanoose County District Court,Multi Race ,1,0,,,
-041 Appanoose County District Court,"Multi Race Asian, White",1,0,,,
-041 Appanoose County District Court,"Multi Race Black/African American, White",1,0,,,
-041 Appanoose County District Court,"Multi Race Other, White",1,1,,,
-051 Audubon County District Court,"Multi Race Black/African American, White",2,0,,,
-061 Benton County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",2,0,,,
-061 Benton County District Court,"Multi Race Asian, Black/African American, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-061 Benton County District Court,"Multi Race Asian, White",4,0,,,
-061 Benton County District Court,"Multi Race Black/African American, White",6,0,,,
-061 Benton County District Court,Multi Race Other,1,1,,,
-061 Benton County District Court,"Multi Race Other, White",2,2,,,
-061 Benton County District Court,Multi Race White,1,1,,,
-071 Black Hawk County District Court,Multi Race ,12,0,,,
-071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,0,,,
-071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",2,0,,,
-071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",4,0,,,
-071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, Unknown, White",1,0,,,
-071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",2,0,,,
-071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",7,2,,,
-071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Native Hawaiian/Other Pacific Islander",1,1,,,
-071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Other",1,0,,,
-071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, White",10,1,,,
-071 Black Hawk County District Court,Multi Race Asian,1,0,,,
-071 Black Hawk County District Court,"Multi Race Asian, Black/African American",4,0,,,
-071 Black Hawk County District Court,"Multi Race Asian, Black/African American, White",1,0,,,
-071 Black Hawk County District Court,"Multi Race Asian, White",46,2,,,
-071 Black Hawk County District Court,Multi Race Black/African American,1,0,,,
-071 Black Hawk County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",4,0,,,
-071 Black Hawk County District Court,"Multi Race Black/African American, Other",3,2,,,
-071 Black Hawk County District Court,"Multi Race Black/African American, White",124,6,,,
-071 Black Hawk County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-071 Black Hawk County District Court,Multi Race Other,16,10,,,
-071 Black Hawk County District Court,"Multi Race Other, Unknown, White",1,1,,,
-071 Black Hawk County District Court,"Multi Race Other, White",24,23,,,
-071 Black Hawk County District Court,Multi Race Unknown,2,1,,,
-071 Black Hawk County District Court,Multi Race White,17,16,,,
-081 Boone County District Court,Multi Race ,4,0,,,
-081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, White",1,0,,,
-081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",2,0,,,
-081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander",1,1,,,
-081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",2,0,,,
-081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Other, Unknown, White",1,0,,,
-081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0,,,
-081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0,,,
-081 Boone County District Court,"Multi Race American Indian/Alaskan Native, White",10,1,,,
-081 Boone County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, Other",1,0,,,
-081 Boone County District Court,"Multi Race Asian, Other, White",1,1,,,
-081 Boone County District Court,"Multi Race Asian, White",8,0,,,
-081 Boone County District Court,"Multi Race Black/African American, Other, White",1,0,,,
-081 Boone County District Court,"Multi Race Black/African American, White",15,0,,,
-081 Boone County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",2,0,,,
-081 Boone County District Court,Multi Race Other,4,3,,,
-081 Boone County District Court,"Multi Race Other, White",5,3,,,
-081 Boone County District Court,Multi Race Unknown,1,0,,,
-081 Boone County District Court,Multi Race White,6,6,,,
-091 Bremer County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,1,,,
-091 Bremer County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-091 Bremer County District Court,"Multi Race Black/African American, White",4,0,,,
-091 Bremer County District Court,Multi Race Other,1,0,,,
-091 Bremer County District Court,"Multi Race Other, White",1,1,,,
-101 Buchanan County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0,,,
-101 Buchanan County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-101 Buchanan County District Court,"Multi Race Asian, White",2,0,,,
-101 Buchanan County District Court,"Multi Race Black/African American, Other, White",1,1,,,
-101 Buchanan County District Court,"Multi Race Black/African American, White",5,0,,,
-101 Buchanan County District Court,"Multi Race Unknown, White",1,0,,,
-111 Buena Vista County District Court,"Multi Race Asian, Black/African American, White",1,0,,,
-111 Buena Vista County District Court,"Multi Race Asian, White",1,1,,,
-111 Buena Vista County District Court,"Multi Race Black/African American, Other",1,1,,,
-111 Buena Vista County District Court,"Multi Race Black/African American, Other, White",2,2,,,
-111 Buena Vista County District Court,"Multi Race Black/African American, White",1,0,,,
-111 Buena Vista County District Court,Multi Race Other,1,1,,,
-111 Buena Vista County District Court,"Multi Race Other, White",3,3,,,
-111 Buena Vista County District Court,Multi Race White,1,1,,,
-121 Butler County District Court,"Multi Race American Indian/Alaskan Native, White",1,1,,,
-121 Butler County District Court,"Multi Race Black/African American, White",1,0,,,
-121 Butler County District Court,Multi Race White,2,2,,,
-131 Calhoun County District Court,"Multi Race Asian, White",2,0,,,
-131 Calhoun County District Court,"Multi Race Black/African American, White",1,0,,,
-131 Calhoun County District Court,Multi Race Other,2,2,,,
-141 Carroll County District Court,"Multi Race American Indian/Alaskan Native, White",3,1,,,
-141 Carroll County District Court,"Multi Race Black/African American, White",2,0,,,
-141 Carroll County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-141 Carroll County District Court,Multi Race Other,2,1,,,
-141 Carroll County District Court,Multi Race White,1,1,,,
-151 Cass County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0,,,
-151 Cass County District Court,"Multi Race American Indian/Alaskan Native, White",2,1,,,
-151 Cass County District Court,"Multi Race Asian, White",1,0,,,
-151 Cass County District Court,"Multi Race Black/African American, White",1,0,,,
-151 Cass County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",2,1,,,
-151 Cass County District Court,Multi Race Other,1,0,,,
-151 Cass County District Court,"Multi Race Other, White",3,3,,,
-161 Cedar County District Court,Multi Race ,2,1,,,
-161 Cedar County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1,,,
-161 Cedar County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-161 Cedar County District Court,"Multi Race Asian, Black/African American",1,0,,,
-161 Cedar County District Court,"Multi Race Black/African American, White",2,0,,,
-161 Cedar County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,1,,,
-161 Cedar County District Court,"Multi Race Other, Unknown, White",3,3,,,
-161 Cedar County District Court,"Multi Race Other, White",2,2,,,
-161 Cedar County District Court,Multi Race Unknown,1,0,,,
-161 Cedar County District Court,Multi Race White,2,2,,,
-171 Cerro Gordo County District Court,Multi Race ,1,0,,,
-171 Cerro Gordo County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0,,,
-171 Cerro Gordo County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1,,,
-171 Cerro Gordo County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-171 Cerro Gordo County District Court,"Multi Race American Indian/Alaskan Native, White",1,1,,,
-171 Cerro Gordo County District Court,"Multi Race Asian, White",2,1,,,
-171 Cerro Gordo County District Court,"Multi Race Black/African American, Other, White",1,0,,,
-171 Cerro Gordo County District Court,"Multi Race Black/African American, White",10,1,,,
-171 Cerro Gordo County District Court,Multi Race Other,5,5,,,
-171 Cerro Gordo County District Court,"Multi Race Other, White",7,6,,,
-171 Cerro Gordo County District Court,Multi Race White,8,7,,,
-181 Cherokee County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0,,,
-181 Cherokee County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-181 Cherokee County District Court,"Multi Race Asian, White",1,0,,,
-181 Cherokee County District Court,Multi Race Other,2,2,,,
-191 Chickasaw County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-191 Chickasaw County District Court,"Multi Race Black/African American, Other, Unknown",1,0,,,
-191 Chickasaw County District Court,"Multi Race Black/African American, White",1,0,,,
-191 Chickasaw County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-201 Clarke County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-201 Clarke County District Court,"Multi Race American Indian/Alaskan Native, White",2,0,,,
-201 Clarke County District Court,"Multi Race Asian, White",1,0,,,
-201 Clarke County District Court,Multi Race Black/African American,1,0,,,
-201 Clarke County District Court,"Multi Race Black/African American, White",1,1,,,
-201 Clarke County District Court,"Multi Race Other, White",1,1,,,
-201 Clarke County District Court,Multi Race White,2,2,,,
-211 Clay County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-211 Clay County District Court,"Multi Race Asian, Other",1,1,,,
-211 Clay County District Court,"Multi Race Asian, White",1,0,,,
-211 Clay County District Court,"Multi Race Black/African American, White",3,1,,,
-211 Clay County District Court,"Multi Race Other, White",4,4,,,
-211 Clay County District Court,Multi Race White,3,3,,,
-221 Clayton County District Court,Multi Race ,1,0,,,
-221 Clayton County District Court,"Multi Race Black/African American, Other",1,1,,,
-221 Clayton County District Court,"Multi Race Black/African American, White",1,0,,,
-221 Clayton County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-231 Clinton County District Court,Multi Race ,5,2,,,
-231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0,,,
-231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",1,0,,,
-231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",4,1,,,
-231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Native Hawaiian/Other Pacific Islander, Other",1,1,,,
-231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1,,,
-231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Other, White",2,2,,,
-231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0,,,
-231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, White",12,3,,,
-231 Clinton County District Court,"Multi Race Asian, Black/African American",1,0,,,
-231 Clinton County District Court,"Multi Race Asian, Black/African American, Other, White",1,1,,,
-231 Clinton County District Court,"Multi Race Asian, Black/African American, White",1,0,,,
-231 Clinton County District Court,"Multi Race Asian, Other, White",1,1,,,
-231 Clinton County District Court,"Multi Race Asian, White",8,0,,,
-231 Clinton County District Court,Multi Race Black/African American,1,1,,,
-231 Clinton County District Court,"Multi Race Black/African American, Other, White",3,1,,,
-231 Clinton County District Court,"Multi Race Black/African American, White",41,0,,,
-231 Clinton County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-231 Clinton County District Court,Multi Race Other,3,3,,,
-231 Clinton County District Court,"Multi Race Other, White",9,8,,,
-231 Clinton County District Court,Multi Race Unknown,1,0,,,
-231 Clinton County District Court,Multi Race White,15,15,,,
-241 Crawford County District Court,Multi Race American Indian/Alaskan Native,1,1,,,
-241 Crawford County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1,,,
-241 Crawford County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-241 Crawford County District Court,"Multi Race Asian, White",1,0,,,
-241 Crawford County District Court,"Multi Race Black/African American, White",1,0,,,
-241 Crawford County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, Other",1,1,,,
-241 Crawford County District Court,Multi Race Other,1,1,,,
-241 Crawford County District Court,"Multi Race Other, White",1,1,,,
-241 Crawford County District Court,Multi Race White,5,5,,,
-251 Dallas County District Court,Multi Race American Indian/Alaskan Native,2,2,,,
-251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0,,,
-251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",1,1,,,
-251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",1,1,,,
-251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",2,0,,,
-251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, White",5,1,,,
-251 Dallas County District Court,Multi Race Asian,3,3,,,
-251 Dallas County District Court,"Multi Race Asian, White",9,0,,,
-251 Dallas County District Court,"Multi Race Black/African American, Other",1,1,,,
-251 Dallas County District Court,"Multi Race Black/African American, Other, White",2,0,,,
-251 Dallas County District Court,"Multi Race Black/African American, White",14,0,,,
-251 Dallas County District Court,Multi Race Other,5,3,,,
-251 Dallas County District Court,"Multi Race Other, Unknown, White",1,0,,,
-251 Dallas County District Court,"Multi Race Other, White",4,2,,,
-251 Dallas County District Court,Multi Race Unknown,3,2,,,
-251 Dallas County District Court,Multi Race White,5,5,,,
-261 Davis County District Court,"Multi Race Asian, Black/African American",1,0,,,
-261 Davis County District Court,"Multi Race Asian, White",1,0,,,
-261 Davis County District Court,"Multi Race Other, White",1,1,,,
-261 Davis County District Court,Multi Race White,1,1,,,
-271 Decatur County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0,,,
-271 Decatur County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-281 Delaware County District Court,"Multi Race Asian, White",1,0,,,
-281 Delaware County District Court,Multi Race White,1,1,,,
-291 Des Moines County District Court,Multi Race ,8,0,,,
-291 Des Moines County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",3,0,,,
-291 Des Moines County District Court,"Multi Race American Indian/Alaskan Native, Other, White",2,1,,,
-291 Des Moines County District Court,"Multi Race American Indian/Alaskan Native, White",2,1,,,
-291 Des Moines County District Court,"Multi Race Asian, Black/African American, White",1,0,,,
-291 Des Moines County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-291 Des Moines County District Court,"Multi Race Asian, White",7,1,,,
-291 Des Moines County District Court,"Multi Race Black/African American, Other, White",1,1,,,
-291 Des Moines County District Court,"Multi Race Black/African American, White",35,3,,,
-291 Des Moines County District Court,Multi Race Other,5,2,,,
-291 Des Moines County District Court,"Multi Race Other, White",7,7,,,
-291 Des Moines County District Court,Multi Race White,6,6,,,
-301 Dickinson County District Court,Multi Race American Indian/Alaskan Native,1,1,,,
-301 Dickinson County District Court,"Multi Race Asian, White",2,0,,,
-301 Dickinson County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-301 Dickinson County District Court,"Multi Race Black/African American, White",2,0,,,
-301 Dickinson County District Court,Multi Race Other,2,2,,,
-301 Dickinson County District Court,"Multi Race Other, White",3,3,,,
-311 Dubuque County District Court,Multi Race ,2,0,,,
-311 Dubuque County District Court,"Multi Race American Indian/Alaskan Native, Other",1,0,,,
-311 Dubuque County District Court,"Multi Race American Indian/Alaskan Native, Other, White",2,2,,,
-311 Dubuque County District Court,"Multi Race American Indian/Alaskan Native, White",5,2,,,
-311 Dubuque County District Court,"Multi Race Asian, Black/African American, White",1,0,,,
-311 Dubuque County District Court,"Multi Race Asian, Other",1,1,,,
-311 Dubuque County District Court,"Multi Race Asian, White",12,1,,,
-311 Dubuque County District Court,"Multi Race Black/African American, Other, White",1,1,,,
-311 Dubuque County District Court,"Multi Race Black/African American, Unknown, White",2,1,,,
-311 Dubuque County District Court,"Multi Race Black/African American, White",27,2,,,
-311 Dubuque County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",2,0,,,
-311 Dubuque County District Court,Multi Race Other,3,2,,,
-311 Dubuque County District Court,"Multi Race Other, Unknown, White",1,0,,,
-311 Dubuque County District Court,"Multi Race Other, White",8,8,,,
-311 Dubuque County District Court,"Multi Race Unknown, White",1,1,,,
-311 Dubuque County District Court,Multi Race White,5,3,,,
-321 Emmet County District Court,"Multi Race American Indian/Alaskan Native, White",1,1,,,
-321 Emmet County District Court,"Multi Race Asian, White",2,0,,,
-321 Emmet County District Court,"Multi Race Black/African American, White",1,0,,,
-321 Emmet County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-321 Emmet County District Court,Multi Race Other,1,1,,,
-321 Emmet County District Court,"Multi Race Other, White",1,1,,,
-321 Emmet County District Court,Multi Race White,1,1,,,
-331 Fayette County District Court,Multi Race ,1,1,,,
-331 Fayette County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-331 Fayette County District Court,"Multi Race Asian, White",2,0,,,
-331 Fayette County District Court,"Multi Race Black/African American, Other",1,1,,,
-331 Fayette County District Court,"Multi Race Black/African American, White",2,0,,,
-331 Fayette County District Court,Multi Race Other,1,1,,,
-331 Fayette County District Court,"Multi Race Other, White",2,2,,,
-331 Fayette County District Court,Multi Race White,2,2,,,
-341 Floyd County District Court,"Multi Race American Indian/Alaskan Native, White",2,1,,,
-341 Floyd County District Court,Multi Race Asian,1,1,,,
-341 Floyd County District Court,"Multi Race Asian, Other, White",1,1,,,
-341 Floyd County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",2,0,,,
-341 Floyd County District Court,"Multi Race Black/African American, White",2,0,,,
-341 Floyd County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-341 Floyd County District Court,"Multi Race Other, White",1,1,,,
-341 Floyd County District Court,Multi Race White,1,1,,,
-351 Franklin County District Court,"Multi Race Black/African American, White",1,0,,,
-351 Franklin County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-351 Franklin County District Court,"Multi Race Other, White",5,5,,,
-351 Franklin County District Court,Multi Race White,1,1,,,
-361 Fremont County District Court,"Multi Race American Indian/Alaskan Native, White",2,1,,,
-361 Fremont County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-361 Fremont County District Court,"Multi Race Asian, White",2,0,,,
-361 Fremont County District Court,"Multi Race Black/African American, White",1,0,,,
-361 Fremont County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-361 Fremont County District Court,Multi Race Other,1,1,,,
-361 Fremont County District Court,"Multi Race Other, White",3,3,,,
-361 Fremont County District Court,Multi Race White,2,2,,,
-371 Greene County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0,,,
-371 Greene County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-371 Greene County District Court,"Multi Race American Indian/Alaskan Native, White",2,0,,,
-371 Greene County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-371 Greene County District Court,"Multi Race Asian, White",1,0,,,
-371 Greene County District Court,"Multi Race Black/African American, Other",1,1,,,
-371 Greene County District Court,"Multi Race Black/African American, White",2,0,,,
-371 Greene County District Court,"Multi Race Other, White",1,1,,,
-381 Grundy County District Court,"Multi Race American Indian/Alaskan Native, White",2,0,,,
-381 Grundy County District Court,"Multi Race Asian, White",3,0,,,
-381 Grundy County District Court,"Multi Race Black/African American, White",4,0,,,
-381 Grundy County District Court,"Multi Race Other, White",1,1,,,
-391 Guthrie County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0,,,
-391 Guthrie County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, Other",1,0,,,
-391 Guthrie County District Court,"Multi Race Black/African American, White",2,0,,,
-391 Guthrie County District Court,"Multi Race Other, White",1,0,,,
-391 Guthrie County District Court,Multi Race White,1,1,,,
-401 Hamilton County District Court,Multi Race ,1,0,,,
-401 Hamilton County District Court,Multi Race Black/African American,1,1,,,
-401 Hamilton County District Court,Multi Race Other,2,2,,,
-401 Hamilton County District Court,"Multi Race Other, White",2,1,,,
-411 Hancock County District Court,"Multi Race American Indian/Alaskan Native, White",2,0,,,
-411 Hancock County District Court,"Multi Race Asian, White",1,0,,,
-411 Hancock County District Court,"Multi Race Black/African American, White",1,0,,,
-411 Hancock County District Court,Multi Race White,2,2,,,
-421 Hardin County District Court,Multi Race ,1,0,,,
-421 Hardin County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,1,,,
-421 Hardin County District Court,"Multi Race Black/African American, White",2,0,,,
-421 Hardin County District Court,"Multi Race Other, White",1,1,,,
-431 Harrison County District Court,Multi Race American Indian/Alaskan Native,1,0,,,
-431 Harrison County District Court,"Multi Race American Indian/Alaskan Native, White",2,1,,,
-431 Harrison County District Court,"Multi Race Asian, Other, White",1,1,,,
-431 Harrison County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-431 Harrison County District Court,Multi Race Other,2,2,,,
-431 Harrison County District Court,"Multi Race Other, White",1,1,,,
-431 Harrison County District Court,Multi Race White,1,1,,,
-441 Henry County District Court,"Multi Race Black/African American, White",7,0,,,
-441 Henry County District Court,Multi Race Other,1,1,,,
-441 Henry County District Court,"Multi Race Other, White",2,2,,,
-441 Henry County District Court,Multi Race White,3,3,,,
-451 Howard County District Court,Multi Race Other,2,0,,,
-451 Howard County District Court,Multi Race White,1,1,,,
-461 Humboldt County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1,,,
-461 Humboldt County District Court,"Multi Race Asian, White",1,0,,,
-461 Humboldt County District Court,"Multi Race Black/African American, White",3,0,,,
-461 Humboldt County District Court,"Multi Race Other, White",3,3,,,
-471 Ida County District Court,"Multi Race American Indian/Alaskan Native, Asian",1,1,,,
-471 Ida County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0,,,
-471 Ida County District Court,"Multi Race Asian, White",1,0,,,
-471 Ida County District Court,"Multi Race Black/African American, White",2,0,,,
-471 Ida County District Court,Multi Race Other,1,0,,,
-471 Ida County District Court,"Multi Race Other, White",3,3,,,
-481 Iowa County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander, White",1,1,,,
-481 Iowa County District Court,"Multi Race American Indian/Alaskan Native, White",3,2,,,
-481 Iowa County District Court,"Multi Race Asian, Other",1,0,,,
-481 Iowa County District Court,"Multi Race Asian, Other, White",1,0,,,
-481 Iowa County District Court,"Multi Race Asian, White",3,0,,,
-481 Iowa County District Court,"Multi Race Black/African American, White",4,0,,,
-481 Iowa County District Court,Multi Race Native Hawaiian/Other Pacific Islander,1,1,,,
-481 Iowa County District Court,"Multi Race Other, White",2,2,,,
-481 Iowa County District Court,Multi Race Unknown,1,1,,,
-491 Jackson County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-491 Jackson County District Court,"Multi Race American Indian/Alaskan Native, White",4,2,,,
-491 Jackson County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",2,0,,,
-491 Jackson County District Court,"Multi Race Asian, Other",1,1,,,
-491 Jackson County District Court,"Multi Race Asian, White",1,0,,,
-491 Jackson County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander",1,0,,,
-491 Jackson County District Court,"Multi Race Black/African American, White",3,0,,,
-491 Jackson County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-491 Jackson County District Court,Multi Race Other,1,1,,,
-491 Jackson County District Court,"Multi Race Other, White",3,3,,,
-491 Jackson County District Court,Multi Race White,2,2,,,
-501 Jasper County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-501 Jasper County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-501 Jasper County District Court,"Multi Race Asian, Black/African American, Other, White",1,0,,,
-501 Jasper County District Court,"Multi Race Asian, White",3,1,,,
-501 Jasper County District Court,"Multi Race Black/African American, White",5,0,,,
-501 Jasper County District Court,Multi Race Other,1,0,,,
-501 Jasper County District Court,"Multi Race Other, White",1,1,,,
-501 Jasper County District Court,Multi Race White,5,4,,,
-511 Jefferson County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",1,1,,,
-511 Jefferson County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0,,,
-511 Jefferson County District Court,"Multi Race Black/African American, Other, White",1,0,,,
-511 Jefferson County District Court,"Multi Race Black/African American, White",1,1,,,
-511 Jefferson County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-511 Jefferson County District Court,"Multi Race Other, White",1,1,,,
-521 Johnson County District Court,Multi Race ,1,0,,,
-521 Johnson County District Court,"Multi Race American Indian/Alaskan Native, Asian",1,1,,,
-521 Johnson County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander, White",1,1,,,
-521 Johnson County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, Unknown, White",1,0,,,
-521 Johnson County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1,,,
-521 Johnson County District Court,"Multi Race American Indian/Alaskan Native, White",11,4,,,
-521 Johnson County District Court,Multi Race Asian,1,0,,,
-521 Johnson County District Court,"Multi Race Asian, Black/African American, White",1,0,,,
-521 Johnson County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-521 Johnson County District Court,"Multi Race Asian, Other",1,1,,,
-521 Johnson County District Court,"Multi Race Asian, White",30,2,,,
-521 Johnson County District Court,Multi Race Black/African American,1,1,,,
-521 Johnson County District Court,"Multi Race Black/African American, Unknown, White",1,0,,,
-521 Johnson County District Court,"Multi Race Black/African American, White",32,0,,,
-521 Johnson County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",4,0,,,
-521 Johnson County District Court,Multi Race Other,13,11,,,
-521 Johnson County District Court,"Multi Race Other, Unknown",1,1,,,
-521 Johnson County District Court,"Multi Race Other, White",6,3,,,
-521 Johnson County District Court,Multi Race White,2,2,,,
-531 Jones County District Court,"Multi Race American Indian/Alaskan Native, White",4,0,,,
-531 Jones County District Court,"Multi Race Asian, White",2,0,,,
-531 Jones County District Court,"Multi Race Black/African American, White",3,0,,,
-531 Jones County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,1,,,
-531 Jones County District Court,"Multi Race Other, White",1,1,,,
-531 Jones County District Court,Multi Race Unknown,1,0,,,
-531 Jones County District Court,Multi Race White,2,2,,,
-541 Keokuk County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-541 Keokuk County District Court,"Multi Race Asian, White",1,0,,,
-541 Keokuk County District Court,"Multi Race Black/African American, White",3,0,,,
-541 Keokuk County District Court,"Multi Race Other, Unknown",1,0,,,
-541 Keokuk County District Court,"Multi Race Other, White",1,1,,,
-551 Kossuth County District Court,Multi Race ,1,0,,,
-551 Kossuth County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-551 Kossuth County District Court,"Multi Race American Indian/Alaskan Native, White",1,1,,,
-551 Kossuth County District Court,"Multi Race Asian, White",1,0,,,
-551 Kossuth County District Court,"Multi Race Black/African American, Other, White",1,1,,,
-551 Kossuth County District Court,Multi Race Other,2,1,,,
-551 Kossuth County District Court,"Multi Race Other, White",2,2,,,
-551 Kossuth County District Court,Multi Race White,3,3,,,
-561 Lee County District Court,Multi Race ,1,0,,,
-561 Lee County District Court,"Multi Race American Indian/Alaskan Native, Asian, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-561 Lee County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",2,0,,,
-561 Lee County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0,,,
-561 Lee County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-561 Lee County District Court,"Multi Race Black/African American, Other",2,1,,,
-561 Lee County District Court,"Multi Race Black/African American, White",13,0,,,
-561 Lee County District Court,"Multi Race Other, White",3,1,,,
-561 Lee County District Court,Multi Race White,2,2,,,
-562 Lee County District Court,Multi Race ,2,0,,,
-562 Lee County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0,,,
-562 Lee County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1,,,
-562 Lee County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0,,,
-562 Lee County District Court,"Multi Race Asian, White",1,0,,,
-562 Lee County District Court,"Multi Race Black/African American, Other",1,1,,,
-562 Lee County District Court,"Multi Race Black/African American, White",5,0,,,
-562 Lee County District Court,"Multi Race Other, White",1,1,,,
-562 Lee County District Court,Multi Race White,1,1,,,
-571 Linn County District Court,Multi Race ,8,0,,,
-571 Linn County District Court,Multi Race American Indian/Alaskan Native,3,3,,,
-571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, Native Hawaiian/Other Pacific Islander, Other, Unknown, White",1,0,,,
-571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, White",3,1,,,
-571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",5,1,,,
-571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander, Other, White",1,0,,,
-571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",2,1,,,
-571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",14,0,,,
-571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Other",2,2,,,
-571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0,,,
-571 Linn County District Court,"Multi Race American Indian/Alaskan Native, White",21,1,,,
-571 Linn County District Court,"Multi Race Asian, Black/African American",3,0,,,
-571 Linn County District Court,"Multi Race Asian, Black/African American, Other, White",1,0,,,
-571 Linn County District Court,"Multi Race Asian, Black/African American, White",2,0,,,
-571 Linn County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-571 Linn County District Court,"Multi Race Asian, Other, White",2,0,,,
-571 Linn County District Court,"Multi Race Asian, White",28,1,,,
-571 Linn County District Court,Multi Race Black/African American,4,2,,,
-571 Linn County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander",1,0,,,
-571 Linn County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-571 Linn County District Court,"Multi Race Black/African American, Other",4,4,,,
-571 Linn County District Court,"Multi Race Black/African American, Other, Unknown, White",1,0,,,
-571 Linn County District Court,"Multi Race Black/African American, Other, White",6,1,,,
-571 Linn County District Court,"Multi Race Black/African American, Unknown, White",1,0,,,
-571 Linn County District Court,"Multi Race Black/African American, White",131,5,,,
-571 Linn County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, Other, White",1,0,,,
-571 Linn County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-571 Linn County District Court,Multi Race Other,19,10,,,
-571 Linn County District Court,"Multi Race Other, White",23,19,,,
-571 Linn County District Court,Multi Race White,18,17,,,
-581 Louisa County District Court,"Multi Race Black/African American, White",1,0,,,
-581 Louisa County District Court,Multi Race Other,4,4,,,
-581 Louisa County District Court,Multi Race Unknown,1,1,,,
-581 Louisa County District Court,Multi Race White,5,5,,,
-591 Lucas County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,0,,,
-591 Lucas County District Court,"Multi Race American Indian/Alaskan Native, White",1,1,,,
-591 Lucas County District Court,"Multi Race Black/African American, White",3,0,,,
-591 Lucas County District Court,"Multi Race Other, White",1,1,,,
-601 Lyon County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,0,,,
-601 Lyon County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0,,,
-601 Lyon County District Court,"Multi Race American Indian/Alaskan Native, White",2,0,,,
-601 Lyon County District Court,"Multi Race Asian, Black/African American",1,0,,,
-601 Lyon County District Court,"Multi Race Asian, White",1,0,,,
-601 Lyon County District Court,"Multi Race Black/African American, White",4,0,,,
-601 Lyon County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-601 Lyon County District Court,Multi Race White,2,2,,,
-611 Madison County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-611 Madison County District Court,"Multi Race Asian, White",1,0,,,
-611 Madison County District Court,"Multi Race Black/African American, White",1,0,,,
-611 Madison County District Court,Multi Race White,2,2,,,
-621 Mahaska County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0,,,
-621 Mahaska County District Court,"Multi Race American Indian/Alaskan Native, White",4,3,,,
-621 Mahaska County District Court,"Multi Race Asian, White",5,0,,,
-621 Mahaska County District Court,"Multi Race Black/African American, White",5,0,,,
-621 Mahaska County District Court,"Multi Race Other, White",1,1,,,
-631 Marion County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,1,,,
-631 Marion County District Court,"Multi Race American Indian/Alaskan Native, Other",1,0,,,
-631 Marion County District Court,"Multi Race American Indian/Alaskan Native, White",1,1,,,
-631 Marion County District Court,"Multi Race Asian, Black/African American",1,0,,,
-631 Marion County District Court,"Multi Race Asian, Black/African American, White",1,1,,,
-631 Marion County District Court,"Multi Race Asian, White",1,1,,,
-631 Marion County District Court,"Multi Race Black/African American, White",4,0,,,
-631 Marion County District Court,"Multi Race Other, White",1,1,,,
-631 Marion County District Court,"Multi Race Unknown, White",1,0,,,
-631 Marion County District Court,Multi Race White,1,1,,,
-641 Marshall County District Court,Multi Race ,2,0,,,
-641 Marshall County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, White",1,0,,,
-641 Marshall County District Court,"Multi Race American Indian/Alaskan Native, Other, Unknown, White",1,1,,,
-641 Marshall County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0,,,
-641 Marshall County District Court,"Multi Race American Indian/Alaskan Native, White",9,2,,,
-641 Marshall County District Court,"Multi Race Asian, White",4,1,,,
-641 Marshall County District Court,"Multi Race Black/African American, Other, White",1,1,,,
-641 Marshall County District Court,"Multi Race Black/African American, White",16,2,,,
-641 Marshall County District Court,Multi Race Other,11,11,,,
-641 Marshall County District Court,"Multi Race Other, White",9,9,,,
-641 Marshall County District Court,"Multi Race Unknown, White",1,1,,,
-641 Marshall County District Court,Multi Race White,9,9,,,
-651 Mills County District Court,Multi Race ,1,0,,,
-651 Mills County District Court,"Multi Race American Indian/Alaskan Native, White",4,1,,,
-651 Mills County District Court,"Multi Race Asian, Black/African American, White",1,0,,,
-651 Mills County District Court,"Multi Race Asian, White",1,0,,,
-651 Mills County District Court,"Multi Race Black/African American, Other, White",1,1,,,
-651 Mills County District Court,"Multi Race Black/African American, White",1,0,,,
-651 Mills County District Court,Multi Race Other,1,1,,,
-651 Mills County District Court,"Multi Race Other, White",6,6,,,
-661 Mitchell County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-661 Mitchell County District Court,Multi Race White,3,2,,,
-671 Monona County District Court,Multi Race ,3,0,,,
-671 Monona County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-671 Monona County District Court,"Multi Race American Indian/Alaskan Native, White",4,1,,,
-671 Monona County District Court,"Multi Race Asian, Black/African American, White",1,0,,,
-671 Monona County District Court,"Multi Race Black/African American, White",4,0,,,
-671 Monona County District Court,"Multi Race Other, White",2,1,,,
-671 Monona County District Court,Multi Race Unknown,1,0,,,
-681 Monroe County District Court,"Multi Race Asian, White",1,0,,,
-681 Monroe County District Court,"Multi Race Other, Unknown, White",1,0,,,
-691 Montgomery County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",1,0,,,
-691 Montgomery County District Court,"Multi Race American Indian/Alaskan Native, White",2,0,,,
-691 Montgomery County District Court,"Multi Race Black/African American, White",4,0,,,
-691 Montgomery County District Court,"Multi Race Other, White",2,1,,,
-701 Muscatine County District Court,Multi Race ,7,0,,,
-701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,1,,,
-701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",1,0,,,
-701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",1,0,,,
-701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",2,1,,,
-701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1,,,
-701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Other, White",5,4,,,
-701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0,,,
-701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, White",13,7,,,
-701 Muscatine County District Court,"Multi Race Asian, White",8,0,,,
-701 Muscatine County District Court,Multi Race Black/African American,1,0,,,
-701 Muscatine County District Court,"Multi Race Black/African American, Other",1,1,,,
-701 Muscatine County District Court,"Multi Race Black/African American, Unknown",1,0,,,
-701 Muscatine County District Court,"Multi Race Black/African American, White",33,1,,,
-701 Muscatine County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-701 Muscatine County District Court,Multi Race Other,35,30,,,
-701 Muscatine County District Court,"Multi Race Other, White",55,49,,,
-701 Muscatine County District Court,"Multi Race Unknown, White",1,1,,,
-701 Muscatine County District Court,Multi Race White,39,39,,,
-711 O'Brien County District Court,"Multi Race American Indian/Alaskan Native, White",2,0,,,
-711 O'Brien County District Court,"Multi Race Asian, Black/African American, Native Hawaiian/Other Pacific Islander",1,0,,,
-711 O'Brien County District Court,"Multi Race Asian, White",1,0,,,
-711 O'Brien County District Court,"Multi Race Black/African American, White",5,1,,,
-711 O'Brien County District Court,Multi Race Other,2,2,,,
-711 O'Brien County District Court,"Multi Race Other, White",2,2,,,
-711 O'Brien County District Court,Multi Race White,1,1,,,
-721 Osceola County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,0,,,
-721 Osceola County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-721 Osceola County District Court,"Multi Race Asian, White",1,0,,,
-731 Page County District Court,Multi Race ,1,0,,,
-731 Page County District Court,"Multi Race American Indian/Alaskan Native, Asian, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-731 Page County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,1,,,
-731 Page County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,1,,,
-731 Page County District Court,"Multi Race American Indian/Alaskan Native, Other, Unknown, White",1,0,,,
-731 Page County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-731 Page County District Court,"Multi Race Asian, Black/African American, White",1,0,,,
-731 Page County District Court,"Multi Race Asian, White",2,0,,,
-731 Page County District Court,"Multi Race Black/African American, White",6,0,,,
-731 Page County District Court,Multi Race Other,2,2,,,
-731 Page County District Court,"Multi Race Other, White",1,0,,,
-731 Page County District Court,Multi Race White,2,2,,,
-741 Palo Alto County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0,,,
-741 Palo Alto County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0,,,
-741 Palo Alto County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-741 Palo Alto County District Court,"Multi Race Asian, White",3,0,,,
-741 Palo Alto County District Court,"Multi Race Black/African American, White",1,0,,,
-741 Palo Alto County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-741 Palo Alto County District Court,"Multi Race Other, Unknown, White",1,0,,,
-741 Palo Alto County District Court,"Multi Race Other, White",2,2,,,
-741 Palo Alto County District Court,Multi Race Unknown,2,2,,,
-741 Palo Alto County District Court,Multi Race White,3,3,,,
-751 Plymouth County District Court,Multi Race American Indian/Alaskan Native,1,1,,,
-751 Plymouth County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0,,,
-751 Plymouth County District Court,"Multi Race American Indian/Alaskan Native, White",5,0,,,
-751 Plymouth County District Court,"Multi Race Asian, Other, White",1,1,,,
-751 Plymouth County District Court,"Multi Race Black/African American, Other",2,2,,,
-751 Plymouth County District Court,"Multi Race Black/African American, Other, White",2,1,,,
-751 Plymouth County District Court,"Multi Race Black/African American, White",8,0,,,
-751 Plymouth County District Court,Multi Race Other,2,2,,,
-751 Plymouth County District Court,"Multi Race Other, White",5,4,,,
-751 Plymouth County District Court,Multi Race White,3,3,,,
-761 Pocahontas County District Court,Multi Race ,1,0,,,
-761 Pocahontas County District Court,"Multi Race Asian, White",1,0,,,
-761 Pocahontas County District Court,Multi Race Other,1,1,,,
-761 Pocahontas County District Court,Multi Race Unknown,1,0,,,
-771 Polk County District Court,Multi Race ,5,0,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Asian",1,0,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, White",1,0,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",3,0,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander",1,0,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",2,1,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",1,1,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Unknown, White",1,0,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",17,3,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Other",2,0,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Other, White",6,5,,,
-771 Polk County District Court,"Multi Race American Indian/Alaskan Native, White",17,7,,,
-771 Polk County District Court,Multi Race Asian,3,3,,,
-771 Polk County District Court,"Multi Race Asian, Black/African American",7,1,,,
-771 Polk County District Court,"Multi Race Asian, Black/African American, White",3,0,,,
-771 Polk County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",2,1,,,
-771 Polk County District Court,"Multi Race Asian, Other",2,2,,,
-771 Polk County District Court,"Multi Race Asian, Other, White",1,0,,,
-771 Polk County District Court,"Multi Race Asian, White",51,1,,,
-771 Polk County District Court,Multi Race Black/African American,4,3,,,
-771 Polk County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",2,0,,,
-771 Polk County District Court,"Multi Race Black/African American, Other",4,2,,,
-771 Polk County District Court,"Multi Race Black/African American, Other, White",2,0,,,
-771 Polk County District Court,"Multi Race Black/African American, Unknown, White",4,0,,,
-771 Polk County District Court,"Multi Race Black/African American, White",112,1,,,
-771 Polk County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, Other",1,1,,,
-771 Polk County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",3,0,,,
-771 Polk County District Court,Multi Race Other,28,22,,,
-771 Polk County District Court,"Multi Race Other, Unknown, White",2,0,,,
-771 Polk County District Court,"Multi Race Other, White",39,34,,,
-771 Polk County District Court,Multi Race Unknown,7,5,,,
-771 Polk County District Court,Multi Race White,20,20,,,
-781 Pottawattamie County District Court,Multi Race ,13,1,,,
-781 Pottawattamie County District Court,Multi Race American Indian/Alaskan Native,1,1,,,
-781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Asian, Other, White",2,0,,,
-781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",2,0,,,
-781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, Unknown, White",2,0,,,
-781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",8,0,,,
-781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Other",2,2,,,
-781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Other, White",5,3,,,
-781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",2,0,,,
-781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, White",14,4,,,
-781 Pottawattamie County District Court,Multi Race Asian,2,0,,,
-781 Pottawattamie County District Court,"Multi Race Asian, Black/African American, White",2,1,,,
-781 Pottawattamie County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",2,0,,,
-781 Pottawattamie County District Court,"Multi Race Asian, Other, White",2,2,,,
-781 Pottawattamie County District Court,"Multi Race Asian, White",10,0,,,
-781 Pottawattamie County District Court,Multi Race Black/African American,1,1,,,
-781 Pottawattamie County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-781 Pottawattamie County District Court,"Multi Race Black/African American, Other",3,2,,,
-781 Pottawattamie County District Court,"Multi Race Black/African American, Other, White",2,1,,,
-781 Pottawattamie County District Court,"Multi Race Black/African American, White",41,0,,,
-781 Pottawattamie County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",6,1,,,
-781 Pottawattamie County District Court,Multi Race Other,18,14,,,
-781 Pottawattamie County District Court,"Multi Race Other, White",26,24,,,
-781 Pottawattamie County District Court,Multi Race Unknown,1,0,,,
-781 Pottawattamie County District Court,"Multi Race Unknown, White",1,1,,,
-781 Pottawattamie County District Court,Multi Race White,20,18,,,
-791 Poweshiek County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0,,,
-791 Poweshiek County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-791 Poweshiek County District Court,"Multi Race Asian, Black/African American",3,0,,,
-791 Poweshiek County District Court,"Multi Race Asian, White",3,0,,,
-791 Poweshiek County District Court,"Multi Race Black/African American, White",5,0,,,
-791 Poweshiek County District Court,"Multi Race Other, White",1,0,,,
-791 Poweshiek County District Court,Multi Race Unknown,1,1,,,
-791 Poweshiek County District Court,Multi Race White,1,1,,,
-801 Ringgold County District Court,"Multi Race Black/African American, White",2,0,,,
-811 Sac County District Court,Multi Race ,1,0,,,
-811 Sac County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-811 Sac County District Court,"Multi Race Black/African American, Other, White",1,0,,,
-811 Sac County District Court,Multi Race Other,2,2,,,
-811 Sac County District Court,"Multi Race Other, Unknown, White",1,0,,,
-821 Scott County District Court,Multi Race ,10,1,,,
-821 Scott County District Court,Multi Race American Indian/Alaskan Native,6,4,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, Native Hawaiian/Other Pacific Islander, Other, Unknown, White",3,3,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, White",1,0,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Asian, Other, Unknown, White",1,0,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",3,1,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander, Other",2,0,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",2,0,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, Unknown, White",3,0,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",2,0,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Unknown",2,0,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",23,1,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Other",2,2,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Other, Unknown, White",1,0,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Other, White",10,10,,,
-821 Scott County District Court,"Multi Race American Indian/Alaskan Native, White",21,8,,,
-821 Scott County District Court,Multi Race Asian,2,2,,,
-821 Scott County District Court,"Multi Race Asian, Black/African American",7,1,,,
-821 Scott County District Court,"Multi Race Asian, Black/African American, Other",1,1,,,
-821 Scott County District Court,"Multi Race Asian, Black/African American, Other, White",1,1,,,
-821 Scott County District Court,"Multi Race Asian, Black/African American, White",3,0,,,
-821 Scott County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander",1,1,,,
-821 Scott County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",3,0,,,
-821 Scott County District Court,"Multi Race Asian, Other",1,1,,,
-821 Scott County District Court,"Multi Race Asian, Other, White",2,1,,,
-821 Scott County District Court,"Multi Race Asian, Unknown, White",1,0,,,
-821 Scott County District Court,"Multi Race Asian, White",48,1,,,
-821 Scott County District Court,Multi Race Black/African American,2,2,,,
-821 Scott County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",1,0,,,
-821 Scott County District Court,"Multi Race Black/African American, Other",5,5,,,
-821 Scott County District Court,"Multi Race Black/African American, Other, White",15,6,,,
-821 Scott County District Court,"Multi Race Black/African American, Unknown, White",1,0,,,
-821 Scott County District Court,"Multi Race Black/African American, White",186,9,,,
-821 Scott County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",6,0,,,
-821 Scott County District Court,Multi Race Other,19,14,,,
-821 Scott County District Court,"Multi Race Other, Unknown",1,0,,,
-821 Scott County District Court,"Multi Race Other, Unknown, White",2,2,,,
-821 Scott County District Court,"Multi Race Other, White",62,55,,,
-821 Scott County District Court,Multi Race Unknown,6,1,,,
-821 Scott County District Court,Multi Race White,46,44,,,
-831 Shelby County District Court,Multi Race ,1,0,,,
-831 Shelby County District Court,"Multi Race Asian, White",2,1,,,
-831 Shelby County District Court,"Multi Race Black/African American, Other, White",1,1,,,
-831 Shelby County District Court,"Multi Race Black/African American, White",1,0,,,
-831 Shelby County District Court,"Multi Race Other, White",3,3,,,
-831 Shelby County District Court,Multi Race Unknown,1,0,,,
-841 Sioux County District Court,Multi Race ,1,0,,,
-841 Sioux County District Court,"Multi Race American Indian/Alaskan Native, White",1,0,,,
-841 Sioux County District Court,"Multi Race Asian, White",5,0,,,
-841 Sioux County District Court,"Multi Race Black/African American, White",1,0,,,
-841 Sioux County District Court,Multi Race Other,1,1,,,
-841 Sioux County District Court,"Multi Race Other, White",1,1,,,
-841 Sioux County District Court,"Multi Race Unknown, White",1,1,,,
-851 Story County District Court,Multi Race ,1,0,,,
-851 Story County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0,,,
-851 Story County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",5,2,,,
-851 Story County District Court,"Multi Race American Indian/Alaskan Native, Other",2,2,,,
-851 Story County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1,,,
-851 Story County District Court,"Multi Race American Indian/Alaskan Native, White",8,1,,,
-851 Story County District Court,"Multi Race Asian, Other",1,1,,,
-851 Story County District Court,"Multi Race Asian, Other, Unknown, White",1,0,,,
-851 Story County District Court,"Multi Race Asian, Other, White",1,0,,,
-851 Story County District Court,"Multi Race Asian, Unknown",2,0,,,
-851 Story County District Court,"Multi Race Asian, White",44,1,,,
-851 Story County District Court,"Multi Race Black/African American, Other",1,0,,,
-851 Story County District Court,"Multi Race Black/African American, White",27,3,,,
-851 Story County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",2,0,,,
-851 Story County District Court,Multi Race Other,13,8,,,
-851 Story County District Court,"Multi Race Other, White",18,16,,,
-851 Story County District Court,"Multi Race Unknown, White",1,0,,,
-851 Story County District Court,Multi Race White,4,4,,,
-861 Tama County District Court,Multi Race ,1,0,,,
-861 Tama County District Court,Multi Race American Indian/Alaskan Native,4,4,,,
-861 Tama County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0,,,
-861 Tama County District Court,"Multi Race American Indian/Alaskan Native, White",3,1,,,
-861 Tama County District Court,"Multi Race Asian, White",3,0,,,
-861 Tama County District Court,"Multi Race Black/African American, Other",1,0,,,
-861 Tama County District Court,"Multi Race Black/African American, White",1,0,,,
-861 Tama County District Court,Multi Race Other,1,1,,,
-861 Tama County District Court,"Multi Race Other, White",1,1,,,
-861 Tama County District Court,Multi Race White,2,1,,,
-871 Taylor County District Court,"Multi Race Black/African American, White",2,0,,,
-871 Taylor County District Court,Multi Race Other,1,1,,,
-871 Taylor County District Court,"Multi Race Other, White",1,1,,,
-881 Union County District Court,"Multi Race Asian, White",2,0,,,
-881 Union County District Court,"Multi Race Black/African American, White",1,0,,,
-881 Union County District Court,"Multi Race Other, Unknown, White",1,1,,,
-881 Union County District Court,"Multi Race Other, White",3,2,,,
-881 Union County District Court,Multi Race White,1,1,,,
-891 Van Buren County District Court,Multi Race ,1,0,,,
-891 Van Buren County District Court,"Multi Race Black/African American, White",1,0,,,
-891 Van Buren County District Court,"Multi Race Other, White",2,2,,,
-891 Van Buren County District Court,Multi Race White,1,1,,,
-901 Wapello County District Court,Multi Race ,1,1,,,
-901 Wapello County District Court,"Multi Race American Indian/Alaskan Native, Asian, Unknown, White",1,0,,,
-901 Wapello County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0,,,
-901 Wapello County District Court,"Multi Race American Indian/Alaskan Native, White",3,0,,,
-901 Wapello County District Court,"Multi Race Asian, Black/African American",1,0,,,
-901 Wapello County District Court,"Multi Race Asian, Black/African American, White",1,0,,,
-901 Wapello County District Court,"Multi Race Asian, White",5,0,,,
-901 Wapello County District Court,"Multi Race Black/African American, White",7,0,,,
-901 Wapello County District Court,Multi Race Other,1,1,,,
-901 Wapello County District Court,"Multi Race Other, White",3,2,,,
-901 Wapello County District Court,Multi Race Unknown,2,2,,,
-901 Wapello County District Court,Multi Race White,2,2,,,
-911 Warren County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,0,,,
-911 Warren County District Court,"Multi Race American Indian/Alaskan Native, White",5,1,,,
-911 Warren County District Court,"Multi Race Asian, White",2,0,,,
-911 Warren County District Court,Multi Race Black/African American,1,1,,,
-911 Warren County District Court,"Multi Race Black/African American, White",1,0,,,
-911 Warren County District Court,Multi Race Other,4,2,,,
-911 Warren County District Court,"Multi Race Other, White",1,1,,,
-911 Warren County District Court,Multi Race Unknown,1,0,,,
-911 Warren County District Court,Multi Race White,2,2,,,
-921 Washington County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1,,,
-921 Washington County District Court,"Multi Race American Indian/Alaskan Native, White",1,1,,,
-921 Washington County District Court,"Multi Race Asian, White",4,0,,,
-921 Washington County District Court,"Multi Race Black/African American, White",1,0,,,
-921 Washington County District Court,Multi Race Other,3,3,,,
-921 Washington County District Court,"Multi Race Other, White",2,2,,,
-921 Washington County District Court,Multi Race White,2,2,,,
-931 Wayne County District Court,"Multi Race Asian, White",1,0,,,
-931 Wayne County District Court,"Multi Race Other, White",1,1,,,
-941 Webster County District Court,Multi Race ,2,0,,,
-941 Webster County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",2,0,,,
-941 Webster County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0,,,
-941 Webster County District Court,"Multi Race American Indian/Alaskan Native, White",2,0,,,
-941 Webster County District Court,"Multi Race Asian, Other, White",1,1,,,
-941 Webster County District Court,"Multi Race Asian, White",4,0,,,
-941 Webster County District Court,Multi Race Black/African American,2,0,,,
-941 Webster County District Court,"Multi Race Black/African American, Other",1,1,,,
-941 Webster County District Court,"Multi Race Black/African American, Other, White",1,0,,,
-941 Webster County District Court,"Multi Race Black/African American, White",27,3,,,
-941 Webster County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",2,0,,,
-941 Webster County District Court,Multi Race Other,4,3,,,
-941 Webster County District Court,"Multi Race Other, White",7,7,,,
-941 Webster County District Court,Multi Race Unknown,2,1,,,
-941 Webster County District Court,Multi Race White,5,5,,,
-951 Winnebago County District Court,"Multi Race Asian, White",2,0,,,
-951 Winnebago County District Court,"Multi Race Black/African American, White",4,0,,,
-951 Winnebago County District Court,Multi Race Other,2,2,,,
-951 Winnebago County District Court,"Multi Race Other, White",2,2,,,
-951 Winnebago County District Court,Multi Race White,1,1,,,
-961 Winneshiek County District Court,"Multi Race American Indian/Alaskan Native, White",1,1,,,
-961 Winneshiek County District Court,"Multi Race Asian, Black/African American",1,0,,,
-961 Winneshiek County District Court,"Multi Race Asian, White",2,0,,,
-961 Winneshiek County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-961 Winneshiek County District Court,Multi Race Other,1,1,,,
-961 Winneshiek County District Court,"Multi Race Other, White",1,1,,,
-961 Winneshiek County District Court,Multi Race White,2,1,,,
-971 Woodbury County District Court,Multi Race ,13,0,,,
-971 Woodbury County District Court,Multi Race American Indian/Alaskan Native,7,6,,,
-971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Asian",1,0,,,
-971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, Other, White",1,1,,,
-971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Asian, Other, White",1,1,,,
-971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",2,0,,,
-971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",5,2,,,
-971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",1,1,,,
-971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",2,2,,,
-971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",11,0,,,
-971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1,,,
-971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Other, White",8,6,,,
-971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, White",19,3,,,
-971 Woodbury County District Court,Multi Race Asian,1,0,,,
-971 Woodbury County District Court,"Multi Race Asian, Black/African American",1,0,,,
-971 Woodbury County District Court,"Multi Race Asian, Other",1,1,,,
-971 Woodbury County District Court,"Multi Race Asian, White",35,1,,,
-971 Woodbury County District Court,Multi Race Black/African American,1,1,,,
-971 Woodbury County District Court,"Multi Race Black/African American, Other",3,3,,,
-971 Woodbury County District Court,"Multi Race Black/African American, Other, White",3,0,,,
-971 Woodbury County District Court,"Multi Race Black/African American, White",44,3,,,
-971 Woodbury County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0,,,
-971 Woodbury County District Court,Multi Race Other,15,12,,,
-971 Woodbury County District Court,"Multi Race Other, Unknown, White",2,0,,,
-971 Woodbury County District Court,"Multi Race Other, White",25,15,,,
-971 Woodbury County District Court,Multi Race Unknown,2,1,,,
-971 Woodbury County District Court,Multi Race White,23,22,,,
-981 Worth County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0,,,
-981 Worth County District Court,"Multi Race Asian, White",2,0,,,
-981 Worth County District Court,"Multi Race Black/African American, White",4,0,,,
-981 Worth County District Court,Multi Race White,2,2,,,
-991 Wright County District Court,"Multi Race American Indian/Alaskan Native, White",2,1,,,
-991 Wright County District Court,"Multi Race Black/African American, White",3,0,,,
-991 Wright County District Court,"Multi Race Other, White",2,2,,,
-991 Wright County District Court,Multi Race White,1,1,,,
+﻿CD_COURT_NAME,MULTI_RACE_BREAKOUT,MULTI_RACE_COUNT,HLSO_ETHNICITY_COUNT
+011 Adair County District Court,"Multi Race Black/African American, White",1,0
+011 Adair County District Court,"Multi Race Other, White",1,1
+021 Adams County District Court,Multi Race ,1,0
+021 Adams County District Court,"Multi Race Black/African American, White",1,0
+021 Adams County District Court,"Multi Race Unknown, White",1,0
+021 Adams County District Court,Multi Race White,1,1
+031 Allamakee County District Court,Multi Race ,2,0
+031 Allamakee County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,1
+031 Allamakee County District Court,"Multi Race Asian, White",1,0
+031 Allamakee County District Court,"Multi Race Black/African American, White",2,0
+031 Allamakee County District Court,"Multi Race Other, White",1,1
+041 Appanoose County District Court,Multi Race ,1,0
+041 Appanoose County District Court,"Multi Race Asian, White",1,0
+041 Appanoose County District Court,"Multi Race Black/African American, White",1,0
+041 Appanoose County District Court,"Multi Race Other, White",1,1
+051 Audubon County District Court,"Multi Race Black/African American, White",2,0
+061 Benton County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",2,0
+061 Benton County District Court,"Multi Race Asian, Black/African American, Native Hawaiian/Other Pacific Islander, White",1,0
+061 Benton County District Court,"Multi Race Asian, White",4,0
+061 Benton County District Court,"Multi Race Black/African American, White",6,0
+061 Benton County District Court,Multi Race Other,1,1
+061 Benton County District Court,"Multi Race Other, White",2,2
+061 Benton County District Court,Multi Race White,1,1
+071 Black Hawk County District Court,Multi Race ,12,0
+071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,0
+071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",2,0
+071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",4,0
+071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, Unknown, White",1,0
+071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",2,0
+071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",7,2
+071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Native Hawaiian/Other Pacific Islander",1,1
+071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Other",1,0
+071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+071 Black Hawk County District Court,"Multi Race American Indian/Alaskan Native, White",10,1
+071 Black Hawk County District Court,Multi Race Asian,1,0
+071 Black Hawk County District Court,"Multi Race Asian, Black/African American",4,0
+071 Black Hawk County District Court,"Multi Race Asian, Black/African American, White",1,0
+071 Black Hawk County District Court,"Multi Race Asian, White",46,2
+071 Black Hawk County District Court,Multi Race Black/African American,1,0
+071 Black Hawk County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",4,0
+071 Black Hawk County District Court,"Multi Race Black/African American, Other",3,2
+071 Black Hawk County District Court,"Multi Race Black/African American, White",124,6
+071 Black Hawk County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+071 Black Hawk County District Court,Multi Race Other,16,10
+071 Black Hawk County District Court,"Multi Race Other, Unknown, White",1,1
+071 Black Hawk County District Court,"Multi Race Other, White",24,23
+071 Black Hawk County District Court,Multi Race Unknown,2,1
+071 Black Hawk County District Court,Multi Race White,17,16
+081 Boone County District Court,Multi Race ,4,0
+081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, White",1,0
+081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",2,0
+081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander",1,1
+081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",2,0
+081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Other, Unknown, White",1,0
+081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0
+081 Boone County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0
+081 Boone County District Court,"Multi Race American Indian/Alaskan Native, White",10,1
+081 Boone County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, Other",1,0
+081 Boone County District Court,"Multi Race Asian, Other, White",1,1
+081 Boone County District Court,"Multi Race Asian, White",8,0
+081 Boone County District Court,"Multi Race Black/African American, Other, White",1,0
+081 Boone County District Court,"Multi Race Black/African American, White",15,0
+081 Boone County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",2,0
+081 Boone County District Court,Multi Race Other,4,3
+081 Boone County District Court,"Multi Race Other, White",5,3
+081 Boone County District Court,Multi Race Unknown,1,0
+081 Boone County District Court,Multi Race White,6,6
+091 Bremer County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,1
+091 Bremer County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+091 Bremer County District Court,"Multi Race Black/African American, White",4,0
+091 Bremer County District Court,Multi Race Other,1,0
+091 Bremer County District Court,"Multi Race Other, White",1,1
+101 Buchanan County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0
+101 Buchanan County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+101 Buchanan County District Court,"Multi Race Asian, White",2,0
+101 Buchanan County District Court,"Multi Race Black/African American, Other, White",1,1
+101 Buchanan County District Court,"Multi Race Black/African American, White",5,0
+101 Buchanan County District Court,"Multi Race Unknown, White",1,0
+111 Buena Vista County District Court,"Multi Race Asian, Black/African American, White",1,0
+111 Buena Vista County District Court,"Multi Race Asian, White",1,1
+111 Buena Vista County District Court,"Multi Race Black/African American, Other",1,1
+111 Buena Vista County District Court,"Multi Race Black/African American, Other, White",2,2
+111 Buena Vista County District Court,"Multi Race Black/African American, White",1,0
+111 Buena Vista County District Court,Multi Race Other,1,1
+111 Buena Vista County District Court,"Multi Race Other, White",3,3
+111 Buena Vista County District Court,Multi Race White,1,1
+121 Butler County District Court,"Multi Race American Indian/Alaskan Native, White",1,1
+121 Butler County District Court,"Multi Race Black/African American, White",1,0
+121 Butler County District Court,Multi Race White,2,2
+131 Calhoun County District Court,"Multi Race Asian, White",2,0
+131 Calhoun County District Court,"Multi Race Black/African American, White",1,0
+131 Calhoun County District Court,Multi Race Other,2,2
+141 Carroll County District Court,"Multi Race American Indian/Alaskan Native, White",3,1
+141 Carroll County District Court,"Multi Race Black/African American, White",2,0
+141 Carroll County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+141 Carroll County District Court,Multi Race Other,2,1
+141 Carroll County District Court,Multi Race White,1,1
+151 Cass County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0
+151 Cass County District Court,"Multi Race American Indian/Alaskan Native, White",2,1
+151 Cass County District Court,"Multi Race Asian, White",1,0
+151 Cass County District Court,"Multi Race Black/African American, White",1,0
+151 Cass County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",2,1
+151 Cass County District Court,Multi Race Other,1,0
+151 Cass County District Court,"Multi Race Other, White",3,3
+161 Cedar County District Court,Multi Race ,2,1
+161 Cedar County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1
+161 Cedar County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+161 Cedar County District Court,"Multi Race Asian, Black/African American",1,0
+161 Cedar County District Court,"Multi Race Black/African American, White",2,0
+161 Cedar County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,1
+161 Cedar County District Court,"Multi Race Other, Unknown, White",3,3
+161 Cedar County District Court,"Multi Race Other, White",2,2
+161 Cedar County District Court,Multi Race Unknown,1,0
+161 Cedar County District Court,Multi Race White,2,2
+171 Cerro Gordo County District Court,Multi Race ,1,0
+171 Cerro Gordo County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0
+171 Cerro Gordo County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1
+171 Cerro Gordo County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+171 Cerro Gordo County District Court,"Multi Race American Indian/Alaskan Native, White",1,1
+171 Cerro Gordo County District Court,"Multi Race Asian, White",2,1
+171 Cerro Gordo County District Court,"Multi Race Black/African American, Other, White",1,0
+171 Cerro Gordo County District Court,"Multi Race Black/African American, White",10,1
+171 Cerro Gordo County District Court,Multi Race Other,5,5
+171 Cerro Gordo County District Court,"Multi Race Other, White",7,6
+171 Cerro Gordo County District Court,Multi Race White,8,7
+181 Cherokee County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0
+181 Cherokee County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+181 Cherokee County District Court,"Multi Race Asian, White",1,0
+181 Cherokee County District Court,Multi Race Other,2,2
+191 Chickasaw County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+191 Chickasaw County District Court,"Multi Race Black/African American, Other, Unknown",1,0
+191 Chickasaw County District Court,"Multi Race Black/African American, White",1,0
+191 Chickasaw County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+201 Clarke County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+201 Clarke County District Court,"Multi Race American Indian/Alaskan Native, White",2,0
+201 Clarke County District Court,"Multi Race Asian, White",1,0
+201 Clarke County District Court,Multi Race Black/African American,1,0
+201 Clarke County District Court,"Multi Race Black/African American, White",1,1
+201 Clarke County District Court,"Multi Race Other, White",1,1
+201 Clarke County District Court,Multi Race White,2,2
+211 Clay County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+211 Clay County District Court,"Multi Race Asian, Other",1,1
+211 Clay County District Court,"Multi Race Asian, White",1,0
+211 Clay County District Court,"Multi Race Black/African American, White",3,1
+211 Clay County District Court,"Multi Race Other, White",4,4
+211 Clay County District Court,Multi Race White,3,3
+221 Clayton County District Court,Multi Race ,1,0
+221 Clayton County District Court,"Multi Race Black/African American, Other",1,1
+221 Clayton County District Court,"Multi Race Black/African American, White",1,0
+221 Clayton County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+231 Clinton County District Court,Multi Race ,5,2
+231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0
+231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",1,0
+231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",4,1
+231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Native Hawaiian/Other Pacific Islander, Other",1,1
+231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1
+231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Other, White",2,2
+231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0
+231 Clinton County District Court,"Multi Race American Indian/Alaskan Native, White",12,3
+231 Clinton County District Court,"Multi Race Asian, Black/African American",1,0
+231 Clinton County District Court,"Multi Race Asian, Black/African American, Other, White",1,1
+231 Clinton County District Court,"Multi Race Asian, Black/African American, White",1,0
+231 Clinton County District Court,"Multi Race Asian, Other, White",1,1
+231 Clinton County District Court,"Multi Race Asian, White",8,0
+231 Clinton County District Court,Multi Race Black/African American,1,1
+231 Clinton County District Court,"Multi Race Black/African American, Other, White",3,1
+231 Clinton County District Court,"Multi Race Black/African American, White",41,0
+231 Clinton County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+231 Clinton County District Court,Multi Race Other,3,3
+231 Clinton County District Court,"Multi Race Other, White",9,8
+231 Clinton County District Court,Multi Race Unknown,1,0
+231 Clinton County District Court,Multi Race White,15,15
+241 Crawford County District Court,Multi Race American Indian/Alaskan Native,1,1
+241 Crawford County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1
+241 Crawford County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+241 Crawford County District Court,"Multi Race Asian, White",1,0
+241 Crawford County District Court,"Multi Race Black/African American, White",1,0
+241 Crawford County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, Other",1,1
+241 Crawford County District Court,Multi Race Other,1,1
+241 Crawford County District Court,"Multi Race Other, White",1,1
+241 Crawford County District Court,Multi Race White,5,5
+251 Dallas County District Court,Multi Race American Indian/Alaskan Native,2,2
+251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0
+251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",1,1
+251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",1,1
+251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",2,0
+251 Dallas County District Court,"Multi Race American Indian/Alaskan Native, White",5,1
+251 Dallas County District Court,Multi Race Asian,3,3
+251 Dallas County District Court,"Multi Race Asian, White",9,0
+251 Dallas County District Court,"Multi Race Black/African American, Other",1,1
+251 Dallas County District Court,"Multi Race Black/African American, Other, White",2,0
+251 Dallas County District Court,"Multi Race Black/African American, White",14,0
+251 Dallas County District Court,Multi Race Other,5,3
+251 Dallas County District Court,"Multi Race Other, Unknown, White",1,0
+251 Dallas County District Court,"Multi Race Other, White",4,2
+251 Dallas County District Court,Multi Race Unknown,3,2
+251 Dallas County District Court,Multi Race White,5,5
+261 Davis County District Court,"Multi Race Asian, Black/African American",1,0
+261 Davis County District Court,"Multi Race Asian, White",1,0
+261 Davis County District Court,"Multi Race Other, White",1,1
+261 Davis County District Court,Multi Race White,1,1
+271 Decatur County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0
+271 Decatur County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+281 Delaware County District Court,"Multi Race Asian, White",1,0
+281 Delaware County District Court,Multi Race White,1,1
+291 Des Moines County District Court,Multi Race ,8,0
+291 Des Moines County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",3,0
+291 Des Moines County District Court,"Multi Race American Indian/Alaskan Native, Other, White",2,1
+291 Des Moines County District Court,"Multi Race American Indian/Alaskan Native, White",2,1
+291 Des Moines County District Court,"Multi Race Asian, Black/African American, White",1,0
+291 Des Moines County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0
+291 Des Moines County District Court,"Multi Race Asian, White",7,1
+291 Des Moines County District Court,"Multi Race Black/African American, Other, White",1,1
+291 Des Moines County District Court,"Multi Race Black/African American, White",35,3
+291 Des Moines County District Court,Multi Race Other,5,2
+291 Des Moines County District Court,"Multi Race Other, White",7,7
+291 Des Moines County District Court,Multi Race White,6,6
+301 Dickinson County District Court,Multi Race American Indian/Alaskan Native,1,1
+301 Dickinson County District Court,"Multi Race Asian, White",2,0
+301 Dickinson County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",1,0
+301 Dickinson County District Court,"Multi Race Black/African American, White",2,0
+301 Dickinson County District Court,Multi Race Other,2,2
+301 Dickinson County District Court,"Multi Race Other, White",3,3
+311 Dubuque County District Court,Multi Race ,2,0
+311 Dubuque County District Court,"Multi Race American Indian/Alaskan Native, Other",1,0
+311 Dubuque County District Court,"Multi Race American Indian/Alaskan Native, Other, White",2,2
+311 Dubuque County District Court,"Multi Race American Indian/Alaskan Native, White",5,2
+311 Dubuque County District Court,"Multi Race Asian, Black/African American, White",1,0
+311 Dubuque County District Court,"Multi Race Asian, Other",1,1
+311 Dubuque County District Court,"Multi Race Asian, White",12,1
+311 Dubuque County District Court,"Multi Race Black/African American, Other, White",1,1
+311 Dubuque County District Court,"Multi Race Black/African American, Unknown, White",2,1
+311 Dubuque County District Court,"Multi Race Black/African American, White",27,2
+311 Dubuque County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",2,0
+311 Dubuque County District Court,Multi Race Other,3,2
+311 Dubuque County District Court,"Multi Race Other, Unknown, White",1,0
+311 Dubuque County District Court,"Multi Race Other, White",8,8
+311 Dubuque County District Court,"Multi Race Unknown, White",1,1
+311 Dubuque County District Court,Multi Race White,5,3
+321 Emmet County District Court,"Multi Race American Indian/Alaskan Native, White",1,1
+321 Emmet County District Court,"Multi Race Asian, White",2,0
+321 Emmet County District Court,"Multi Race Black/African American, White",1,0
+321 Emmet County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+321 Emmet County District Court,Multi Race Other,1,1
+321 Emmet County District Court,"Multi Race Other, White",1,1
+321 Emmet County District Court,Multi Race White,1,1
+331 Fayette County District Court,Multi Race ,1,1
+331 Fayette County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+331 Fayette County District Court,"Multi Race Asian, White",2,0
+331 Fayette County District Court,"Multi Race Black/African American, Other",1,1
+331 Fayette County District Court,"Multi Race Black/African American, White",2,0
+331 Fayette County District Court,Multi Race Other,1,1
+331 Fayette County District Court,"Multi Race Other, White",2,2
+331 Fayette County District Court,Multi Race White,2,2
+341 Floyd County District Court,"Multi Race American Indian/Alaskan Native, White",2,1
+341 Floyd County District Court,Multi Race Asian,1,1
+341 Floyd County District Court,"Multi Race Asian, Other, White",1,1
+341 Floyd County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",2,0
+341 Floyd County District Court,"Multi Race Black/African American, White",2,0
+341 Floyd County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+341 Floyd County District Court,"Multi Race Other, White",1,1
+341 Floyd County District Court,Multi Race White,1,1
+351 Franklin County District Court,"Multi Race Black/African American, White",1,0
+351 Franklin County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+351 Franklin County District Court,"Multi Race Other, White",5,5
+351 Franklin County District Court,Multi Race White,1,1
+361 Fremont County District Court,"Multi Race American Indian/Alaskan Native, White",2,1
+361 Fremont County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0
+361 Fremont County District Court,"Multi Race Asian, White",2,0
+361 Fremont County District Court,"Multi Race Black/African American, White",1,0
+361 Fremont County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+361 Fremont County District Court,Multi Race Other,1,1
+361 Fremont County District Court,"Multi Race Other, White",3,3
+361 Fremont County District Court,Multi Race White,2,2
+371 Greene County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0
+371 Greene County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+371 Greene County District Court,"Multi Race American Indian/Alaskan Native, White",2,0
+371 Greene County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0
+371 Greene County District Court,"Multi Race Asian, White",1,0
+371 Greene County District Court,"Multi Race Black/African American, Other",1,1
+371 Greene County District Court,"Multi Race Black/African American, White",2,0
+371 Greene County District Court,"Multi Race Other, White",1,1
+381 Grundy County District Court,"Multi Race American Indian/Alaskan Native, White",2,0
+381 Grundy County District Court,"Multi Race Asian, White",3,0
+381 Grundy County District Court,"Multi Race Black/African American, White",4,0
+381 Grundy County District Court,"Multi Race Other, White",1,1
+391 Guthrie County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0
+391 Guthrie County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, Other",1,0
+391 Guthrie County District Court,"Multi Race Black/African American, White",2,0
+391 Guthrie County District Court,"Multi Race Other, White",1,0
+391 Guthrie County District Court,Multi Race White,1,1
+401 Hamilton County District Court,Multi Race ,1,0
+401 Hamilton County District Court,Multi Race Black/African American,1,1
+401 Hamilton County District Court,Multi Race Other,2,2
+401 Hamilton County District Court,"Multi Race Other, White",2,1
+411 Hancock County District Court,"Multi Race American Indian/Alaskan Native, White",2,0
+411 Hancock County District Court,"Multi Race Asian, White",1,0
+411 Hancock County District Court,"Multi Race Black/African American, White",1,0
+411 Hancock County District Court,Multi Race White,2,2
+421 Hardin County District Court,Multi Race ,1,0
+421 Hardin County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,1
+421 Hardin County District Court,"Multi Race Black/African American, White",2,0
+421 Hardin County District Court,"Multi Race Other, White",1,1
+431 Harrison County District Court,Multi Race American Indian/Alaskan Native,1,0
+431 Harrison County District Court,"Multi Race American Indian/Alaskan Native, White",2,1
+431 Harrison County District Court,"Multi Race Asian, Other, White",1,1
+431 Harrison County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+431 Harrison County District Court,Multi Race Other,2,2
+431 Harrison County District Court,"Multi Race Other, White",1,1
+431 Harrison County District Court,Multi Race White,1,1
+441 Henry County District Court,"Multi Race Black/African American, White",7,0
+441 Henry County District Court,Multi Race Other,1,1
+441 Henry County District Court,"Multi Race Other, White",2,2
+441 Henry County District Court,Multi Race White,3,3
+451 Howard County District Court,Multi Race Other,2,0
+451 Howard County District Court,Multi Race White,1,1
+461 Humboldt County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1
+461 Humboldt County District Court,"Multi Race Asian, White",1,0
+461 Humboldt County District Court,"Multi Race Black/African American, White",3,0
+461 Humboldt County District Court,"Multi Race Other, White",3,3
+471 Ida County District Court,"Multi Race American Indian/Alaskan Native, Asian",1,1
+471 Ida County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0
+471 Ida County District Court,"Multi Race Asian, White",1,0
+471 Ida County District Court,"Multi Race Black/African American, White",2,0
+471 Ida County District Court,Multi Race Other,1,0
+471 Ida County District Court,"Multi Race Other, White",3,3
+481 Iowa County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander, White",1,1
+481 Iowa County District Court,"Multi Race American Indian/Alaskan Native, White",3,2
+481 Iowa County District Court,"Multi Race Asian, Other",1,0
+481 Iowa County District Court,"Multi Race Asian, Other, White",1,0
+481 Iowa County District Court,"Multi Race Asian, White",3,0
+481 Iowa County District Court,"Multi Race Black/African American, White",4,0
+481 Iowa County District Court,Multi Race Native Hawaiian/Other Pacific Islander,1,1
+481 Iowa County District Court,"Multi Race Other, White",2,2
+481 Iowa County District Court,Multi Race Unknown,1,1
+491 Jackson County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+491 Jackson County District Court,"Multi Race American Indian/Alaskan Native, White",4,2
+491 Jackson County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",2,0
+491 Jackson County District Court,"Multi Race Asian, Other",1,1
+491 Jackson County District Court,"Multi Race Asian, White",1,0
+491 Jackson County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander",1,0
+491 Jackson County District Court,"Multi Race Black/African American, White",3,0
+491 Jackson County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+491 Jackson County District Court,Multi Race Other,1,1
+491 Jackson County District Court,"Multi Race Other, White",3,3
+491 Jackson County District Court,Multi Race White,2,2
+501 Jasper County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+501 Jasper County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+501 Jasper County District Court,"Multi Race Asian, Black/African American, Other, White",1,0
+501 Jasper County District Court,"Multi Race Asian, White",3,1
+501 Jasper County District Court,"Multi Race Black/African American, White",5,0
+501 Jasper County District Court,Multi Race Other,1,0
+501 Jasper County District Court,"Multi Race Other, White",1,1
+501 Jasper County District Court,Multi Race White,5,4
+511 Jefferson County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",1,1
+511 Jefferson County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0
+511 Jefferson County District Court,"Multi Race Black/African American, Other, White",1,0
+511 Jefferson County District Court,"Multi Race Black/African American, White",1,1
+511 Jefferson County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+511 Jefferson County District Court,"Multi Race Other, White",1,1
+521 Johnson County District Court,Multi Race ,1,0
+521 Johnson County District Court,"Multi Race American Indian/Alaskan Native, Asian",1,1
+521 Johnson County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander, White",1,1
+521 Johnson County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, Unknown, White",1,0
+521 Johnson County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1
+521 Johnson County District Court,"Multi Race American Indian/Alaskan Native, White",11,4
+521 Johnson County District Court,Multi Race Asian,1,0
+521 Johnson County District Court,"Multi Race Asian, Black/African American, White",1,0
+521 Johnson County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0
+521 Johnson County District Court,"Multi Race Asian, Other",1,1
+521 Johnson County District Court,"Multi Race Asian, White",30,2
+521 Johnson County District Court,Multi Race Black/African American,1,1
+521 Johnson County District Court,"Multi Race Black/African American, Unknown, White",1,0
+521 Johnson County District Court,"Multi Race Black/African American, White",32,0
+521 Johnson County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",4,0
+521 Johnson County District Court,Multi Race Other,13,11
+521 Johnson County District Court,"Multi Race Other, Unknown",1,1
+521 Johnson County District Court,"Multi Race Other, White",6,3
+521 Johnson County District Court,Multi Race White,2,2
+531 Jones County District Court,"Multi Race American Indian/Alaskan Native, White",4,0
+531 Jones County District Court,"Multi Race Asian, White",2,0
+531 Jones County District Court,"Multi Race Black/African American, White",3,0
+531 Jones County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,1
+531 Jones County District Court,"Multi Race Other, White",1,1
+531 Jones County District Court,Multi Race Unknown,1,0
+531 Jones County District Court,Multi Race White,2,2
+541 Keokuk County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+541 Keokuk County District Court,"Multi Race Asian, White",1,0
+541 Keokuk County District Court,"Multi Race Black/African American, White",3,0
+541 Keokuk County District Court,"Multi Race Other, Unknown",1,0
+541 Keokuk County District Court,"Multi Race Other, White",1,1
+551 Kossuth County District Court,Multi Race ,1,0
+551 Kossuth County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+551 Kossuth County District Court,"Multi Race American Indian/Alaskan Native, White",1,1
+551 Kossuth County District Court,"Multi Race Asian, White",1,0
+551 Kossuth County District Court,"Multi Race Black/African American, Other, White",1,1
+551 Kossuth County District Court,Multi Race Other,2,1
+551 Kossuth County District Court,"Multi Race Other, White",2,2
+551 Kossuth County District Court,Multi Race White,3,3
+561 Lee County District Court,Multi Race ,1,0
+561 Lee County District Court,"Multi Race American Indian/Alaskan Native, Asian, Native Hawaiian/Other Pacific Islander, White",1,0
+561 Lee County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",2,0
+561 Lee County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0
+561 Lee County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+561 Lee County District Court,"Multi Race Black/African American, Other",2,1
+561 Lee County District Court,"Multi Race Black/African American, White",13,0
+561 Lee County District Court,"Multi Race Other, White",3,1
+561 Lee County District Court,Multi Race White,2,2
+562 Lee County District Court,Multi Race ,2,0
+562 Lee County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0
+562 Lee County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1
+562 Lee County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0
+562 Lee County District Court,"Multi Race Asian, White",1,0
+562 Lee County District Court,"Multi Race Black/African American, Other",1,1
+562 Lee County District Court,"Multi Race Black/African American, White",5,0
+562 Lee County District Court,"Multi Race Other, White",1,1
+562 Lee County District Court,Multi Race White,1,1
+571 Linn County District Court,Multi Race ,8,0
+571 Linn County District Court,Multi Race American Indian/Alaskan Native,3,3
+571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, Native Hawaiian/Other Pacific Islander, Other, Unknown, White",1,0
+571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, White",3,1
+571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",5,1
+571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander, Other, White",1,0
+571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",2,1
+571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",14,0
+571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Other",2,2
+571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+571 Linn County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0
+571 Linn County District Court,"Multi Race American Indian/Alaskan Native, White",21,1
+571 Linn County District Court,"Multi Race Asian, Black/African American",3,0
+571 Linn County District Court,"Multi Race Asian, Black/African American, Other, White",1,0
+571 Linn County District Court,"Multi Race Asian, Black/African American, White",2,0
+571 Linn County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0
+571 Linn County District Court,"Multi Race Asian, Other, White",2,0
+571 Linn County District Court,"Multi Race Asian, White",28,1
+571 Linn County District Court,Multi Race Black/African American,4,2
+571 Linn County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander",1,0
+571 Linn County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",1,0
+571 Linn County District Court,"Multi Race Black/African American, Other",4,4
+571 Linn County District Court,"Multi Race Black/African American, Other, Unknown, White",1,0
+571 Linn County District Court,"Multi Race Black/African American, Other, White",6,1
+571 Linn County District Court,"Multi Race Black/African American, Unknown, White",1,0
+571 Linn County District Court,"Multi Race Black/African American, White",131,5
+571 Linn County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, Other, White",1,0
+571 Linn County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+571 Linn County District Court,Multi Race Other,19,10
+571 Linn County District Court,"Multi Race Other, White",23,19
+571 Linn County District Court,Multi Race White,18,17
+581 Louisa County District Court,"Multi Race Black/African American, White",1,0
+581 Louisa County District Court,Multi Race Other,4,4
+581 Louisa County District Court,Multi Race Unknown,1,1
+581 Louisa County District Court,Multi Race White,5,5
+591 Lucas County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,0
+591 Lucas County District Court,"Multi Race American Indian/Alaskan Native, White",1,1
+591 Lucas County District Court,"Multi Race Black/African American, White",3,0
+591 Lucas County District Court,"Multi Race Other, White",1,1
+601 Lyon County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,0
+601 Lyon County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0
+601 Lyon County District Court,"Multi Race American Indian/Alaskan Native, White",2,0
+601 Lyon County District Court,"Multi Race Asian, Black/African American",1,0
+601 Lyon County District Court,"Multi Race Asian, White",1,0
+601 Lyon County District Court,"Multi Race Black/African American, White",4,0
+601 Lyon County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+601 Lyon County District Court,Multi Race White,2,2
+611 Madison County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",1,0
+611 Madison County District Court,"Multi Race Asian, White",1,0
+611 Madison County District Court,"Multi Race Black/African American, White",1,0
+611 Madison County District Court,Multi Race White,2,2
+621 Mahaska County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0
+621 Mahaska County District Court,"Multi Race American Indian/Alaskan Native, White",4,3
+621 Mahaska County District Court,"Multi Race Asian, White",5,0
+621 Mahaska County District Court,"Multi Race Black/African American, White",5,0
+621 Mahaska County District Court,"Multi Race Other, White",1,1
+631 Marion County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,1
+631 Marion County District Court,"Multi Race American Indian/Alaskan Native, Other",1,0
+631 Marion County District Court,"Multi Race American Indian/Alaskan Native, White",1,1
+631 Marion County District Court,"Multi Race Asian, Black/African American",1,0
+631 Marion County District Court,"Multi Race Asian, Black/African American, White",1,1
+631 Marion County District Court,"Multi Race Asian, White",1,1
+631 Marion County District Court,"Multi Race Black/African American, White",4,0
+631 Marion County District Court,"Multi Race Other, White",1,1
+631 Marion County District Court,"Multi Race Unknown, White",1,0
+631 Marion County District Court,Multi Race White,1,1
+641 Marshall County District Court,Multi Race ,2,0
+641 Marshall County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, White",1,0
+641 Marshall County District Court,"Multi Race American Indian/Alaskan Native, Other, Unknown, White",1,1
+641 Marshall County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0
+641 Marshall County District Court,"Multi Race American Indian/Alaskan Native, White",9,2
+641 Marshall County District Court,"Multi Race Asian, White",4,1
+641 Marshall County District Court,"Multi Race Black/African American, Other, White",1,1
+641 Marshall County District Court,"Multi Race Black/African American, White",16,2
+641 Marshall County District Court,Multi Race Other,11,11
+641 Marshall County District Court,"Multi Race Other, White",9,9
+641 Marshall County District Court,"Multi Race Unknown, White",1,1
+641 Marshall County District Court,Multi Race White,9,9
+651 Mills County District Court,Multi Race ,1,0
+651 Mills County District Court,"Multi Race American Indian/Alaskan Native, White",4,1
+651 Mills County District Court,"Multi Race Asian, Black/African American, White",1,0
+651 Mills County District Court,"Multi Race Asian, White",1,0
+651 Mills County District Court,"Multi Race Black/African American, Other, White",1,1
+651 Mills County District Court,"Multi Race Black/African American, White",1,0
+651 Mills County District Court,Multi Race Other,1,1
+651 Mills County District Court,"Multi Race Other, White",6,6
+661 Mitchell County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+661 Mitchell County District Court,Multi Race White,3,2
+671 Monona County District Court,Multi Race ,3,0
+671 Monona County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+671 Monona County District Court,"Multi Race American Indian/Alaskan Native, White",4,1
+671 Monona County District Court,"Multi Race Asian, Black/African American, White",1,0
+671 Monona County District Court,"Multi Race Black/African American, White",4,0
+671 Monona County District Court,"Multi Race Other, White",2,1
+671 Monona County District Court,Multi Race Unknown,1,0
+681 Monroe County District Court,"Multi Race Asian, White",1,0
+681 Monroe County District Court,"Multi Race Other, Unknown, White",1,0
+691 Montgomery County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",1,0
+691 Montgomery County District Court,"Multi Race American Indian/Alaskan Native, White",2,0
+691 Montgomery County District Court,"Multi Race Black/African American, White",4,0
+691 Montgomery County District Court,"Multi Race Other, White",2,1
+701 Muscatine County District Court,Multi Race ,7,0
+701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,1
+701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",1,0
+701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",1,0
+701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",2,1
+701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1
+701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Other, White",5,4
+701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0
+701 Muscatine County District Court,"Multi Race American Indian/Alaskan Native, White",13,7
+701 Muscatine County District Court,"Multi Race Asian, White",8,0
+701 Muscatine County District Court,Multi Race Black/African American,1,0
+701 Muscatine County District Court,"Multi Race Black/African American, Other",1,1
+701 Muscatine County District Court,"Multi Race Black/African American, Unknown",1,0
+701 Muscatine County District Court,"Multi Race Black/African American, White",33,1
+701 Muscatine County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+701 Muscatine County District Court,Multi Race Other,35,30
+701 Muscatine County District Court,"Multi Race Other, White",55,49
+701 Muscatine County District Court,"Multi Race Unknown, White",1,1
+701 Muscatine County District Court,Multi Race White,39,39
+711 O'Brien County District Court,"Multi Race American Indian/Alaskan Native, White",2,0
+711 O'Brien County District Court,"Multi Race Asian, Black/African American, Native Hawaiian/Other Pacific Islander",1,0
+711 O'Brien County District Court,"Multi Race Asian, White",1,0
+711 O'Brien County District Court,"Multi Race Black/African American, White",5,1
+711 O'Brien County District Court,Multi Race Other,2,2
+711 O'Brien County District Court,"Multi Race Other, White",2,2
+711 O'Brien County District Court,Multi Race White,1,1
+721 Osceola County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,0
+721 Osceola County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+721 Osceola County District Court,"Multi Race Asian, White",1,0
+731 Page County District Court,Multi Race ,1,0
+731 Page County District Court,"Multi Race American Indian/Alaskan Native, Asian, Native Hawaiian/Other Pacific Islander, White",1,0
+731 Page County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,1
+731 Page County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,1
+731 Page County District Court,"Multi Race American Indian/Alaskan Native, Other, Unknown, White",1,0
+731 Page County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+731 Page County District Court,"Multi Race Asian, Black/African American, White",1,0
+731 Page County District Court,"Multi Race Asian, White",2,0
+731 Page County District Court,"Multi Race Black/African American, White",6,0
+731 Page County District Court,Multi Race Other,2,2
+731 Page County District Court,"Multi Race Other, White",1,0
+731 Page County District Court,Multi Race White,2,2
+741 Palo Alto County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0
+741 Palo Alto County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0
+741 Palo Alto County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+741 Palo Alto County District Court,"Multi Race Asian, White",3,0
+741 Palo Alto County District Court,"Multi Race Black/African American, White",1,0
+741 Palo Alto County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+741 Palo Alto County District Court,"Multi Race Other, Unknown, White",1,0
+741 Palo Alto County District Court,"Multi Race Other, White",2,2
+741 Palo Alto County District Court,Multi Race Unknown,2,2
+741 Palo Alto County District Court,Multi Race White,3,3
+751 Plymouth County District Court,Multi Race American Indian/Alaskan Native,1,1
+751 Plymouth County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0
+751 Plymouth County District Court,"Multi Race American Indian/Alaskan Native, White",5,0
+751 Plymouth County District Court,"Multi Race Asian, Other, White",1,1
+751 Plymouth County District Court,"Multi Race Black/African American, Other",2,2
+751 Plymouth County District Court,"Multi Race Black/African American, Other, White",2,1
+751 Plymouth County District Court,"Multi Race Black/African American, White",8,0
+751 Plymouth County District Court,Multi Race Other,2,2
+751 Plymouth County District Court,"Multi Race Other, White",5,4
+751 Plymouth County District Court,Multi Race White,3,3
+761 Pocahontas County District Court,Multi Race ,1,0
+761 Pocahontas County District Court,"Multi Race Asian, White",1,0
+761 Pocahontas County District Court,Multi Race Other,1,1
+761 Pocahontas County District Court,Multi Race Unknown,1,0
+771 Polk County District Court,Multi Race ,5,0
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Asian",1,0
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, White",1,0
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",3,0
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander",1,0
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",2,1
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",1,1
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Unknown, White",1,0
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",17,3
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Native Hawaiian/Other Pacific Islander, White",1,0
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Other",2,0
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, Other, White",6,5
+771 Polk County District Court,"Multi Race American Indian/Alaskan Native, White",17,7
+771 Polk County District Court,Multi Race Asian,3,3
+771 Polk County District Court,"Multi Race Asian, Black/African American",7,1
+771 Polk County District Court,"Multi Race Asian, Black/African American, White",3,0
+771 Polk County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",2,1
+771 Polk County District Court,"Multi Race Asian, Other",2,2
+771 Polk County District Court,"Multi Race Asian, Other, White",1,0
+771 Polk County District Court,"Multi Race Asian, White",51,1
+771 Polk County District Court,Multi Race Black/African American,4,3
+771 Polk County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",2,0
+771 Polk County District Court,"Multi Race Black/African American, Other",4,2
+771 Polk County District Court,"Multi Race Black/African American, Other, White",2,0
+771 Polk County District Court,"Multi Race Black/African American, Unknown, White",4,0
+771 Polk County District Court,"Multi Race Black/African American, White",112,1
+771 Polk County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, Other",1,1
+771 Polk County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",3,0
+771 Polk County District Court,Multi Race Other,28,22
+771 Polk County District Court,"Multi Race Other, Unknown, White",2,0
+771 Polk County District Court,"Multi Race Other, White",39,34
+771 Polk County District Court,Multi Race Unknown,7,5
+771 Polk County District Court,Multi Race White,20,20
+781 Pottawattamie County District Court,Multi Race ,13,1
+781 Pottawattamie County District Court,Multi Race American Indian/Alaskan Native,1,1
+781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Asian, Other, White",2,0
+781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",2,0
+781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, Unknown, White",2,0
+781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",8,0
+781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Other",2,2
+781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Other, White",5,3
+781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",2,0
+781 Pottawattamie County District Court,"Multi Race American Indian/Alaskan Native, White",14,4
+781 Pottawattamie County District Court,Multi Race Asian,2,0
+781 Pottawattamie County District Court,"Multi Race Asian, Black/African American, White",2,1
+781 Pottawattamie County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",2,0
+781 Pottawattamie County District Court,"Multi Race Asian, Other, White",2,2
+781 Pottawattamie County District Court,"Multi Race Asian, White",10,0
+781 Pottawattamie County District Court,Multi Race Black/African American,1,1
+781 Pottawattamie County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",1,0
+781 Pottawattamie County District Court,"Multi Race Black/African American, Other",3,2
+781 Pottawattamie County District Court,"Multi Race Black/African American, Other, White",2,1
+781 Pottawattamie County District Court,"Multi Race Black/African American, White",41,0
+781 Pottawattamie County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",6,1
+781 Pottawattamie County District Court,Multi Race Other,18,14
+781 Pottawattamie County District Court,"Multi Race Other, White",26,24
+781 Pottawattamie County District Court,Multi Race Unknown,1,0
+781 Pottawattamie County District Court,"Multi Race Unknown, White",1,1
+781 Pottawattamie County District Court,Multi Race White,20,18
+791 Poweshiek County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0
+791 Poweshiek County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+791 Poweshiek County District Court,"Multi Race Asian, Black/African American",3,0
+791 Poweshiek County District Court,"Multi Race Asian, White",3,0
+791 Poweshiek County District Court,"Multi Race Black/African American, White",5,0
+791 Poweshiek County District Court,"Multi Race Other, White",1,0
+791 Poweshiek County District Court,Multi Race Unknown,1,1
+791 Poweshiek County District Court,Multi Race White,1,1
+801 Ringgold County District Court,"Multi Race Black/African American, White",2,0
+811 Sac County District Court,Multi Race ,1,0
+811 Sac County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+811 Sac County District Court,"Multi Race Black/African American, Other, White",1,0
+811 Sac County District Court,Multi Race Other,2,2
+811 Sac County District Court,"Multi Race Other, Unknown, White",1,0
+821 Scott County District Court,Multi Race ,10,1
+821 Scott County District Court,Multi Race American Indian/Alaskan Native,6,4
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, Native Hawaiian/Other Pacific Islander, Other, Unknown, White",3,3
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, White",1,0
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Asian, Other, Unknown, White",1,0
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",3,1
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Native Hawaiian/Other Pacific Islander, Other",2,0
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",2,0
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, Unknown, White",3,0
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",2,0
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Unknown",2,0
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",23,1
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Native Hawaiian/Other Pacific Islander, White",1,0
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Other",2,2
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Other, Unknown, White",1,0
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, Other, White",10,10
+821 Scott County District Court,"Multi Race American Indian/Alaskan Native, White",21,8
+821 Scott County District Court,Multi Race Asian,2,2
+821 Scott County District Court,"Multi Race Asian, Black/African American",7,1
+821 Scott County District Court,"Multi Race Asian, Black/African American, Other",1,1
+821 Scott County District Court,"Multi Race Asian, Black/African American, Other, White",1,1
+821 Scott County District Court,"Multi Race Asian, Black/African American, White",3,0
+821 Scott County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander",1,1
+821 Scott County District Court,"Multi Race Asian, Native Hawaiian/Other Pacific Islander, White",3,0
+821 Scott County District Court,"Multi Race Asian, Other",1,1
+821 Scott County District Court,"Multi Race Asian, Other, White",2,1
+821 Scott County District Court,"Multi Race Asian, Unknown, White",1,0
+821 Scott County District Court,"Multi Race Asian, White",48,1
+821 Scott County District Court,Multi Race Black/African American,2,2
+821 Scott County District Court,"Multi Race Black/African American, Native Hawaiian/Other Pacific Islander, White",1,0
+821 Scott County District Court,"Multi Race Black/African American, Other",5,5
+821 Scott County District Court,"Multi Race Black/African American, Other, White",15,6
+821 Scott County District Court,"Multi Race Black/African American, Unknown, White",1,0
+821 Scott County District Court,"Multi Race Black/African American, White",186,9
+821 Scott County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",6,0
+821 Scott County District Court,Multi Race Other,19,14
+821 Scott County District Court,"Multi Race Other, Unknown",1,0
+821 Scott County District Court,"Multi Race Other, Unknown, White",2,2
+821 Scott County District Court,"Multi Race Other, White",62,55
+821 Scott County District Court,Multi Race Unknown,6,1
+821 Scott County District Court,Multi Race White,46,44
+831 Shelby County District Court,Multi Race ,1,0
+831 Shelby County District Court,"Multi Race Asian, White",2,1
+831 Shelby County District Court,"Multi Race Black/African American, Other, White",1,1
+831 Shelby County District Court,"Multi Race Black/African American, White",1,0
+831 Shelby County District Court,"Multi Race Other, White",3,3
+831 Shelby County District Court,Multi Race Unknown,1,0
+841 Sioux County District Court,Multi Race ,1,0
+841 Sioux County District Court,"Multi Race American Indian/Alaskan Native, White",1,0
+841 Sioux County District Court,"Multi Race Asian, White",5,0
+841 Sioux County District Court,"Multi Race Black/African American, White",1,0
+841 Sioux County District Court,Multi Race Other,1,1
+841 Sioux County District Court,"Multi Race Other, White",1,1
+841 Sioux County District Court,"Multi Race Unknown, White",1,1
+851 Story County District Court,Multi Race ,1,0
+851 Story County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0
+851 Story County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",5,2
+851 Story County District Court,"Multi Race American Indian/Alaskan Native, Other",2,2
+851 Story County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,1
+851 Story County District Court,"Multi Race American Indian/Alaskan Native, White",8,1
+851 Story County District Court,"Multi Race Asian, Other",1,1
+851 Story County District Court,"Multi Race Asian, Other, Unknown, White",1,0
+851 Story County District Court,"Multi Race Asian, Other, White",1,0
+851 Story County District Court,"Multi Race Asian, Unknown",2,0
+851 Story County District Court,"Multi Race Asian, White",44,1
+851 Story County District Court,"Multi Race Black/African American, Other",1,0
+851 Story County District Court,"Multi Race Black/African American, White",27,3
+851 Story County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",2,0
+851 Story County District Court,Multi Race Other,13,8
+851 Story County District Court,"Multi Race Other, White",18,16
+851 Story County District Court,"Multi Race Unknown, White",1,0
+851 Story County District Court,Multi Race White,4,4
+861 Tama County District Court,Multi Race ,1,0
+861 Tama County District Court,Multi Race American Indian/Alaskan Native,4,4
+861 Tama County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",1,0
+861 Tama County District Court,"Multi Race American Indian/Alaskan Native, White",3,1
+861 Tama County District Court,"Multi Race Asian, White",3,0
+861 Tama County District Court,"Multi Race Black/African American, Other",1,0
+861 Tama County District Court,"Multi Race Black/African American, White",1,0
+861 Tama County District Court,Multi Race Other,1,1
+861 Tama County District Court,"Multi Race Other, White",1,1
+861 Tama County District Court,Multi Race White,2,1
+871 Taylor County District Court,"Multi Race Black/African American, White",2,0
+871 Taylor County District Court,Multi Race Other,1,1
+871 Taylor County District Court,"Multi Race Other, White",1,1
+881 Union County District Court,"Multi Race Asian, White",2,0
+881 Union County District Court,"Multi Race Black/African American, White",1,0
+881 Union County District Court,"Multi Race Other, Unknown, White",1,1
+881 Union County District Court,"Multi Race Other, White",3,2
+881 Union County District Court,Multi Race White,1,1
+891 Van Buren County District Court,Multi Race ,1,0
+891 Van Buren County District Court,"Multi Race Black/African American, White",1,0
+891 Van Buren County District Court,"Multi Race Other, White",2,2
+891 Van Buren County District Court,Multi Race White,1,1
+901 Wapello County District Court,Multi Race ,1,1
+901 Wapello County District Court,"Multi Race American Indian/Alaskan Native, Asian, Unknown, White",1,0
+901 Wapello County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",1,0
+901 Wapello County District Court,"Multi Race American Indian/Alaskan Native, White",3,0
+901 Wapello County District Court,"Multi Race Asian, Black/African American",1,0
+901 Wapello County District Court,"Multi Race Asian, Black/African American, White",1,0
+901 Wapello County District Court,"Multi Race Asian, White",5,0
+901 Wapello County District Court,"Multi Race Black/African American, White",7,0
+901 Wapello County District Court,Multi Race Other,1,1
+901 Wapello County District Court,"Multi Race Other, White",3,2
+901 Wapello County District Court,Multi Race Unknown,2,2
+901 Wapello County District Court,Multi Race White,2,2
+911 Warren County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",1,0
+911 Warren County District Court,"Multi Race American Indian/Alaskan Native, White",5,1
+911 Warren County District Court,"Multi Race Asian, White",2,0
+911 Warren County District Court,Multi Race Black/African American,1,1
+911 Warren County District Court,"Multi Race Black/African American, White",1,0
+911 Warren County District Court,Multi Race Other,4,2
+911 Warren County District Court,"Multi Race Other, White",1,1
+911 Warren County District Court,Multi Race Unknown,1,0
+911 Warren County District Court,Multi Race White,2,2
+921 Washington County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1
+921 Washington County District Court,"Multi Race American Indian/Alaskan Native, White",1,1
+921 Washington County District Court,"Multi Race Asian, White",4,0
+921 Washington County District Court,"Multi Race Black/African American, White",1,0
+921 Washington County District Court,Multi Race Other,3,3
+921 Washington County District Court,"Multi Race Other, White",2,2
+921 Washington County District Court,Multi Race White,2,2
+931 Wayne County District Court,"Multi Race Asian, White",1,0
+931 Wayne County District Court,"Multi Race Other, White",1,1
+941 Webster County District Court,Multi Race ,2,0
+941 Webster County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",2,0
+941 Webster County District Court,"Multi Race American Indian/Alaskan Native, Unknown, White",1,0
+941 Webster County District Court,"Multi Race American Indian/Alaskan Native, White",2,0
+941 Webster County District Court,"Multi Race Asian, Other, White",1,1
+941 Webster County District Court,"Multi Race Asian, White",4,0
+941 Webster County District Court,Multi Race Black/African American,2,0
+941 Webster County District Court,"Multi Race Black/African American, Other",1,1
+941 Webster County District Court,"Multi Race Black/African American, Other, White",1,0
+941 Webster County District Court,"Multi Race Black/African American, White",27,3
+941 Webster County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",2,0
+941 Webster County District Court,Multi Race Other,4,3
+941 Webster County District Court,"Multi Race Other, White",7,7
+941 Webster County District Court,Multi Race Unknown,2,1
+941 Webster County District Court,Multi Race White,5,5
+951 Winnebago County District Court,"Multi Race Asian, White",2,0
+951 Winnebago County District Court,"Multi Race Black/African American, White",4,0
+951 Winnebago County District Court,Multi Race Other,2,2
+951 Winnebago County District Court,"Multi Race Other, White",2,2
+951 Winnebago County District Court,Multi Race White,1,1
+961 Winneshiek County District Court,"Multi Race American Indian/Alaskan Native, White",1,1
+961 Winneshiek County District Court,"Multi Race Asian, Black/African American",1,0
+961 Winneshiek County District Court,"Multi Race Asian, White",2,0
+961 Winneshiek County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+961 Winneshiek County District Court,Multi Race Other,1,1
+961 Winneshiek County District Court,"Multi Race Other, White",1,1
+961 Winneshiek County District Court,Multi Race White,2,1
+971 Woodbury County District Court,Multi Race ,13,0
+971 Woodbury County District Court,Multi Race American Indian/Alaskan Native,7,6
+971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Asian",1,0
+971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Asian, Black/African American, Other, White",1,1
+971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Asian, Other, White",1,1
+971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Asian, White",2,0
+971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Black/African American",5,2
+971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other",1,1
+971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, Other, White",2,2
+971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Black/African American, White",11,0
+971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Other",1,1
+971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, Other, White",8,6
+971 Woodbury County District Court,"Multi Race American Indian/Alaskan Native, White",19,3
+971 Woodbury County District Court,Multi Race Asian,1,0
+971 Woodbury County District Court,"Multi Race Asian, Black/African American",1,0
+971 Woodbury County District Court,"Multi Race Asian, Other",1,1
+971 Woodbury County District Court,"Multi Race Asian, White",35,1
+971 Woodbury County District Court,Multi Race Black/African American,1,1
+971 Woodbury County District Court,"Multi Race Black/African American, Other",3,3
+971 Woodbury County District Court,"Multi Race Black/African American, Other, White",3,0
+971 Woodbury County District Court,"Multi Race Black/African American, White",44,3
+971 Woodbury County District Court,"Multi Race Native Hawaiian/Other Pacific Islander, White",1,0
+971 Woodbury County District Court,Multi Race Other,15,12
+971 Woodbury County District Court,"Multi Race Other, Unknown, White",2,0
+971 Woodbury County District Court,"Multi Race Other, White",25,15
+971 Woodbury County District Court,Multi Race Unknown,2,1
+971 Woodbury County District Court,Multi Race White,23,22
+981 Worth County District Court,"Multi Race American Indian/Alaskan Native, Other, White",1,0
+981 Worth County District Court,"Multi Race Asian, White",2,0
+981 Worth County District Court,"Multi Race Black/African American, White",4,0
+981 Worth County District Court,Multi Race White,2,2
+991 Wright County District Court,"Multi Race American Indian/Alaskan Native, White",2,1
+991 Wright County District Court,"Multi Race Black/African American, White",3,0
+991 Wright County District Court,"Multi Race Other, White",2,2
+991 Wright County District Court,Multi Race White,1,1
