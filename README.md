@@ -1,6 +1,6 @@
 # Racial Disparity in Iowa Jury Pools 
 
-**Adam Uhl, Jude Aboagye, Randee Goeke:** 
+**Jude Aboagye and Randee Goeke:** 
 **STAT 230:** 
 **Summer 2026:** 
 
@@ -188,6 +188,6 @@ Examples:
 
 # Contact Information
 
-**Name:** Your Name
+**Randee Goeke:** 
 
-**Email:** your.email@example.com
+**randee.goeke@drake.edu:** your.email@example.com
