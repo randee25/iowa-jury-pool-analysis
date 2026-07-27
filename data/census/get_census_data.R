@@ -2,7 +2,7 @@
 ## Iowa County Race & Ethnicity Analysis (ACS 5-Year, 2024)
 ## ============================================================
 ## Software used:
-##   R (see sessionInfo() for exact version)
+##   R version 4.6.1 ("Happy Hop")
 ##   Packages: tidycensus, tidyverse
 ## Data source:
 ##   U.S. Census Bureau, American Community Survey (ACS),
