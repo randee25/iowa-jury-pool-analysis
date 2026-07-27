@@ -1,0 +1,793 @@
+GEOID,county,category,population,total_population,proportion,percent,margin_of_error
+19001,"Adair County, Iowa",Black or African American alone,115,7460,0.015415549597855228,1.5415549597855227,16
+19001,"Adair County, Iowa",American Indian and Alaska Native alone,13,7460,0.001742627345844504,0.17426273458445038,25
+19001,"Adair County, Iowa",Asian alone,23,7460,0.0030831099195710457,0.3083109919571046,16
+19001,"Adair County, Iowa",Native Hawaiian and Pacific Islander alone,5,7460,6.702412868632708e-4,0.06702412868632708,11
+19001,"Adair County, Iowa",Some other race alone,62,7460,0.008310991957104557,0.8310991957104558,42
+19001,"Adair County, Iowa",Two or more races,201,7460,0.026943699731903484,2.6943699731903483,50
+19003,"Adams County, Iowa",Black or African American alone,11,3622,0.003036996134732192,0.3036996134732192,10
+19003,"Adams County, Iowa",American Indian and Alaska Native alone,8,3622,0.0022087244616234127,0.22087244616234128,15
+19003,"Adams County, Iowa",Asian alone,0,3622,0,0,10
+19003,"Adams County, Iowa",Native Hawaiian and Pacific Islander alone,0,3622,0,0,10
+19003,"Adams County, Iowa",Some other race alone,5,3622,0.0013804527885146328,0.13804527885146328,7
+19003,"Adams County, Iowa",Two or more races,164,3622,0.04527885146327996,4.527885146327995,37
+19005,"Allamakee County, Iowa",Black or African American alone,257,14092,0.01823729775759296,1.823729775759296,49
+19005,"Allamakee County, Iowa",American Indian and Alaska Native alone,124,14092,0.008799318762418393,0.8799318762418393,115
+19005,"Allamakee County, Iowa",Asian alone,57,14092,0.0040448481407891,0.40448481407891,33
+19005,"Allamakee County, Iowa",Native Hawaiian and Pacific Islander alone,0,14092,0,0,16
+19005,"Allamakee County, Iowa",Some other race alone,310,14092,0.021998296906045982,2.199829690604598,153
+19005,"Allamakee County, Iowa",Two or more races,928,14092,0.06585296622196991,6.585296622196991,217
+19007,"Appanoose County, Iowa",Black or African American alone,100,12184,0.008207485226526593,0.8207485226526593,93
+19007,"Appanoose County, Iowa",American Indian and Alaska Native alone,3,12184,2.4622455679579775e-4,0.024622455679579776,7
+19007,"Appanoose County, Iowa",Asian alone,111,12184,0.009110308601444517,0.9110308601444517,39
+19007,"Appanoose County, Iowa",Native Hawaiian and Pacific Islander alone,0,12184,0,0,16
+19007,"Appanoose County, Iowa",Some other race alone,0,12184,0,0,16
+19007,"Appanoose County, Iowa",Two or more races,366,12184,0.030039395929087328,3.0039395929087327,156
+19009,"Audubon County, Iowa",Black or African American alone,28,5599,0.005000893016610109,0.500089301661011,31
+19009,"Audubon County, Iowa",American Indian and Alaska Native alone,10,5599,0.001786033220217896,0.1786033220217896,14
+19009,"Audubon County, Iowa",Asian alone,3,5599,5.358099660653688e-4,0.05358099660653688,13
+19009,"Audubon County, Iowa",Native Hawaiian and Pacific Islander alone,14,5599,0.0025004465083050546,0.2500446508305055,18
+19009,"Audubon County, Iowa",Some other race alone,64,5599,0.011430612609394535,1.1430612609394535,51
+19009,"Audubon County, Iowa",Two or more races,187,5599,0.03339882121807466,3.3398821218074657,48
+19011,"Benton County, Iowa",Black or African American alone,107,25724,0.004159539729435547,0.4159539729435547,42
+19011,"Benton County, Iowa",American Indian and Alaska Native alone,26,25724,0.001010729280049759,0.10107292800497589,27
+19011,"Benton County, Iowa",Asian alone,60,25724,0.002332452184730213,0.2332452184730213,33
+19011,"Benton County, Iowa",Native Hawaiian and Pacific Islander alone,0,25724,0,0,19
+19011,"Benton County, Iowa",Some other race alone,319,25724,0.012400870782148967,1.2400870782148967,98
+19011,"Benton County, Iowa",Two or more races,837,25724,0.03253770797698647,3.253770797698647,138
+19013,"Black Hawk County, Iowa",Black or African American alone,12135,131049,0.09259895153721127,9.259895153721127,599
+19013,"Black Hawk County, Iowa",American Indian and Alaska Native alone,382,131049,0.002914940213202695,0.2914940213202695,226
+19013,"Black Hawk County, Iowa",Asian alone,3565,131049,0.027203565078711016,2.7203565078711014,259
+19013,"Black Hawk County, Iowa",Native Hawaiian and Pacific Islander alone,964,131049,0.0073560271348884765,0.7356027134888476,33
+19013,"Black Hawk County, Iowa",Some other race alone,3191,131049,0.024349670733847646,2.434967073384765,562
+19013,"Black Hawk County, Iowa",Two or more races,6664,131049,0.05085120832665644,5.085120832665644,873
+19015,"Boone County, Iowa",Black or African American alone,307,26668,0.011511924403779811,1.1511924403779812,91
+19015,"Boone County, Iowa",American Indian and Alaska Native alone,11,26668,4.124793760311984e-4,0.041247937603119844,10
+19015,"Boone County, Iowa",Asian alone,53,26668,0.0019874006299685017,0.19874006299685018,24
+19015,"Boone County, Iowa",Native Hawaiian and Pacific Islander alone,0,26668,0,0,19
+19015,"Boone County, Iowa",Some other race alone,169,26668,0.006337183140842958,0.6337183140842958,120
+19015,"Boone County, Iowa",Two or more races,1029,26668,0.03858557072146393,3.858557072146393,204
+19017,"Bremer County, Iowa",Black or African American alone,289,25204,0.01146643389938105,1.146643389938105,69
+19017,"Bremer County, Iowa",American Indian and Alaska Native alone,12,25204,4.7611490239644503e-4,0.047611490239644505,14
+19017,"Bremer County, Iowa",Asian alone,226,25204,0.008966830661799714,0.8966830661799714,60
+19017,"Bremer County, Iowa",Native Hawaiian and Pacific Islander alone,8,25204,3.174099349309633e-4,0.03174099349309633,12
+19017,"Bremer County, Iowa",Some other race alone,382,25204,0.0151563243929535,1.51563243929535,176
+19017,"Bremer County, Iowa",Two or more races,955,25204,0.03789081098238375,3.7890810982383747,144
+19019,"Buchanan County, Iowa",Black or African American alone,124,20694,0.005992074997583841,0.599207499758384,85
+19019,"Buchanan County, Iowa",American Indian and Alaska Native alone,58,20694,0.002802744756934377,0.2802744756934377,54
+19019,"Buchanan County, Iowa",Asian alone,40,20694,0.0019329274185754324,0.19329274185754325,24
+19019,"Buchanan County, Iowa",Native Hawaiian and Pacific Islander alone,13,20694,6.282014110370155e-4,0.06282014110370156,13
+19019,"Buchanan County, Iowa",Some other race alone,80,20694,0.003865854837150865,0.3865854837150865,56
+19019,"Buchanan County, Iowa",Two or more races,517,20694,0.024983086885087467,2.4983086885087467,122
+19021,"Buena Vista County, Iowa",Black or African American alone,679,20753,0.03271816122970173,3.2718161229701734,80
+19021,"Buena Vista County, Iowa",American Indian and Alaska Native alone,85,20753,0.004095793379270467,0.4095793379270467,76
+19021,"Buena Vista County, Iowa",Asian alone,1982,20753,0.09550426444369489,9.550426444369489,145
+19021,"Buena Vista County, Iowa",Native Hawaiian and Pacific Islander alone,608,20753,0.02929696911289934,2.929696911289934,42
+19021,"Buena Vista County, Iowa",Some other race alone,2338,20753,0.11265841083216885,11.265841083216884,638
+19021,"Buena Vista County, Iowa",Two or more races,2604,20753,0.1254758348190623,12.54758348190623,573
+19023,"Butler County, Iowa",Black or African American alone,24,14268,0.001682085786375105,0.16820857863751051,25
+19023,"Butler County, Iowa",American Indian and Alaska Native alone,7,14268,4.906083543594057e-4,0.049060835435940565,8
+19023,"Butler County, Iowa",Asian alone,179,14268,0.01254555649004766,1.254555649004766,34
+19023,"Butler County, Iowa",Native Hawaiian and Pacific Islander alone,0,14268,0,0,16
+19023,"Butler County, Iowa",Some other race alone,122,14268,0.008550602747406785,0.8550602747406785,68
+19023,"Butler County, Iowa",Two or more races,387,14268,0.02712363330529857,2.7123633305298567,77
+19025,"Calhoun County, Iowa",Black or African American alone,158,9803,0.016117515046414364,1.6117515046414363,52
+19025,"Calhoun County, Iowa",American Indian and Alaska Native alone,17,9803,0.0017341630113230644,0.17341630113230644,15
+19025,"Calhoun County, Iowa",Asian alone,22,9803,0.002244210955829848,0.2244210955829848,14
+19025,"Calhoun County, Iowa",Native Hawaiian and Pacific Islander alone,0,9803,0,0,15
+19025,"Calhoun County, Iowa",Some other race alone,130,9803,0.013261246557176375,1.3261246557176376,65
+19025,"Calhoun County, Iowa",Two or more races,450,9803,0.04590431500561053,4.590431500561053,84
+19027,"Carroll County, Iowa",Black or African American alone,139,20594,0.0067495387005924055,0.6749538700592406,98
+19027,"Carroll County, Iowa",American Indian and Alaska Native alone,22,20594,0.0010682723123239778,0.10682723123239778,23
+19027,"Carroll County, Iowa",Asian alone,39,20594,0.0018937554627561427,0.18937554627561426,46
+19027,"Carroll County, Iowa",Native Hawaiian and Pacific Islander alone,0,20594,0,0,19
+19027,"Carroll County, Iowa",Some other race alone,191,20594,0.009274545984267262,0.9274545984267262,111
+19027,"Carroll County, Iowa",Two or more races,1069,20594,0.051908322812469654,5.190832281246966,189
+19029,"Cass County, Iowa",Black or African American alone,118,13096,0.00901038485033598,0.9010384850335981,22
+19029,"Cass County, Iowa",American Indian and Alaska Native alone,43,13096,0.0032834453268173486,0.32834453268173486,50
+19029,"Cass County, Iowa",Asian alone,68,13096,0.005192425167990226,0.5192425167990227,22
+19029,"Cass County, Iowa",Native Hawaiian and Pacific Islander alone,54,13096,0.004123396456933414,0.4123396456933414,61
+19029,"Cass County, Iowa",Some other race alone,121,13096,0.009239462431276727,0.9239462431276726,97
+19029,"Cass County, Iowa",Two or more races,308,13096,0.023518631643249847,2.3518631643249845,105
+19031,"Cedar County, Iowa",Black or African American alone,79,18349,0.00430541173905935,0.43054117390593494,53
+19031,"Cedar County, Iowa",American Indian and Alaska Native alone,13,18349,7.084854760477411e-4,0.0708485476047741,15
+19031,"Cedar County, Iowa",Asian alone,96,18349,0.005231892746198703,0.5231892746198703,59
+19031,"Cedar County, Iowa",Native Hawaiian and Pacific Islander alone,10,18349,5.449888277290315e-4,0.05449888277290315,17
+19031,"Cedar County, Iowa",Some other race alone,73,18349,0.003978418442421931,0.3978418442421931,57
+19031,"Cedar County, Iowa",Two or more races,840,18349,0.04577906152923865,4.577906152923865,133
+19033,"Cerro Gordo County, Iowa",Black or African American alone,987,42632,0.023151623193845,2.3151623193844997,235
+19033,"Cerro Gordo County, Iowa",American Indian and Alaska Native alone,77,42632,0.0018061550009382623,0.18061550009382624,48
+19033,"Cerro Gordo County, Iowa",Asian alone,499,42632,0.01170482266841809,1.1704822668418091,95
+19033,"Cerro Gordo County, Iowa",Native Hawaiian and Pacific Islander alone,267,42632,0.006262901107149559,0.6262901107149559,22
+19033,"Cerro Gordo County, Iowa",Some other race alone,291,42632,0.006825858510039407,0.6825858510039408,105
+19033,"Cerro Gordo County, Iowa",Two or more races,2280,42632,0.05348095327453556,5.348095327453556,287
+19035,"Cherokee County, Iowa",Black or African American alone,202,11600,0.017413793103448275,1.7413793103448274,135
+19035,"Cherokee County, Iowa",American Indian and Alaska Native alone,0,11600,0,0,16
+19035,"Cherokee County, Iowa",Asian alone,43,11600,0.003706896551724138,0.3706896551724138,55
+19035,"Cherokee County, Iowa",Native Hawaiian and Pacific Islander alone,0,11600,0,0,16
+19035,"Cherokee County, Iowa",Some other race alone,148,11600,0.012758620689655173,1.2758620689655173,90
+19035,"Cherokee County, Iowa",Two or more races,813,11600,0.07008620689655172,7.008620689655172,202
+19037,"Chickasaw County, Iowa",Black or African American alone,64,11807,0.005420513254848818,0.5420513254848819,38
+19037,"Chickasaw County, Iowa",American Indian and Alaska Native alone,46,11807,0.003895993901922588,0.3895993901922588,47
+19037,"Chickasaw County, Iowa",Asian alone,2,11807,1.6939103921402557e-4,0.01693910392140256,5
+19037,"Chickasaw County, Iowa",Native Hawaiian and Pacific Islander alone,2,11807,1.6939103921402557e-4,0.01693910392140256,5
+19037,"Chickasaw County, Iowa",Some other race alone,84,11807,0.007114423646989074,0.7114423646989074,269
+19037,"Chickasaw County, Iowa",Two or more races,455,11807,0.03853646142119082,3.8536461421190817,290
+19039,"Clarke County, Iowa",Black or African American alone,5,9662,5.174912026495549e-4,0.05174912026495549,11
+19039,"Clarke County, Iowa",American Indian and Alaska Native alone,97,9662,0.010039329331401366,1.0039329331401365,155
+19039,"Clarke County, Iowa",Asian alone,54,9662,0.005588904988615194,0.5588904988615193,35
+19039,"Clarke County, Iowa",Native Hawaiian and Pacific Islander alone,0,9662,0,0,15
+19039,"Clarke County, Iowa",Some other race alone,1022,9662,0.10577520182156903,10.577520182156903,446
+19039,"Clarke County, Iowa",Two or more races,703,9662,0.07275926309252742,7.275926309252742,305
+19041,"Clay County, Iowa",Black or African American alone,45,16461,0.002733734281027884,0.2733734281027884,48
+19041,"Clay County, Iowa",American Indian and Alaska Native alone,26,16461,0.0015794909179272219,0.15794909179272218,27
+19041,"Clay County, Iowa",Asian alone,124,16461,0.007532956685499058,0.7532956685499058,64
+19041,"Clay County, Iowa",Native Hawaiian and Pacific Islander alone,0,16461,0,0,16
+19041,"Clay County, Iowa",Some other race alone,322,16461,0.01956138752202175,1.956138752202175,262
+19041,"Clay County, Iowa",Two or more races,659,16461,0.040034019804386124,4.003401980438612,178
+19043,"Clayton County, Iowa",Black or African American alone,112,17013,0.006583201081525892,0.6583201081525892,66
+19043,"Clayton County, Iowa",American Indian and Alaska Native alone,10,17013,5.877858108505261e-4,0.058778581085052614,9
+19043,"Clayton County, Iowa",Asian alone,56,17013,0.003291600540762946,0.3291600540762946,23
+19043,"Clayton County, Iowa",Native Hawaiian and Pacific Islander alone,0,17013,0,0,16
+19043,"Clayton County, Iowa",Some other race alone,95,17013,0.005583965203079998,0.5583965203079998,52
+19043,"Clayton County, Iowa",Two or more races,581,17013,0.034150355610415566,3.4150355610415564,82
+19045,"Clinton County, Iowa",Black or African American alone,1434,46268,0.030993343131321863,3.099334313132186,247
+19045,"Clinton County, Iowa",American Indian and Alaska Native alone,126,46268,0.002723264459237486,0.2723264459237486,86
+19045,"Clinton County, Iowa",Asian alone,310,46268,0.006700095098123973,0.6700095098123973,100
+19045,"Clinton County, Iowa",Native Hawaiian and Pacific Islander alone,0,46268,0,0,22
+19045,"Clinton County, Iowa",Some other race alone,279,46268,0.006030085588311576,0.6030085588311576,140
+19045,"Clinton County, Iowa",Two or more races,2726,46268,0.05891761044350307,5.891761044350307,408
+19047,"Crawford County, Iowa",Black or African American alone,152,16277,0.009338330159120231,0.9338330159120232,107
+19047,"Crawford County, Iowa",American Indian and Alaska Native alone,117,16277,0.007188056767217546,0.7188056767217547,105
+19047,"Crawford County, Iowa",Asian alone,357,16277,0.021932788597407386,2.1932788597407384,61
+19047,"Crawford County, Iowa",Native Hawaiian and Pacific Islander alone,0,16277,0,0,16
+19047,"Crawford County, Iowa",Some other race alone,1861,16277,0.11433310806659704,11.433310806659703,592
+19047,"Crawford County, Iowa",Two or more races,2985,16277,0.1833876021379861,18.33876021379861,646
+19049,"Dallas County, Iowa",Black or African American alone,3189,107968,0.029536529342027266,2.9536529342027267,394
+19049,"Dallas County, Iowa",American Indian and Alaska Native alone,186,107968,0.001722732661529342,0.1722732661529342,136
+19049,"Dallas County, Iowa",Asian alone,5263,107968,0.04874592471843509,4.874592471843509,371
+19049,"Dallas County, Iowa",Native Hawaiian and Pacific Islander alone,32,107968,2.963841138114997e-4,0.02963841138114997,42
+19049,"Dallas County, Iowa",Some other race alone,1949,107968,0.018051644931831652,1.8051644931831652,588
+19049,"Dallas County, Iowa",Two or more races,6742,107968,0.062444427978660344,6.244442797866034,864
+19051,"Davis County, Iowa",Black or African American alone,0,9157,0,0,15
+19051,"Davis County, Iowa",American Indian and Alaska Native alone,15,9157,0.0016380910778639292,0.16380910778639293,22
+19051,"Davis County, Iowa",Asian alone,1,9157,1.0920607185759528e-4,0.010920607185759528,3
+19051,"Davis County, Iowa",Native Hawaiian and Pacific Islander alone,0,9157,0,0,15
+19051,"Davis County, Iowa",Some other race alone,230,9157,0.025117396527246916,2.5117396527246916,153
+19051,"Davis County, Iowa",Two or more races,269,9157,0.02937643332969313,2.937643332969313,58
+19053,"Decatur County, Iowa",Black or African American alone,102,7759,0.013146023972161362,1.3146023972161363,38
+19053,"Decatur County, Iowa",American Indian and Alaska Native alone,16,7759,0.0020621214073978608,0.20621214073978608,16
+19053,"Decatur County, Iowa",Asian alone,56,7759,0.007217424925892512,0.7217424925892512,30
+19053,"Decatur County, Iowa",Native Hawaiian and Pacific Islander alone,1,7759,1.288825879623663e-4,0.01288825879623663,3
+19053,"Decatur County, Iowa",Some other race alone,107,7759,0.013790436911973193,1.3790436911973192,54
+19053,"Decatur County, Iowa",Two or more races,356,7759,0.0458822013146024,4.58822013146024,99
+19055,"Delaware County, Iowa",Black or African American alone,13,17558,7.40403234992596e-4,0.0740403234992596,20
+19055,"Delaware County, Iowa",American Indian and Alaska Native alone,188,17558,0.010707369859892926,1.0707369859892926,123
+19055,"Delaware County, Iowa",Asian alone,0,17558,0,0,16
+19055,"Delaware County, Iowa",Native Hawaiian and Pacific Islander alone,0,17558,0,0,16
+19055,"Delaware County, Iowa",Some other race alone,90,17558,0.0051258685499487415,0.5125868549948741,84
+19055,"Delaware County, Iowa",Two or more races,731,17558,0.04163344344458367,4.163344344458367,238
+19057,"Des Moines County, Iowa",Black or African American alone,1830,38487,0.04754852287785486,4.754852287785486,282
+19057,"Des Moines County, Iowa",American Indian and Alaska Native alone,126,38487,0.0032738327227375477,0.32738327227375474,93
+19057,"Des Moines County, Iowa",Asian alone,464,38487,0.012056018915477954,1.2056018915477953,139
+19057,"Des Moines County, Iowa",Native Hawaiian and Pacific Islander alone,1,38487,2.5982799386805936e-5,0.0025982799386805935,3
+19057,"Des Moines County, Iowa",Some other race alone,225,38487,0.0058461298620313355,0.5846129862031335,159
+19057,"Des Moines County, Iowa",Two or more races,2951,38487,0.07667524099046431,7.667524099046432,421
+19059,"Dickinson County, Iowa",Black or African American alone,6,17990,3.3351862145636465e-4,0.033351862145636464,5
+19059,"Dickinson County, Iowa",American Indian and Alaska Native alone,10,17990,5.558643690939411e-4,0.055586436909394105,18
+19059,"Dickinson County, Iowa",Asian alone,83,17990,0.004613674263479711,0.4613674263479711,56
+19059,"Dickinson County, Iowa",Native Hawaiian and Pacific Islander alone,0,17990,0,0,16
+19059,"Dickinson County, Iowa",Some other race alone,73,17990,0.00405780989438577,0.40578098943857704,57
+19059,"Dickinson County, Iowa",Two or more races,853,17990,0.04741523068371317,4.741523068371317,153
+19061,"Dubuque County, Iowa",Black or African American alone,2932,99030,0.02960718974048268,2.9607189740482682,339
+19061,"Dubuque County, Iowa",American Indian and Alaska Native alone,39,99030,3.9382005452893065e-4,0.03938200545289307,29
+19061,"Dubuque County, Iowa",Asian alone,1354,99030,0.013672624457235182,1.367262445723518,153
+19061,"Dubuque County, Iowa",Native Hawaiian and Pacific Islander alone,802,99030,0.008098555993133394,0.8098555993133394,46
+19061,"Dubuque County, Iowa",Some other race alone,876,99030,0.00884580430172675,0.884580430172675,245
+19061,"Dubuque County, Iowa",Two or more races,4977,99030,0.050257497727961224,5.0257497727961224,559
+19063,"Emmet County, Iowa",Black or African American alone,152,9262,0.016411142301878644,1.6411142301878643,61
+19063,"Emmet County, Iowa",American Indian and Alaska Native alone,6,9262,6.478082487583676e-4,0.06478082487583675,11
+19063,"Emmet County, Iowa",Asian alone,21,9262,0.0022673288706542864,0.22673288706542863,22
+19063,"Emmet County, Iowa",Native Hawaiian and Pacific Islander alone,5,9262,5.398402072986396e-4,0.05398402072986396,11
+19063,"Emmet County, Iowa",Some other race alone,282,9262,0.030446987691643272,3.0446987691643272,171
+19063,"Emmet County, Iowa",Two or more races,726,9262,0.07838479809976247,7.8384798099762465,226
+19065,"Fayette County, Iowa",Black or African American alone,153,19288,0.007932393197843219,0.7932393197843218,59
+19065,"Fayette County, Iowa",American Indian and Alaska Native alone,69,19288,0.003577353795105765,0.35773537951057655,47
+19065,"Fayette County, Iowa",Asian alone,177,19288,0.00917669017005392,0.917669017005392,62
+19065,"Fayette County, Iowa",Native Hawaiian and Pacific Islander alone,1,19288,5.184570717544587e-5,0.005184570717544587,3
+19065,"Fayette County, Iowa",Some other race alone,78,19288,0.0040439651596847785,0.40439651596847787,44
+19065,"Fayette County, Iowa",Two or more races,1026,19288,0.05319369556200747,5.319369556200747,214
+19067,"Floyd County, Iowa",Black or African American alone,211,15328,0.013765657620041753,1.3765657620041754,58
+19067,"Floyd County, Iowa",American Indian and Alaska Native alone,8,15328,5.219206680584551e-4,0.052192066805845504,10
+19067,"Floyd County, Iowa",Asian alone,247,15328,0.0161143006263048,1.61143006263048,25
+19067,"Floyd County, Iowa",Native Hawaiian and Pacific Islander alone,10,15328,6.524008350730689e-4,0.0652400835073069,18
+19067,"Floyd County, Iowa",Some other race alone,29,15328,0.0018919624217118998,0.18919624217119,34
+19067,"Floyd County, Iowa",Two or more races,1029,15328,0.0671320459290188,6.71320459290188,223
+19069,"Franklin County, Iowa",Black or African American alone,67,9956,0.006729610285255123,0.6729610285255123,65
+19069,"Franklin County, Iowa",American Indian and Alaska Native alone,29,9956,0.0029128163921253516,0.29128163921253514,30
+19069,"Franklin County, Iowa",Asian alone,36,9956,0.0036159100040176776,0.3615910004017678,41
+19069,"Franklin County, Iowa",Native Hawaiian and Pacific Islander alone,0,9956,0,0,15
+19069,"Franklin County, Iowa",Some other race alone,498,9956,0.050020088388911206,5.002008838891121,212
+19069,"Franklin County, Iowa",Two or more races,990,9956,0.09943752511048613,9.943752511048613,231
+19071,"Fremont County, Iowa",Black or African American alone,39,6514,0.005987104697574455,0.5987104697574455,33
+19071,"Fremont County, Iowa",American Indian and Alaska Native alone,5,6514,7.675775253300583e-4,0.07675775253300583,7
+19071,"Fremont County, Iowa",Asian alone,10,6514,0.0015351550506601166,0.15351550506601166,14
+19071,"Fremont County, Iowa",Native Hawaiian and Pacific Islander alone,0,6514,0,0,15
+19071,"Fremont County, Iowa",Some other race alone,20,6514,0.003070310101320233,0.30703101013202333,20
+19071,"Fremont County, Iowa",Two or more races,450,6514,0.06908197727970525,6.908197727970525,119
+19073,"Greene County, Iowa",Black or African American alone,10,8688,0.0011510128913443832,0.11510128913443832,15
+19073,"Greene County, Iowa",American Indian and Alaska Native alone,23,8688,0.002647329650092081,0.2647329650092081,25
+19073,"Greene County, Iowa",Asian alone,55,8688,0.006330570902394107,0.6330570902394107,23
+19073,"Greene County, Iowa",Native Hawaiian and Pacific Islander alone,0,8688,0,0,15
+19073,"Greene County, Iowa",Some other race alone,43,8688,0.0049493554327808475,0.49493554327808476,38
+19073,"Greene County, Iowa",Two or more races,421,8688,0.04845764272559853,4.845764272559853,101
+19075,"Grundy County, Iowa",Black or African American alone,71,12384,0.005733204134366925,0.5733204134366925,31
+19075,"Grundy County, Iowa",American Indian and Alaska Native alone,58,12384,0.004683462532299742,0.4683462532299742,40
+19075,"Grundy County, Iowa",Asian alone,59,12384,0.00476421188630491,0.476421188630491,10
+19075,"Grundy County, Iowa",Native Hawaiian and Pacific Islander alone,0,12384,0,0,16
+19075,"Grundy County, Iowa",Some other race alone,191,12384,0.015423126614987081,1.5423126614987082,94
+19075,"Grundy County, Iowa",Two or more races,228,12384,0.018410852713178296,1.8410852713178296,80
+19077,"Guthrie County, Iowa",Black or African American alone,60,10688,0.00561377245508982,0.561377245508982,44
+19077,"Guthrie County, Iowa",American Indian and Alaska Native alone,15,10688,0.001403443113772455,0.1403443113772455,11
+19077,"Guthrie County, Iowa",Asian alone,50,10688,0.00467814371257485,0.467814371257485,26
+19077,"Guthrie County, Iowa",Native Hawaiian and Pacific Islander alone,27,10688,0.002526197604790419,0.2526197604790419,32
+19077,"Guthrie County, Iowa",Some other race alone,168,10688,0.015718562874251496,1.5718562874251496,63
+19077,"Guthrie County, Iowa",Two or more races,437,10688,0.04088697604790419,4.088697604790419,78
+19079,"Hamilton County, Iowa",Black or African American alone,144,14886,0.009673518742442563,0.9673518742442563,45
+19079,"Hamilton County, Iowa",American Indian and Alaska Native alone,49,14886,0.003291683460970039,0.3291683460970039,34
+19079,"Hamilton County, Iowa",Asian alone,338,14886,0.02270589815934435,2.270589815934435,101
+19079,"Hamilton County, Iowa",Native Hawaiian and Pacific Islander alone,21,14886,0.0014107214832728737,0.14107214832728737,41
+19079,"Hamilton County, Iowa",Some other race alone,347,14886,0.02331049308074701,2.331049308074701,253
+19079,"Hamilton County, Iowa",Two or more races,1117,14886,0.07503694746741905,7.503694746741905,319
+19081,"Hancock County, Iowa",Black or African American alone,48,10671,0.004498172617374192,0.44981726173741915,40
+19081,"Hancock County, Iowa",American Indian and Alaska Native alone,11,10671,0.001030831224814919,0.10308312248149189,16
+19081,"Hancock County, Iowa",Asian alone,133,10671,0.012463686627307657,1.2463686627307657,73
+19081,"Hancock County, Iowa",Native Hawaiian and Pacific Islander alone,0,10671,0,0,16
+19081,"Hancock County, Iowa",Some other race alone,130,10671,0.01218255083872177,1.2182550838721768,88
+19081,"Hancock County, Iowa",Two or more races,379,10671,0.03551682129135039,3.551682129135039,131
+19083,"Hardin County, Iowa",Black or African American alone,180,16639,0.010817957809964541,1.081795780996454,67
+19083,"Hardin County, Iowa",American Indian and Alaska Native alone,152,16639,0.009135164372858946,0.9135164372858946,85
+19083,"Hardin County, Iowa",Asian alone,149,16639,0.008954865076026204,0.8954865076026204,34
+19083,"Hardin County, Iowa",Native Hawaiian and Pacific Islander alone,0,16639,0,0,16
+19083,"Hardin County, Iowa",Some other race alone,433,16639,0.02602319850952581,2.6023198509525813,131
+19083,"Hardin County, Iowa",Two or more races,565,16639,0.03395636757016648,3.3956367570166477,122
+19085,"Harrison County, Iowa",Black or African American alone,18,14632,0.0012301804264625478,0.12301804264625478,18
+19085,"Harrison County, Iowa",American Indian and Alaska Native alone,9,14632,6.150902132312739e-4,0.06150902132312739,15
+19085,"Harrison County, Iowa",Asian alone,43,14632,0.0029387643521049753,0.29387643521049756,29
+19085,"Harrison County, Iowa",Native Hawaiian and Pacific Islander alone,0,14632,0,0,16
+19085,"Harrison County, Iowa",Some other race alone,93,14632,0.006355932203389831,0.6355932203389831,59
+19085,"Harrison County, Iowa",Two or more races,587,14632,0.0401175505740842,4.01175505740842,104
+19087,"Henry County, Iowa",Black or African American alone,510,20004,0.02549490101979604,2.549490101979604,76
+19087,"Henry County, Iowa",American Indian and Alaska Native alone,106,20004,0.005298940211957609,0.5298940211957609,87
+19087,"Henry County, Iowa",Asian alone,205,20004,0.010247950409918017,1.0247950409918016,110
+19087,"Henry County, Iowa",Native Hawaiian and Pacific Islander alone,7,20004,3.4993001399720057e-4,0.03499300139972006,13
+19087,"Henry County, Iowa",Some other race alone,379,20004,0.01894621075784843,1.8946210757848432,145
+19087,"Henry County, Iowa",Two or more races,1160,20004,0.05798840231953609,5.798840231953609,224
+19089,"Howard County, Iowa",Black or African American alone,79,9445,0.008364213869772366,0.8364213869772366,47
+19089,"Howard County, Iowa",American Indian and Alaska Native alone,23,9445,0.002435150873478031,0.24351508734780308,16
+19089,"Howard County, Iowa",Asian alone,31,9445,0.00328215987294865,0.328215987294865,17
+19089,"Howard County, Iowa",Native Hawaiian and Pacific Islander alone,0,9445,0,0,15
+19089,"Howard County, Iowa",Some other race alone,174,9445,0.018422445738485973,1.8422445738485973,92
+19089,"Howard County, Iowa",Two or more races,338,9445,0.03578613022763367,3.578613022763367,106
+19091,"Humboldt County, Iowa",Black or African American alone,32,9591,0.0033364612657699926,0.33364612657699927,30
+19091,"Humboldt County, Iowa",American Indian and Alaska Native alone,16,9591,0.0016682306328849963,0.16682306328849963,19
+19091,"Humboldt County, Iowa",Asian alone,98,9591,0.010217912626420602,1.0217912626420602,76
+19091,"Humboldt County, Iowa",Native Hawaiian and Pacific Islander alone,70,9591,0.007298509018871859,0.7298509018871859,86
+19091,"Humboldt County, Iowa",Some other race alone,278,9591,0.028985507246376812,2.898550724637681,119
+19091,"Humboldt County, Iowa",Two or more races,359,9591,0.037430924825357106,3.743092482535711,119
+19093,"Ida County, Iowa",Black or African American alone,23,6911,0.003328027781797135,0.33280277817971354,27
+19093,"Ida County, Iowa",American Indian and Alaska Native alone,32,6911,0.004630299522500362,0.4630299522500362,42
+19093,"Ida County, Iowa",Asian alone,46,6911,0.00665605556359427,0.6656055563594271,37
+19093,"Ida County, Iowa",Native Hawaiian and Pacific Islander alone,0,6911,0,0,15
+19093,"Ida County, Iowa",Some other race alone,97,6911,0.014035595427579222,1.4035595427579222,41
+19093,"Ida County, Iowa",Two or more races,318,6911,0.046013601504847346,4.601360150484735,92
+19095,"Iowa County, Iowa",Black or African American alone,54,16507,0.003271339431756225,0.3271339431756225,40
+19095,"Iowa County, Iowa",American Indian and Alaska Native alone,15,16507,9.087053977100624e-4,0.09087053977100623,16
+19095,"Iowa County, Iowa",Asian alone,40,16507,0.0024232143938934998,0.24232143938934997,42
+19095,"Iowa County, Iowa",Native Hawaiian and Pacific Islander alone,0,16507,0,0,16
+19095,"Iowa County, Iowa",Some other race alone,193,16507,0.011692009450536136,1.1692009450536136,157
+19095,"Iowa County, Iowa",Two or more races,672,16507,0.040710001817410794,4.07100018174108,202
+19097,"Jackson County, Iowa",Black or African American alone,189,19390,0.009747292418772563,0.9747292418772563,110
+19097,"Jackson County, Iowa",American Indian and Alaska Native alone,13,19390,6.704486848891181e-4,0.06704486848891181,19
+19097,"Jackson County, Iowa",Asian alone,22,19390,0.0011346054667354306,0.11346054667354306,28
+19097,"Jackson County, Iowa",Native Hawaiian and Pacific Islander alone,90,19390,0.0046415678184631255,0.46415678184631254,121
+19097,"Jackson County, Iowa",Some other race alone,135,19390,0.006962351727694688,0.6962351727694688,95
+19097,"Jackson County, Iowa",Two or more races,521,19390,0.026869520371325426,2.6869520371325426,106
+19099,"Jasper County, Iowa",Black or African American alone,583,37954,0.015360699794488064,1.5360699794488064,131
+19099,"Jasper County, Iowa",American Indian and Alaska Native alone,32,37954,8.431258892343364e-4,0.08431258892343363,22
+19099,"Jasper County, Iowa",Asian alone,281,37954,0.007403699214839016,0.7403699214839016,76
+19099,"Jasper County, Iowa",Native Hawaiian and Pacific Islander alone,65,37954,0.0017125994625072456,0.17125994625072455,101
+19099,"Jasper County, Iowa",Some other race alone,583,37954,0.015360699794488064,1.5360699794488064,180
+19099,"Jasper County, Iowa",Two or more races,1604,37954,0.04226168519787111,4.226168519787111,380
+19101,"Jefferson County, Iowa",Black or African American alone,399,15705,0.025405921680993315,2.5405921680993315,64
+19101,"Jefferson County, Iowa",American Indian and Alaska Native alone,123,15705,0.007831900668576886,0.7831900668576885,138
+19101,"Jefferson County, Iowa",Asian alone,1285,15705,0.08182107609041707,8.182107609041706,65
+19101,"Jefferson County, Iowa",Native Hawaiian and Pacific Islander alone,0,15705,0,0,16
+19101,"Jefferson County, Iowa",Some other race alone,102,15705,0.006494746895893027,0.6494746895893028,61
+19101,"Jefferson County, Iowa",Two or more races,543,15705,0.03457497612225406,3.457497612225406,162
+19103,"Johnson County, Iowa",Black or African American alone,12059,156639,0.07698593581419698,7.698593581419698,589
+19103,"Johnson County, Iowa",American Indian and Alaska Native alone,273,156639,0.0017428609733208206,0.17428609733208206,107
+19103,"Johnson County, Iowa",Asian alone,8849,156639,0.056492955138886226,5.649295513888623,488
+19103,"Johnson County, Iowa",Native Hawaiian and Pacific Islander alone,31,156639,1.9790729001078913e-4,0.019790729001078915,32
+19103,"Johnson County, Iowa",Some other race alone,3677,156639,0.023474358237731346,2.3474358237731345,614
+19103,"Johnson County, Iowa",Two or more races,12096,156639,0.07722214774098404,7.722214774098404,1102
+19105,"Jones County, Iowa",Black or African American alone,514,20896,0.02459800918836141,2.459800918836141,56
+19105,"Jones County, Iowa",American Indian and Alaska Native alone,17,20896,8.135528330781011e-4,0.08135528330781011,15
+19105,"Jones County, Iowa",Asian alone,128,20896,0.006125574272588055,0.6125574272588056,13
+19105,"Jones County, Iowa",Native Hawaiian and Pacific Islander alone,0,20896,0,0,19
+19105,"Jones County, Iowa",Some other race alone,207,20896,0.009906202143950995,0.9906202143950995,153
+19105,"Jones County, Iowa",Two or more races,829,20896,0.039672664624808576,3.9672664624808576,226
+19107,"Keokuk County, Iowa",Black or African American alone,26,9924,0.0026199113260781943,0.2619911326078194,19
+19107,"Keokuk County, Iowa",American Indian and Alaska Native alone,9,9924,9.068923821039903e-4,0.09068923821039904,10
+19107,"Keokuk County, Iowa",Asian alone,20,9924,0.002015316404675534,0.2015316404675534,16
+19107,"Keokuk County, Iowa",Native Hawaiian and Pacific Islander alone,0,9924,0,0,15
+19107,"Keokuk County, Iowa",Some other race alone,97,9924,0.00977428456267634,0.9774284562676341,44
+19107,"Keokuk County, Iowa",Two or more races,319,9924,0.032144296654574765,3.2144296654574767,45
+19109,"Kossuth County, Iowa",Black or African American alone,104,14516,0.0071645081289611464,0.7164508128961147,54
+19109,"Kossuth County, Iowa",American Indian and Alaska Native alone,19,14516,0.0013089005235602095,0.13089005235602094,20
+19109,"Kossuth County, Iowa",Asian alone,60,14516,0.004133370074400662,0.4133370074400662,15
+19109,"Kossuth County, Iowa",Native Hawaiian and Pacific Islander alone,8,14516,5.511160099200882e-4,0.055111600992008826,9
+19109,"Kossuth County, Iowa",Some other race alone,248,14516,0.017084596307522733,1.7084596307522733,199
+19109,"Kossuth County, Iowa",Two or more races,648,14516,0.04464039680352714,4.464039680352714,238
+19111,"Lee County, Iowa",Black or African American alone,815,32893,0.02477730824187517,2.477730824187517,142
+19111,"Lee County, Iowa",American Indian and Alaska Native alone,35,32893,0.0010640561821664183,0.10640561821664184,29
+19111,"Lee County, Iowa",Asian alone,185,32893,0.00562429696287964,0.562429696287964,71
+19111,"Lee County, Iowa",Native Hawaiian and Pacific Islander alone,21,32893,6.38433709299851e-4,0.0638433709299851,33
+19111,"Lee County, Iowa",Some other race alone,348,32893,0.010579758611254673,1.0579758611254673,135
+19111,"Lee County, Iowa",Two or more races,1536,32893,0.04669686559450339,4.669686559450339,256
+19113,"Linn County, Iowa",Black or African American alone,13735,230004,0.05971635275908245,5.971635275908245,865
+19113,"Linn County, Iowa",American Indian and Alaska Native alone,507,230004,0.0022043094902697343,0.22043094902697344,221
+19113,"Linn County, Iowa",Asian alone,5504,230004,0.023930018608372027,2.393001860837203,395
+19113,"Linn County, Iowa",Native Hawaiian and Pacific Islander alone,53,230004,2.3043077511695448e-4,0.02304307751169545,61
+19113,"Linn County, Iowa",Some other race alone,2821,230004,0.012265004086885446,1.2265004086885447,670
+19113,"Linn County, Iowa",Two or more races,15022,230004,0.06531190761899792,6.531190761899793,1206
+19115,"Louisa County, Iowa",Black or African American alone,110,10678,0.01030155459823937,1.030155459823937,74
+19115,"Louisa County, Iowa",American Indian and Alaska Native alone,67,10678,0.006274583255291253,0.6274583255291253,51
+19115,"Louisa County, Iowa",Asian alone,231,10678,0.021633264656302678,2.1633264656302678,79
+19115,"Louisa County, Iowa",Native Hawaiian and Pacific Islander alone,0,10678,0,0,16
+19115,"Louisa County, Iowa",Some other race alone,983,10678,0.09205843790972092,9.205843790972091,181
+19115,"Louisa County, Iowa",Two or more races,858,10678,0.0803521258662671,8.03521258662671,190
+19117,"Lucas County, Iowa",Black or African American alone,25,8716,0.0028682882055988987,0.28682882055988984,14
+19117,"Lucas County, Iowa",American Indian and Alaska Native alone,1,8716,1.1473152822395595e-4,0.011473152822395595,2
+19117,"Lucas County, Iowa",Asian alone,73,8716,0.008375401560348784,0.8375401560348784,35
+19117,"Lucas County, Iowa",Native Hawaiian and Pacific Islander alone,0,8716,0,0,15
+19117,"Lucas County, Iowa",Some other race alone,168,8716,0.019274896741624598,1.9274896741624599,100
+19117,"Lucas County, Iowa",Two or more races,234,8716,0.026847177604405692,2.684717760440569,110
+19119,"Lyon County, Iowa",Black or African American alone,43,12162,0.003535602696924848,0.3535602696924848,25
+19119,"Lyon County, Iowa",American Indian and Alaska Native alone,19,12162,0.001562243052129584,0.15622430521295838,20
+19119,"Lyon County, Iowa",Asian alone,59,12162,0.004851175793455024,0.4851175793455024,26
+19119,"Lyon County, Iowa",Native Hawaiian and Pacific Islander alone,4,12162,3.28893274132544e-4,0.0328893274132544,7
+19119,"Lyon County, Iowa",Some other race alone,146,12162,0.012004604505837856,1.2004604505837857,59
+19119,"Lyon County, Iowa",Two or more races,495,12162,0.04070054267390232,4.0700542673902325,82
+19121,"Madison County, Iowa",Black or African American alone,149,16926,0.00880302493205719,0.880302493205719,56
+19121,"Madison County, Iowa",American Indian and Alaska Native alone,16,16926,9.45291267871913e-4,0.0945291267871913,25
+19121,"Madison County, Iowa",Asian alone,76,16926,0.004490133522391587,0.44901335223915867,49
+19121,"Madison County, Iowa",Native Hawaiian and Pacific Islander alone,8,16926,4.726456339359565e-4,0.04726456339359565,14
+19121,"Madison County, Iowa",Some other race alone,72,16926,0.004253810705423609,0.42538107054236085,51
+19121,"Madison County, Iowa",Two or more races,504,16926,0.02977667493796526,2.977667493796526,143
+19123,"Mahaska County, Iowa",Black or African American alone,293,22021,0.013305481131647064,1.3305481131647063,83
+19123,"Mahaska County, Iowa",American Indian and Alaska Native alone,18,22021,8.174015712274647e-4,0.08174015712274647,23
+19123,"Mahaska County, Iowa",Asian alone,229,22021,0.010399164433949412,1.0399164433949413,83
+19123,"Mahaska County, Iowa",Native Hawaiian and Pacific Islander alone,65,22021,0.002951727896099178,0.2951727896099178,76
+19123,"Mahaska County, Iowa",Some other race alone,151,22021,0.006857090958630398,0.6857090958630397,79
+19123,"Mahaska County, Iowa",Two or more races,955,22021,0.043367694473457154,4.3367694473457155,187
+19125,"Marion County, Iowa",Black or African American alone,141,33642,0.004191189584448011,0.4191189584448011,68
+19125,"Marion County, Iowa",American Indian and Alaska Native alone,12,33642,3.566969859104691e-4,0.035669698591046906,12
+19125,"Marion County, Iowa",Asian alone,473,33642,0.014059806194637656,1.4059806194637656,94
+19125,"Marion County, Iowa",Native Hawaiian and Pacific Islander alone,0,33642,0,0,22
+19125,"Marion County, Iowa",Some other race alone,217,33642,0.006450270495214316,0.6450270495214316,142
+19125,"Marion County, Iowa",Two or more races,1039,33642,0.030884014030081446,3.0884014030081444,186
+19127,"Marshall County, Iowa",Black or African American alone,824,40114,0.02054145684798325,2.054145684798325,295
+19127,"Marshall County, Iowa",American Indian and Alaska Native alone,506,40114,0.01261404995762078,1.261404995762078,334
+19127,"Marshall County, Iowa",Asian alone,1652,40114,0.04118262950590816,4.118262950590816,167
+19127,"Marshall County, Iowa",Native Hawaiian and Pacific Islander alone,0,40114,0,0,22
+19127,"Marshall County, Iowa",Some other race alone,3289,40114,0.08199132472453508,8.199132472453508,803
+19127,"Marshall County, Iowa",Two or more races,5513,40114,0.13743331505210152,13.743331505210152,914
+19129,"Mills County, Iowa",Black or African American alone,59,14568,0.004049972542559033,0.4049972542559033,50
+19129,"Mills County, Iowa",American Indian and Alaska Native alone,16,14568,0.001098297638660077,0.10982976386600769,17
+19129,"Mills County, Iowa",Asian alone,82,14568,0.005628775398132894,0.5628775398132894,38
+19129,"Mills County, Iowa",Native Hawaiian and Pacific Islander alone,0,14568,0,0,16
+19129,"Mills County, Iowa",Some other race alone,62,14568,0.004255903349807798,0.4255903349807798,62
+19129,"Mills County, Iowa",Two or more races,744,14568,0.051070840197693576,5.107084019769357,130
+19131,"Mitchell County, Iowa",Black or African American alone,37,10575,0.0034988179669030732,0.34988179669030733,32
+19131,"Mitchell County, Iowa",American Indian and Alaska Native alone,34,10575,0.003215130023640662,0.3215130023640662,38
+19131,"Mitchell County, Iowa",Asian alone,64,10575,0.006052009456264776,0.6052009456264775,9
+19131,"Mitchell County, Iowa",Native Hawaiian and Pacific Islander alone,0,10575,0,0,16
+19131,"Mitchell County, Iowa",Some other race alone,105,10575,0.009929078014184398,0.9929078014184398,46
+19131,"Mitchell County, Iowa",Two or more races,197,10575,0.018628841607565012,1.8628841607565012,66
+19133,"Monona County, Iowa",Black or African American alone,21,8557,0.0024541311207198786,0.24541311207198785,25
+19133,"Monona County, Iowa",American Indian and Alaska Native alone,40,8557,0.004674535468037864,0.4674535468037864,41
+19133,"Monona County, Iowa",Asian alone,0,8557,0,0,15
+19133,"Monona County, Iowa",Native Hawaiian and Pacific Islander alone,0,8557,0,0,15
+19133,"Monona County, Iowa",Some other race alone,5,8557,5.84316933504733e-4,0.0584316933504733,10
+19133,"Monona County, Iowa",Two or more races,497,8557,0.05808110319037046,5.808110319037046,64
+19135,"Monroe County, Iowa",Black or African American alone,90,7513,0.011979235990949022,1.1979235990949022,62
+19135,"Monroe County, Iowa",American Indian and Alaska Native alone,11,7513,0.0014641288433382138,0.14641288433382138,18
+19135,"Monroe County, Iowa",Asian alone,35,7513,0.004658591774257953,0.4658591774257953,25
+19135,"Monroe County, Iowa",Native Hawaiian and Pacific Islander alone,3,7513,3.993078663649674e-4,0.03993078663649674,10
+19135,"Monroe County, Iowa",Some other race alone,17,7513,0.0022627445760681486,0.22627445760681486,23
+19135,"Monroe County, Iowa",Two or more races,211,7513,0.028084653267669374,2.8084653267669375,75
+19137,"Montgomery County, Iowa",Black or African American alone,184,10214,0.018014489915801842,1.8014489915801841,101
+19137,"Montgomery County, Iowa",American Indian and Alaska Native alone,6,10214,5.874290189935383e-4,0.05874290189935383,7
+19137,"Montgomery County, Iowa",Asian alone,109,10214,0.010671627178382612,1.0671627178382612,69
+19137,"Montgomery County, Iowa",Native Hawaiian and Pacific Islander alone,37,10214,0.0036224789504601526,0.36224789504601523,42
+19137,"Montgomery County, Iowa",Some other race alone,130,10214,0.012727628744859996,1.2727628744859996,85
+19137,"Montgomery County, Iowa",Two or more races,337,10214,0.03299392990013707,3.2993929900137067,120
+19139,"Muscatine County, Iowa",Black or African American alone,958,42559,0.022509927394910596,2.2509927394910596,252
+19139,"Muscatine County, Iowa",American Indian and Alaska Native alone,136,42559,0.0031955638055405438,0.3195563805540544,89
+19139,"Muscatine County, Iowa",Asian alone,272,42559,0.0063911276110810876,0.6391127611081088,114
+19139,"Muscatine County, Iowa",Native Hawaiian and Pacific Islander alone,0,42559,0,0,22
+19139,"Muscatine County, Iowa",Some other race alone,3491,42559,0.08202730327310322,8.202730327310322,653
+19139,"Muscatine County, Iowa",Two or more races,3405,42559,0.08000657910195258,8.000657910195258,591
+19141,"O'Brien County, Iowa",Black or African American alone,240,14126,0.01698994761432819,1.6989947614328191,48
+19141,"O'Brien County, Iowa",American Indian and Alaska Native alone,55,14126,0.0038935296616168765,0.38935296616168763,55
+19141,"O'Brien County, Iowa",Asian alone,92,14126,0.006512813252159139,0.6512813252159139,32
+19141,"O'Brien County, Iowa",Native Hawaiian and Pacific Islander alone,22,14126,0.0015574118646467508,0.15574118646467508,10
+19141,"O'Brien County, Iowa",Some other race alone,487,14126,0.03447543536740762,3.4475435367407616,145
+19141,"O'Brien County, Iowa",Two or more races,872,14126,0.06173014299872576,6.173014299872576,251
+19143,"Osceola County, Iowa",Black or African American alone,29,6100,0.004754098360655738,0.4754098360655738,40
+19143,"Osceola County, Iowa",American Indian and Alaska Native alone,65,6100,0.010655737704918032,1.0655737704918031,53
+19143,"Osceola County, Iowa",Asian alone,35,6100,0.005737704918032787,0.5737704918032787,19
+19143,"Osceola County, Iowa",Native Hawaiian and Pacific Islander alone,0,6100,0,0,15
+19143,"Osceola County, Iowa",Some other race alone,126,6100,0.020655737704918034,2.0655737704918034,102
+19143,"Osceola County, Iowa",Two or more races,619,6100,0.10147540983606558,10.147540983606557,157
+19145,"Page County, Iowa",Black or African American alone,259,15131,0.01711717665719384,1.7117176657193838,80
+19145,"Page County, Iowa",American Indian and Alaska Native alone,83,15131,0.005485427268521578,0.5485427268521579,43
+19145,"Page County, Iowa",Asian alone,99,15131,0.006542859031128148,0.6542859031128148,84
+19145,"Page County, Iowa",Native Hawaiian and Pacific Islander alone,2,15131,1.3217897032582115e-4,0.013217897032582115,5
+19145,"Page County, Iowa",Some other race alone,125,15131,0.008261185645363822,0.8261185645363822,77
+19145,"Page County, Iowa",Two or more races,723,15131,0.04778269777278435,4.778269777278435,157
+19147,"Palo Alto County, Iowa",Black or African American alone,145,8863,0.016360148933769605,1.6360148933769605,30
+19147,"Palo Alto County, Iowa",American Indian and Alaska Native alone,21,8863,0.002369400880063184,0.2369400880063184,22
+19147,"Palo Alto County, Iowa",Asian alone,57,8863,0.006431230960171499,0.6431230960171499,32
+19147,"Palo Alto County, Iowa",Native Hawaiian and Pacific Islander alone,0,8863,0,0,15
+19147,"Palo Alto County, Iowa",Some other race alone,124,8863,0.01399074805370642,1.399074805370642,46
+19147,"Palo Alto County, Iowa",Two or more races,399,8863,0.0450186167212005,4.50186167212005,121
+19149,"Plymouth County, Iowa",Black or African American alone,615,25747,0.023886278012972384,2.3886278012972384,64
+19149,"Plymouth County, Iowa",American Indian and Alaska Native alone,110,25747,0.004272342408824329,0.4272342408824329,52
+19149,"Plymouth County, Iowa",Asian alone,135,25747,0.0052433293199207675,0.5243329319920768,25
+19149,"Plymouth County, Iowa",Native Hawaiian and Pacific Islander alone,112,25747,0.004350021361712044,0.43500213617120437,81
+19149,"Plymouth County, Iowa",Some other race alone,531,25747,0.02062376199168835,2.062376199168835,269
+19149,"Plymouth County, Iowa",Two or more races,1222,25747,0.04746184021439391,4.746184021439391,249
+19151,"Pocahontas County, Iowa",Black or African American alone,91,7046,0.012915129151291513,1.2915129151291513,62
+19151,"Pocahontas County, Iowa",American Indian and Alaska Native alone,17,7046,0.0024127164348566564,0.24127164348566565,14
+19151,"Pocahontas County, Iowa",Asian alone,12,7046,0.0017030939540164632,0.17030939540164633,18
+19151,"Pocahontas County, Iowa",Native Hawaiian and Pacific Islander alone,55,7046,0.007805847289242124,0.7805847289242124,55
+19151,"Pocahontas County, Iowa",Some other race alone,167,7046,0.023701390860062448,2.370139086006245,59
+19151,"Pocahontas County, Iowa",Two or more races,377,7046,0.05350553505535055,5.350553505535055,93
+19153,"Polk County, Iowa",Black or African American alone,37401,503175,0.0743300044716053,7.43300044716053,1278
+19153,"Polk County, Iowa",American Indian and Alaska Native alone,1562,503175,0.0031042877726437123,0.31042877726437124,557
+19153,"Polk County, Iowa",Asian alone,25053,503175,0.049789834550603665,4.978983455060367,638
+19153,"Polk County, Iowa",Native Hawaiian and Pacific Islander alone,238,503175,4.7299647240025834e-4,0.04729964724002583,163
+19153,"Polk County, Iowa",Some other race alone,18722,503175,0.037207730908729565,3.7207730908729566,1778
+19153,"Polk County, Iowa",Two or more races,38930,503175,0.07736870869975655,7.736870869975656,2437
+19155,"Pottawattamie County, Iowa",Black or African American alone,1810,93424,0.01937403665011132,1.937403665011132,401
+19155,"Pottawattamie County, Iowa",American Indian and Alaska Native alone,253,93424,0.002708083575954787,0.27080835759547867,112
+19155,"Pottawattamie County, Iowa",Asian alone,829,93424,0.008873522863504025,0.8873522863504025,153
+19155,"Pottawattamie County, Iowa",Native Hawaiian and Pacific Islander alone,163,93424,0.0017447336872752183,0.17447336872752184,24
+19155,"Pottawattamie County, Iowa",Some other race alone,2083,93424,0.022296197979106012,2.229619797910601,444
+19155,"Pottawattamie County, Iowa",Two or more races,6525,93424,0.06984286692926871,6.9842866929268705,826
+19157,"Poweshiek County, Iowa",Black or African American alone,193,18545,0.010407117821515233,1.0407117821515233,67
+19157,"Poweshiek County, Iowa",American Indian and Alaska Native alone,56,18545,0.003019681854947425,0.3019681854947425,44
+19157,"Poweshiek County, Iowa",Asian alone,380,18545,0.020490698301428956,2.0490698301428956,39
+19157,"Poweshiek County, Iowa",Native Hawaiian and Pacific Islander alone,0,18545,0,0,16
+19157,"Poweshiek County, Iowa",Some other race alone,185,18545,0.009975734699379887,0.9975734699379888,110
+19157,"Poweshiek County, Iowa",Two or more races,977,18545,0.05268266379077918,5.268266379077918,249
+19159,"Ringgold County, Iowa",Black or African American alone,18,4645,0.0038751345532831,0.38751345532831,37
+19159,"Ringgold County, Iowa",American Indian and Alaska Native alone,16,4645,0.003444564047362756,0.3444564047362756,22
+19159,"Ringgold County, Iowa",Asian alone,0,4645,0,0,10
+19159,"Ringgold County, Iowa",Native Hawaiian and Pacific Islander alone,0,4645,0,0,10
+19159,"Ringgold County, Iowa",Some other race alone,0,4645,0,0,10
+19159,"Ringgold County, Iowa",Two or more races,138,4645,0.029709364908503767,2.970936490850377,47
+19161,"Sac County, Iowa",Black or African American alone,49,9689,0.005057281453194344,0.5057281453194344,57
+19161,"Sac County, Iowa",American Indian and Alaska Native alone,8,9689,8.256786046031583e-4,0.08256786046031583,10
+19161,"Sac County, Iowa",Asian alone,63,9689,0.006502219011249871,0.6502219011249871,42
+19161,"Sac County, Iowa",Native Hawaiian and Pacific Islander alone,17,9689,0.0017545670347817112,0.17545670347817113,26
+19161,"Sac County, Iowa",Some other race alone,194,9689,0.02002270616162659,2.002270616162659,62
+19161,"Sac County, Iowa",Two or more races,376,9689,0.038806894416348436,3.8806894416348436,113
+19163,"Scott County, Iowa",Black or African American alone,12617,174608,0.07225900302391643,7.225900302391643,675
+19163,"Scott County, Iowa",American Indian and Alaska Native alone,332,174608,0.0019014019976175203,0.19014019976175203,102
+19163,"Scott County, Iowa",Asian alone,4993,174608,0.02859548245212132,2.859548245212132,303
+19163,"Scott County, Iowa",Native Hawaiian and Pacific Islander alone,92,174608,5.268945294602767e-4,0.05268945294602767,47
+19163,"Scott County, Iowa",Some other race alone,3477,174608,0.019913176944928068,1.9913176944928068,730
+19163,"Scott County, Iowa",Two or more races,14978,174608,0.08578072024191331,8.578072024191332,1053
+19165,"Shelby County, Iowa",Black or African American alone,37,11778,0.003141450161317711,0.3141450161317711,51
+19165,"Shelby County, Iowa",American Indian and Alaska Native alone,101,11778,0.008575309899813211,0.8575309899813212,60
+19165,"Shelby County, Iowa",Asian alone,56,11778,0.004754627271183563,0.47546272711835624,85
+19165,"Shelby County, Iowa",Native Hawaiian and Pacific Islander alone,0,11778,0,0,16
+19165,"Shelby County, Iowa",Some other race alone,212,11778,0.017999660383766346,1.7999660383766345,64
+19165,"Shelby County, Iowa",Two or more races,518,11778,0.043980302258447956,4.398030225844796,148
+19167,"Sioux County, Iowa",Black or African American alone,214,36212,0.005909643212194853,0.5909643212194853,48
+19167,"Sioux County, Iowa",American Indian and Alaska Native alone,130,36212,0.003589970175632387,0.3589970175632387,112
+19167,"Sioux County, Iowa",Asian alone,197,36212,0.005440185573842925,0.5440185573842925,76
+19167,"Sioux County, Iowa",Native Hawaiian and Pacific Islander alone,6,36212,1.6569093118303324e-4,0.016569093118303322,7
+19167,"Sioux County, Iowa",Some other race alone,2483,36212,0.06856843035457859,6.8568430354578584,650
+19167,"Sioux County, Iowa",Two or more races,2391,36212,0.06602783607643875,6.602783607643875,600
+19169,"Story County, Iowa",Black or African American alone,2796,100466,0.027830310751896164,2.7830310751896166,264
+19169,"Story County, Iowa",American Indian and Alaska Native alone,465,100466,0.00462843150916728,0.462843150916728,214
+19169,"Story County, Iowa",Asian alone,6641,100466,0.06610196484382776,6.610196484382776,487
+19169,"Story County, Iowa",Native Hawaiian and Pacific Islander alone,110,100466,0.0010948977763621524,0.10948977763621523,86
+19169,"Story County, Iowa",Some other race alone,1819,100466,0.0181056277745705,1.81056277745705,365
+19169,"Story County, Iowa",Two or more races,5804,100466,0.05777078812732666,5.7770788127326655,725
+19171,"Tama County, Iowa",Black or African American alone,207,16868,0.012271757173345981,1.227175717334598,75
+19171,"Tama County, Iowa",American Indian and Alaska Native alone,1029,16868,0.06100308276025611,6.10030827602561,102
+19171,"Tama County, Iowa",Asian alone,116,16868,0.006876926725160067,0.6876926725160066,22
+19171,"Tama County, Iowa",Native Hawaiian and Pacific Islander alone,6,16868,3.5570310647379654e-4,0.03557031064737966,10
+19171,"Tama County, Iowa",Some other race alone,360,16868,0.021342186388427793,2.1342186388427793,219
+19171,"Tama County, Iowa",Two or more races,1691,16868,0.10024899217453166,10.024899217453166,257
+19173,"Taylor County, Iowa",Black or African American alone,10,5868,0.0017041581458759373,0.17041581458759372,10
+19173,"Taylor County, Iowa",American Indian and Alaska Native alone,18,5868,0.003067484662576687,0.3067484662576687,28
+19173,"Taylor County, Iowa",Asian alone,9,5868,0.0015337423312883436,0.15337423312883436,16
+19173,"Taylor County, Iowa",Native Hawaiian and Pacific Islander alone,0,5868,0,0,15
+19173,"Taylor County, Iowa",Some other race alone,319,5868,0.0543626448534424,5.43626448534424,87
+19173,"Taylor County, Iowa",Two or more races,219,5868,0.037321063394683024,3.7321063394683023,53
+19175,"Union County, Iowa",Black or African American alone,196,11993,0.016342866672225464,1.6342866672225465,131
+19175,"Union County, Iowa",American Indian and Alaska Native alone,16,11993,0.0013341115650796298,0.13341115650796298,25
+19175,"Union County, Iowa",Asian alone,106,11993,0.008838489118652548,0.8838489118652547,73
+19175,"Union County, Iowa",Native Hawaiian and Pacific Islander alone,0,11993,0,0,16
+19175,"Union County, Iowa",Some other race alone,173,11993,0.014425081297423497,1.4425081297423497,58
+19175,"Union County, Iowa",Two or more races,371,11993,0.030934711915283915,3.0934711915283915,114
+19177,"Van Buren County, Iowa",Black or African American alone,31,7241,0.004281176633061732,0.4281176633061732,13
+19177,"Van Buren County, Iowa",American Indian and Alaska Native alone,4,7241,5.524098881369977e-4,0.055240988813699765,6
+19177,"Van Buren County, Iowa",Asian alone,3,7241,4.143074161027482e-4,0.041430741610274824,4
+19177,"Van Buren County, Iowa",Native Hawaiian and Pacific Islander alone,0,7241,0,0,15
+19177,"Van Buren County, Iowa",Some other race alone,74,7241,0.010219582930534456,1.0219582930534457,63
+19177,"Van Buren County, Iowa",Two or more races,215,7241,0.029692031487363622,2.969203148736362,47
+19179,"Wapello County, Iowa",Black or African American alone,1068,35362,0.03020191165658051,3.020191165658051,239
+19179,"Wapello County, Iowa",American Indian and Alaska Native alone,155,35362,0.004383236242293988,0.4383236242293988,135
+19179,"Wapello County, Iowa",Asian alone,634,35362,0.017928850178157343,1.7928850178157343,212
+19179,"Wapello County, Iowa",Native Hawaiian and Pacific Islander alone,857,35362,0.024235054578360952,2.4235054578360953,22
+19179,"Wapello County, Iowa",Some other race alone,1508,35362,0.0426446467959957,4.26446467959957,367
+19179,"Wapello County, Iowa",Two or more races,3175,35362,0.08978564560828008,8.978564560828008,519
+19181,"Warren County, Iowa",Black or African American alone,405,54409,0.0074436214596849785,0.7443621459684978,110
+19181,"Warren County, Iowa",American Indian and Alaska Native alone,154,54409,0.0028304140859049054,0.28304140859049054,126
+19181,"Warren County, Iowa",Asian alone,407,54409,0.00748038008417725,0.748038008417725,111
+19181,"Warren County, Iowa",Native Hawaiian and Pacific Islander alone,8,54409,1.4703449796908599e-4,0.014703449796908599,13
+19181,"Warren County, Iowa",Some other race alone,329,54409,0.006046793728978661,0.6046793728978661,154
+19181,"Warren County, Iowa",Two or more races,2530,54409,0.04649965998272344,4.649965998272345,335
+19183,"Washington County, Iowa",Black or African American alone,236,22561,0.01046052923186029,1.046052923186029,93
+19183,"Washington County, Iowa",American Indian and Alaska Native alone,2,22561,8.864855281237534e-5,0.008864855281237535,4
+19183,"Washington County, Iowa",Asian alone,87,22561,0.003856212047338327,0.3856212047338327,64
+19183,"Washington County, Iowa",Native Hawaiian and Pacific Islander alone,4,22561,1.7729710562475068e-4,0.01772971056247507,8
+19183,"Washington County, Iowa",Some other race alone,714,22561,0.031647533354017994,3.1647533354017994,212
+19183,"Washington County, Iowa",Two or more races,1181,22561,0.052346970435707636,5.234697043570764,203
+19185,"Wayne County, Iowa",Black or African American alone,12,6532,0.001837109614206981,0.1837109614206981,17
+19185,"Wayne County, Iowa",American Indian and Alaska Native alone,8,6532,0.001224739742804654,0.1224739742804654,11
+19185,"Wayne County, Iowa",Asian alone,6,6532,9.185548071034905e-4,0.09185548071034905,10
+19185,"Wayne County, Iowa",Native Hawaiian and Pacific Islander alone,0,6532,0,0,15
+19185,"Wayne County, Iowa",Some other race alone,13,6532,0.001990202082057563,0.1990202082057563,25
+19185,"Wayne County, Iowa",Two or more races,348,6532,0.05327617881200245,5.327617881200245,111
+19187,"Webster County, Iowa",Black or African American alone,1201,36886,0.032559778777856097,3.2559778777856097,225
+19187,"Webster County, Iowa",American Indian and Alaska Native alone,96,36886,0.0026026134576804206,0.26026134576804205,84
+19187,"Webster County, Iowa",Asian alone,455,36886,0.012335303367131161,1.233530336713116,79
+19187,"Webster County, Iowa",Native Hawaiian and Pacific Islander alone,0,36886,0,0,22
+19187,"Webster County, Iowa",Some other race alone,431,36886,0.011684650002711055,1.1684650002711054,158
+19187,"Webster County, Iowa",Two or more races,2918,36886,0.07910860489074445,7.9108604890744445,396
+19189,"Winnebago County, Iowa",Black or African American alone,237,10583,0.022394406123027497,2.2394406123027495,94
+19189,"Winnebago County, Iowa",American Indian and Alaska Native alone,22,10583,0.0020788056316734384,0.20788056316734382,31
+19189,"Winnebago County, Iowa",Asian alone,140,10583,0.013228763110649154,1.3228763110649153,4
+19189,"Winnebago County, Iowa",Native Hawaiian and Pacific Islander alone,0,10583,0,0,16
+19189,"Winnebago County, Iowa",Some other race alone,87,10583,0.00822073136161769,0.8220731361617689,50
+19189,"Winnebago County, Iowa",Two or more races,634,10583,0.059907398658225454,5.990739865822546,131
+19191,"Winneshiek County, Iowa",Black or African American alone,81,19873,0.0040758818497458865,0.40758818497458865,50
+19191,"Winneshiek County, Iowa",American Indian and Alaska Native alone,73,19873,0.0036733256176722188,0.3673325617672219,77
+19191,"Winneshiek County, Iowa",Asian alone,107,19873,0.005384189603985306,0.5384189603985307,45
+19191,"Winneshiek County, Iowa",Native Hawaiian and Pacific Islander alone,1,19873,5.031952900920847e-5,0.005031952900920848,3
+19191,"Winneshiek County, Iowa",Some other race alone,136,19873,0.006843455945252352,0.6843455945252352,65
+19191,"Winneshiek County, Iowa",Two or more races,897,19873,0.045136617521260004,4.5136617521260005,200
+19193,"Woodbury County, Iowa",Black or African American alone,5255,106247,0.049460220053272094,4.946022005327209,441
+19193,"Woodbury County, Iowa",American Indian and Alaska Native alone,1899,106247,0.017873445838470732,1.7873445838470732,286
+19193,"Woodbury County, Iowa",Asian alone,2513,106247,0.023652432539271698,2.36524325392717,246
+19193,"Woodbury County, Iowa",Native Hawaiian and Pacific Islander alone,775,106247,0.007294323604431184,0.7294323604431184,61
+19193,"Woodbury County, Iowa",Some other race alone,5061,106247,0.04763428614454997,4.763428614454996,720
+19193,"Woodbury County, Iowa",Two or more races,15191,106247,0.14297815467730854,14.297815467730853,1034
+19195,"Worth County, Iowa",Black or African American alone,59,7350,0.008027210884353741,0.8027210884353742,40
+19195,"Worth County, Iowa",American Indian and Alaska Native alone,12,7350,0.0016326530612244899,0.163265306122449,9
+19195,"Worth County, Iowa",Asian alone,41,7350,0.005578231292517007,0.5578231292517006,48
+19195,"Worth County, Iowa",Native Hawaiian and Pacific Islander alone,0,7350,0,0,15
+19195,"Worth County, Iowa",Some other race alone,13,7350,0.0017687074829931973,0.17687074829931973,12
+19195,"Worth County, Iowa",Two or more races,269,7350,0.03659863945578231,3.659863945578231,72
+19197,"Wright County, Iowa",Black or African American alone,56,12791,0.004378078336330232,0.4378078336330232,73
+19197,"Wright County, Iowa",American Indian and Alaska Native alone,70,12791,0.00547259792041279,0.5472597920412791,70
+19197,"Wright County, Iowa",Asian alone,60,12791,0.004690798217496677,0.4690798217496677,58
+19197,"Wright County, Iowa",Native Hawaiian and Pacific Islander alone,0,12791,0,0,16
+19197,"Wright County, Iowa",Some other race alone,912,12791,0.0713001329059495,7.13001329059495,414
+19197,"Wright County, Iowa",Two or more races,1845,12791,0.14424204518802283,14.424204518802282,388
+19001,"Adair County, Iowa","White alone, not Hispanic or Latino",6942,7460,0.9305630026809651,93.05630026809652,46
+19003,"Adams County, Iowa","White alone, not Hispanic or Latino",3422,3622,0.9447818884594147,94.47818884594147,24
+19005,"Allamakee County, Iowa","White alone, not Hispanic or Latino",12193,14092,0.8652426908884473,86.52426908884473,115
+19007,"Appanoose County, Iowa","White alone, not Hispanic or Latino",11423,12184,0.9375410374261326,93.75410374261325,52
+19009,"Audubon County, Iowa","White alone, not Hispanic or Latino",5254,5599,0.9383818539024826,93.83818539024827,47
+19011,"Benton County, Iowa","White alone, not Hispanic or Latino",24293,25724,0.9443710153941844,94.43710153941845,106
+19013,"Black Hawk County, Iowa","White alone, not Hispanic or Latino",102297,131049,0.7806011491884715,78.06011491884715,341
+19015,"Boone County, Iowa","White alone, not Hispanic or Latino",24771,26668,0.9288660566971652,92.88660566971652,134
+19017,"Bremer County, Iowa","White alone, not Hispanic or Latino",23256,25204,0.9227106808443104,92.27106808443104,196
+19019,"Buchanan County, Iowa","White alone, not Hispanic or Latino",19649,20694,0.9495022711897169,94.95022711897168,54
+19021,"Buena Vista County, Iowa","White alone, not Hispanic or Latino",10808,20753,0.5207921746253553,52.07921746253553,112
+19023,"Butler County, Iowa","White alone, not Hispanic or Latino",13493,14268,0.9456826464816372,94.56826464816372,69
+19025,"Calhoun County, Iowa","White alone, not Hispanic or Latino",8954,9803,0.9133938590227482,91.33938590227481,56
+19027,"Carroll County, Iowa","White alone, not Hispanic or Latino",18932,20594,0.9192968825871614,91.92968825871614,131
+19029,"Cass County, Iowa","White alone, not Hispanic or Latino",12244,13096,0.9349419670128284,93.49419670128285,46
+19031,"Cedar County, Iowa","White alone, not Hispanic or Latino",17095,18349,0.9316584010027794,93.16584010027795,99
+19033,"Cerro Gordo County, Iowa","White alone, not Hispanic or Latino",37619,42632,0.882412272471383,88.2412272471383,100
+19035,"Cherokee County, Iowa","White alone, not Hispanic or Latino",10280,11600,0.8862068965517241,88.62068965517241,143
+19037,"Chickasaw County, Iowa","White alone, not Hispanic or Latino",10930,11807,0.9257220293046498,92.57220293046498,87
+19039,"Clarke County, Iowa","White alone, not Hispanic or Latino",7488,9662,0.7749948250879735,77.49948250879734,110
+19041,"Clay County, Iowa","White alone, not Hispanic or Latino",14994,16461,0.910880262438491,91.0880262438491,106
+19043,"Clayton County, Iowa","White alone, not Hispanic or Latino",16154,17013,0.9495091988479398,94.95091988479399,50
+19045,"Clinton County, Iowa","White alone, not Hispanic or Latino",41188,46268,0.8902048932307426,89.02048932307426,185
+19047,"Crawford County, Iowa","White alone, not Hispanic or Latino",10106,16277,0.6208760828162437,62.08760828162438,39
+19049,"Dallas County, Iowa","White alone, not Hispanic or Latino",87326,107968,0.8088137225844695,80.88137225844694,577
+19051,"Davis County, Iowa","White alone, not Hispanic or Latino",8592,9157,0.9382985694004586,93.82985694004586,140
+19053,"Decatur County, Iowa","White alone, not Hispanic or Latino",6997,7759,0.9017914679726768,90.17914679726769,58
+19055,"Delaware County, Iowa","White alone, not Hispanic or Latino",16514,17558,0.9405399248205946,94.05399248205946,245
+19057,"Des Moines County, Iowa","White alone, not Hispanic or Latino",32523,38487,0.8450385844570895,84.50385844570894,233
+19059,"Dickinson County, Iowa","White alone, not Hispanic or Latino",16795,17990,0.933574207893274,93.3574207893274,81
+19061,"Dubuque County, Iowa","White alone, not Hispanic or Latino",87398,99030,0.8825406442492174,88.25406442492174,342
+19063,"Emmet County, Iowa","White alone, not Hispanic or Latino",7893,9262,0.8521917512416325,85.21917512416324,113
+19065,"Fayette County, Iowa","White alone, not Hispanic or Latino",17555,19288,0.9101513894649523,91.01513894649523,170
+19067,"Floyd County, Iowa","White alone, not Hispanic or Latino",13594,15328,0.8868736951983298,88.68736951983298,198
+19069,"Franklin County, Iowa","White alone, not Hispanic or Latino",7987,9956,0.8022298111691443,80.22298111691443,57
+19071,"Fremont County, Iowa","White alone, not Hispanic or Latino",5955,6514,0.9141848326680995,91.41848326680994,110
+19073,"Greene County, Iowa","White alone, not Hispanic or Latino",8019,8688,0.9229972375690608,92.29972375690608,60
+19075,"Grundy County, Iowa","White alone, not Hispanic or Latino",11749,12384,0.9487241602067183,94.87241602067184,87
+19077,"Guthrie County, Iowa","White alone, not Hispanic or Latino",9880,10688,0.9244011976047904,92.44011976047905,62
+19079,"Hamilton County, Iowa","White alone, not Hispanic or Latino",12471,14886,0.8377670294236195,83.77670294236195,48
+19081,"Hancock County, Iowa","White alone, not Hispanic or Latino",9618,10671,0.9013213382063536,90.13213382063536,84
+19083,"Hardin County, Iowa","White alone, not Hispanic or Latino",14984,16639,0.9005348879139371,90.0534887913937,52
+19085,"Harrison County, Iowa","White alone, not Hispanic or Latino",13813,14632,0.9440267905959541,94.40267905959541,67
+19087,"Henry County, Iowa","White alone, not Hispanic or Latino",17245,20004,0.8620775844831033,86.20775844831033,161
+19089,"Howard County, Iowa","White alone, not Hispanic or Latino",8782,9445,0.9298041291688725,92.98041291688725,63
+19091,"Humboldt County, Iowa","White alone, not Hispanic or Latino",8667,9591,0.9036596809508914,90.36596809508914,63
+19093,"Ida County, Iowa","White alone, not Hispanic or Latino",6324,6911,0.9150629431341339,91.50629431341339,61
+19095,"Iowa County, Iowa","White alone, not Hispanic or Latino",15270,16507,0.9250620948688435,92.50620948688434,213
+19097,"Jackson County, Iowa","White alone, not Hispanic or Latino",18158,19390,0.9364620938628159,93.64620938628158,113
+19099,"Jasper County, Iowa","White alone, not Hispanic or Latino",34444,37954,0.9075196290246087,90.75196290246087,312
+19101,"Jefferson County, Iowa","White alone, not Hispanic or Latino",12941,15705,0.824005093919134,82.4005093919134,97
+19103,"Johnson County, Iowa","White alone, not Hispanic or Latino",117191,156639,0.7481597814082062,74.81597814082062,421
+19105,"Jones County, Iowa","White alone, not Hispanic or Latino",19126,20896,0.9152947932618682,91.52947932618683,174
+19107,"Keokuk County, Iowa","White alone, not Hispanic or Latino",9387,9924,0.9458887545344619,94.58887545344619,29
+19109,"Kossuth County, Iowa","White alone, not Hispanic or Latino",13315,14516,0.9172637090107467,91.72637090107467,134
+19111,"Lee County, Iowa","White alone, not Hispanic or Latino",29696,32893,0.9028060681603989,90.28060681603989,87
+19113,"Linn County, Iowa","White alone, not Hispanic or Latino",189409,230004,0.8235030695118346,82.35030695118346,661
+19115,"Louisa County, Iowa","White alone, not Hispanic or Latino",8220,10678,0.7698070799775238,76.98070799775239,44
+19117,"Lucas County, Iowa","White alone, not Hispanic or Latino",8192,8716,0.9398806792106471,93.98806792106471,67
+19119,"Lyon County, Iowa","White alone, not Hispanic or Latino",11356,12162,0.9337280052622924,93.37280052622924,23
+19121,"Madison County, Iowa","White alone, not Hispanic or Latino",15953,16926,0.9425144747725392,94.25144747725392,84
+19123,"Mahaska County, Iowa","White alone, not Hispanic or Latino",20161,22021,0.915535170973162,91.55351709731619,98
+19125,"Marion County, Iowa","White alone, not Hispanic or Latino",31393,33642,0.9331490398906129,93.31490398906129,98
+19127,"Marshall County, Iowa","White alone, not Hispanic or Latino",26461,40114,0.6596450117166077,65.96450117166077,189
+19129,"Mills County, Iowa","White alone, not Hispanic or Latino",13503,14568,0.9268945634266886,92.68945634266886,48
+19131,"Mitchell County, Iowa","White alone, not Hispanic or Latino",10061,10575,0.9513947990543735,95.139479905437355,34
+19133,"Monona County, Iowa","White alone, not Hispanic or Latino",7944,8557,0.9283627439523198,92.83627439523198,18
+19135,"Monroe County, Iowa","White alone, not Hispanic or Latino",7121,7513,0.9478237721283109,94.7823772128311,23
+19137,"Montgomery County, Iowa","White alone, not Hispanic or Latino",9392,10214,0.9195222243978852,91.95222243978853,78
+19139,"Muscatine County, Iowa","White alone, not Hispanic or Latino",31908,42559,0.7497356610822623,74.97356610822624,188
+19141,"O'Brien County, Iowa","White alone, not Hispanic or Latino",12288,14126,0.8698853178536032,86.98853178536032,139
+19143,"Osceola County, Iowa","White alone, not Hispanic or Latino",5126,6100,0.840327868852459,84.0327868852459,48
+19145,"Page County, Iowa","White alone, not Hispanic or Latino",13662,15131,0.9029145462956844,90.29145462956843,70
+19147,"Palo Alto County, Iowa","White alone, not Hispanic or Latino",8088,8863,0.9125578246643349,91.25578246643349,93
+19149,"Plymouth County, Iowa","White alone, not Hispanic or Latino",22664,25747,0.8802578941235872,88.02578941235872,69
+19151,"Pocahontas County, Iowa","White alone, not Hispanic or Latino",6242,7046,0.885892705080897,88.5892705080897,31
+19153,"Polk County, Iowa","White alone, not Hispanic or Latino",368110,503175,0.7315745019128533,73.157450191285335,948
+19155,"Pottawattamie County, Iowa","White alone, not Hispanic or Latino",78988,93424,0.8454786778557972,84.54786778557973,308
+19157,"Poweshiek County, Iowa","White alone, not Hispanic or Latino",16653,18545,0.8979778916149905,89.79778916149905,217
+19159,"Ringgold County, Iowa","White alone, not Hispanic or Latino",4397,4645,0.9466092572658773,94.66092572658773,10
+19161,"Sac County, Iowa","White alone, not Hispanic or Latino",8899,9689,0.9184642377954382,91.84642377954381,52
+19163,"Scott County, Iowa","White alone, not Hispanic or Latino",134498,174608,0.7702854393842207,77.02854393842206,561
+19165,"Shelby County, Iowa","White alone, not Hispanic or Latino",10751,11778,0.91280353200883,91.280353200883,91
+19167,"Sioux County, Iowa","White alone, not Hispanic or Latino",29982,36212,0.8279575831216172,82.79575831216171,112
+19169,"Story County, Iowa","White alone, not Hispanic or Latino",81361,100466,0.8098361634781917,80.98361634781917,441
+19171,"Tama County, Iowa","White alone, not Hispanic or Latino",13220,16868,0.7837325112639317,78.37325112639317,34
+19173,"Taylor County, Iowa","White alone, not Hispanic or Latino",5215,5868,0.8887184730743013,88.87184730743013,36
+19175,"Union County, Iowa","White alone, not Hispanic or Latino",11018,11993,0.91870257650296006,91.87025765029601,60
+19177,"Van Buren County, Iowa","White alone, not Hispanic or Latino",6833,7241,0.9436541914100263,94.36541914100263,69
+19179,"Wapello County, Iowa","White alone, not Hispanic or Latino",26750,35362,0.7564617385894463,75.64617385894464,115
+19181,"Warren County, Iowa","White alone, not Hispanic or Latino",50017,54409,0.9192780606149717,91.92780606149718,216
+19183,"Washington County, Iowa","White alone, not Hispanic or Latino",20008,22561,0.8868401223350029,88.68401223350028,70
+19185,"Wayne County, Iowa","White alone, not Hispanic or Latino",6122,6532,0.9372320881812615,93.72320881812615,88
+19187,"Webster County, Iowa","White alone, not Hispanic or Latino",30940,36886,0.8388006289649189,83.88006289649189,163
+19189,"Winnebago County, Iowa","White alone, not Hispanic or Latino",9415,10583,0.8896343191911557,88.96343191911556,63
+19191,"Winneshiek County, Iowa","White alone, not Hispanic or Latino",18533,19873,0.9325718311276606,93.25718311276606,87
+19193,"Woodbury County, Iowa","White alone, not Hispanic or Latino",71279,106247,0.670880118968065,67.08801189680649,382
+19195,"Worth County, Iowa","White alone, not Hispanic or Latino",6857,7350,0.9329251700680272,93.29251700680273,12
+19197,"Wright County, Iowa","White alone, not Hispanic or Latino",9662,12791,0.7553748729575482,75.53748729575483,134
+19001,"Adair County, Iowa",Hispanic or Latino,235,7460,0.03150134048257373,3.1501340482573728,NA
+19003,"Adams County, Iowa",Hispanic or Latino,63,3622,0.017393705135284373,1.7393705135284372,NA
+19005,"Allamakee County, Iowa",Hispanic or Latino,1289,14092,0.09147033778030088,9.147033778030087,NA
+19007,"Appanoose County, Iowa",Hispanic or Latino,249,12184,0.020436638214051214,2.0436638214051213,135
+19009,"Audubon County, Iowa",Hispanic or Latino,140,5599,0.025004465083050546,2.5004465083050547,NA
+19011,"Benton County, Iowa",Hispanic or Latino,507,25724,0.0197092209609703,1.97092209609703,NA
+19013,"Black Hawk County, Iowa",Hispanic or Latino,6861,131049,0.05235446283451228,5.235446283451228,NA
+19015,"Boone County, Iowa",Hispanic or Latino,783,26668,0.02936103194840258,2.9361031948402583,NA
+19017,"Bremer County, Iowa",Hispanic or Latino,528,25204,0.02094905570544358,2.0949055705443578,NA
+19019,"Buchanan County, Iowa",Hispanic or Latino,400,20694,0.019329274185754326,1.9329274185754326,NA
+19021,"Buena Vista County, Iowa",Hispanic or Latino,6094,20753,0.29364429239146145,29.364429239146144,NA
+19023,"Butler County, Iowa",Hispanic or Latino,249,14268,0.017451640033641715,1.7451640033641715,NA
+19025,"Calhoun County, Iowa",Hispanic or Latino,266,9803,0.02713455064776089,2.713455064776089,NA
+19027,"Carroll County, Iowa",Hispanic or Latino,720,20594,0.03496163931242109,3.4961639312421093,NA
+19029,"Cass County, Iowa",Hispanic or Latino,357,13096,0.027260232131948687,2.7260232131948685,NA
+19031,"Cedar County, Iowa",Hispanic or Latino,507,18349,0.0276309335658619,2.76309335658619,NA
+19033,"Cerro Gordo County, Iowa",Hispanic or Latino,2397,42632,0.05622537061362357,5.622537061362357,NA
+19035,"Cherokee County, Iowa",Hispanic or Latino,621,11600,0.05353448275862069,5.3534482758620685,NA
+19037,"Chickasaw County, Iowa",Hispanic or Latino,545,11807,0.04615905818582197,4.615905818582197,NA
+19039,"Clarke County, Iowa",Hispanic or Latino,1624,9662,0.16808114262057544,16.808114262057543,NA
+19041,"Clay County, Iowa",Hispanic or Latino,781,16461,0.04744547718850617,4.744547718850617,NA
+19043,"Clayton County, Iowa",Hispanic or Latino,394,17013,0.023158760947510727,2.3158760947510726,NA
+19045,"Clinton County, Iowa",Hispanic or Latino,1668,46268,0.03605083426990577,3.6050834269905767,NA
+19047,"Crawford County, Iowa",Hispanic or Latino,5019,16277,0.308349204398845,30.8349204398845,NA
+19049,"Dallas County, Iowa",Hispanic or Latino,7453,107968,0.06902971250740961,6.90297125074096,NA
+19051,"Davis County, Iowa",Hispanic or Latino,223,9157,0.02435295402424375,2.4352954024243747,NA
+19053,"Decatur County, Iowa",Hispanic or Latino,274,7759,0.035313829101688364,3.5313829101688365,NA
+19055,"Delaware County, Iowa",Hispanic or Latino,301,17558,0.017143182594828568,1.7143182594828568,NA
+19057,"Des Moines County, Iowa",Hispanic or Latino,1415,38487,0.036765661132330395,3.6765661132330396,NA
+19059,"Dickinson County, Iowa",Hispanic or Latino,513,17990,0.028515842134519177,2.851584213451918,NA
+19061,"Dubuque County, Iowa",Hispanic or Latino,3234,99030,0.032656770675552865,3.2656770675552864,NA
+19063,"Emmet County, Iowa",Hispanic or Latino,942,9262,0.1017058950550637,10.170589505506369,NA
+19065,"Fayette County, Iowa",Hispanic or Latino,593,19288,0.030744504355039403,3.07445043550394,NA
+19067,"Floyd County, Iowa",Hispanic or Latino,595,15328,0.0388178496868476,3.88178496868476,NA
+19069,"Franklin County, Iowa",Hispanic or Latino,1642,9956,0.16492567296102853,16.492567296102852,NA
+19071,"Fremont County, Iowa",Hispanic or Latino,219,6514,0.03361989560945656,3.361989560945656,NA
+19073,"Greene County, Iowa",Hispanic or Latino,307,8688,0.03533609576427256,3.533609576427256,NA
+19075,"Grundy County, Iowa",Hispanic or Latino,219,12384,0.017684108527131783,1.7684108527131783,NA
+19077,"Guthrie County, Iowa",Hispanic or Latino,331,10688,0.03096931137724551,3.096931137724551,NA
+19079,"Hamilton County, Iowa",Hispanic or Latino,1510,14886,0.10143759236866855,10.143759236866854,NA
+19081,"Hancock County, Iowa",Hispanic or Latino,635,10671,0.059507075250679414,5.9507075250679415,NA
+19083,"Hardin County, Iowa",Hispanic or Latino,911,16639,0.05475088647154276,5.475088647154276,NA
+19085,"Harrison County, Iowa",Hispanic or Latino,328,14632,0.02241662110442865,2.241662110442865,NA
+19087,"Henry County, Iowa",Hispanic or Latino,1109,20004,0.05543891221755649,5.543891221755649,NA
+19089,"Howard County, Iowa",Hispanic or Latino,312,9445,0.033033350979354156,3.3033350979354155,NA
+19091,"Humboldt County, Iowa",Hispanic or Latino,551,9591,0.057449692419977064,5.7449692419977065,NA
+19093,"Ida County, Iowa",Hispanic or Latino,286,6911,0.041383301982346986,4.138330198234699,NA
+19095,"Iowa County, Iowa",Hispanic or Latino,564,16507,0.03416732295389835,3.416732295389835,NA
+19097,"Jackson County, Iowa",Hispanic or Latino,306,19390,0.015781330582774627,1.5781330582774626,NA
+19099,"Jasper County, Iowa",Hispanic or Latino,1177,37954,0.031011224113400432,3.101122411340043,NA
+19101,"Jefferson County, Iowa",Hispanic or Latino,644,15705,0.04100604902897167,4.1006049028971665,NA
+19103,"Johnson County, Iowa",Hispanic or Latino,10554,156639,0.06737785608947963,6.737785608947963,NA
+19105,"Jones County, Iowa",Hispanic or Latino,543,20896,0.02598583460949464,2.598583460949464,NA
+19107,"Keokuk County, Iowa",Hispanic or Latino,233,9924,0.02347843611446997,2.347843611446997,NA
+19109,"Kossuth County, Iowa",Hispanic or Latino,654,14516,0.04505373381096721,4.505373381096721,NA
+19111,"Lee County, Iowa",Hispanic or Latino,1145,32893,0.034809837959444256,3.4809837959444256,NA
+19113,"Linn County, Iowa",Hispanic or Latino,9482,230004,0.04122536999356533,4.122536999356533,NA
+19115,"Louisa County, Iowa",Hispanic or Latino,1754,10678,0.16426297059374415,16.426297059374413,NA
+19117,"Lucas County, Iowa",Hispanic or Latino,255,8716,0.029256539697108765,2.9256539697108765,NA
+19119,"Lyon County, Iowa",Hispanic or Latino,470,12162,0.03864495971057392,3.864495971057392,NA
+19121,"Madison County, Iowa",Hispanic or Latino,383,16926,0.02262790972468392,2.262790972468392,NA
+19123,"Mahaska County, Iowa",Hispanic or Latino,550,22021,0.024976159120839198,2.4976159120839196,NA
+19125,"Marion County, Iowa",Hispanic or Latino,773,33642,0.02297723084239938,2.297723084239938,NA
+19127,"Marshall County, Iowa",Hispanic or Latino,9875,40114,0.24617340579348856,24.617340579348856,NA
+19129,"Mills County, Iowa",Hispanic or Latino,563,14568,0.03864634816035146,3.864634816035146,NA
+19131,"Mitchell County, Iowa",Hispanic or Latino,257,10575,0.024302600472813237,2.430260047281324,NA
+19133,"Monona County, Iowa",Hispanic or Latino,233,8557,0.027229169101320557,2.7229169101320556,NA
+19135,"Monroe County, Iowa",Hispanic or Latino,156,7513,0.020764009050978305,2.0764009050978305,NA
+19137,"Montgomery County, Iowa",Hispanic or Latino,82,10214,0.00802819659291169,0.8028196592911689,52
+19139,"Muscatine County, Iowa",Hispanic or Latino,8005,42559,0.18809182546582393,18.80918254658239,NA
+19141,"O'Brien County, Iowa",Hispanic or Latino,1074,14126,0.07603001557411865,7.603001557411865,NA
+19143,"Osceola County, Iowa",Hispanic or Latino,647,6100,0.1060655737704918,10.60655737704918,NA
+19145,"Page County, Iowa",Hispanic or Latino,505,15131,0.033375190007269843,3.337519000726984,NA
+19147,"Palo Alto County, Iowa",Hispanic or Latino,311,8863,0.03508969874760239,3.5089698747602394,NA
+19149,"Plymouth County, Iowa",Hispanic or Latino,1653,25747,0.0642016545616965,6.42016545616965,NA
+19151,"Pocahontas County, Iowa",Hispanic or Latino,412,7046,0.0584728924212319,5.84728924212319,NA
+19153,"Polk County, Iowa",Hispanic or Latino,52317,503175,0.10397376658220302,10.3973766582203,NA
+19155,"Pottawattamie County, Iowa",Hispanic or Latino,8536,93424,0.09136838499743107,9.136838499743106,NA
+19157,"Poweshiek County, Iowa",Hispanic or Latino,657,18545,0.03542733890536533,3.5427338905365326,NA
+19159,"Ringgold County, Iowa",Hispanic or Latino,100,4645,0.021528525296017224,2.1528525296017222,NA
+19161,"Sac County, Iowa",Hispanic or Latino,422,9689,0.0435545463928166,4.3554546392816595,NA
+19163,"Scott County, Iowa",Hispanic or Latino,12902,174608,0.07389123064235316,7.389123064235316,NA
+19165,"Shelby County, Iowa",Hispanic or Latino,518,11778,0.043980302258447956,4.398030225844796,NA
+19167,"Sioux County, Iowa",Hispanic or Latino,5193,36212,0.14340550093891527,14.340550093891528,NA
+19169,"Story County, Iowa",Hispanic or Latino,5184,100466,0.05159954611510362,5.159954611510361,NA
+19171,"Tama County, Iowa",Hispanic or Latino,1968,16868,0.11667061892340526,11.667061892340525,NA
+19173,"Taylor County, Iowa",Hispanic or Latino,476,5868,0.08111792774369461,8.11179277436946,NA
+19175,"Union County, Iowa",Hispanic or Latino,460,11993,0.03835570749603936,3.835570749603936,NA
+19177,"Van Buren County, Iowa",Hispanic or Latino,128,7241,0.017677116420383925,1.7677116420383925,NA
+19179,"Wapello County, Iowa",Hispanic or Latino,4748,35362,0.13426842373168937,13.426842373168938,NA
+19181,"Warren County, Iowa",Hispanic or Latino,2020,54409,0.037126210737194215,3.7126210737194216,NA
+19183,"Washington County, Iowa",Hispanic or Latino,1749,22561,0.07752315943442223,7.752315943442223,NA
+19185,"Wayne County, Iowa",Hispanic or Latino,77,6532,0.011788120024494794,1.1788120024494795,50
+19187,"Webster County, Iowa",Hispanic or Latino,2439,36886,0.06612264815919319,6.612264815919319,NA
+19189,"Winnebago County, Iowa",Hispanic or Latino,619,10583,0.05849003118208448,5.849003118208448,NA
+19191,"Winneshiek County, Iowa",Hispanic or Latino,612,19873,0.030795551753635585,3.0795551753635584,NA
+19193,"Woodbury County, Iowa",Hispanic or Latino,20316,106247,0.19121481077112765,19.121481077112765,NA
+19195,"Worth County, Iowa",Hispanic or Latino,258,7350,0.03510204081632653,3.510204081632653,NA
+19197,"Wright County, Iowa",Hispanic or Latino,2547,12791,0.19912438433273397,19.912438433273397,NA
