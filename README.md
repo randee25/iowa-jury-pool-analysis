@@ -188,6 +188,6 @@ Examples:
 
 # Contact Information
 
-**Randee Goeke:** 
+**Randee Goeke or Jude Aboagye:** 
 
-**randee.goeke@drake.edu:** your.email@example.com
+**randee.goeke@drake.edu jude.aboagye@drake.edu:** 
