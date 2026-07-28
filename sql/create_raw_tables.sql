@@ -54,3 +54,18 @@ CREATE TABLE raw.crim_empanelment_data(
     ethnicity TEXT
 );
 
+CREATE TABLE raw.census_race(
+    county VARCHAR(100),
+    black_alone_pct FLOAT,
+    ai_native_alone_pct FLOAT,
+    asian_alone_pct FLOAT,
+    nh_pacific_isl_alone_pct FLOAT,
+    other_alone_pct FLOAT,
+    multi_race_pct FLOAT,
+    white_alone_nhl_pct FLOAT,
+    hisp_latino_pct FLOAT
+);
+
+SELECT *
+FROM raw.census_race
+ORDER BY black_alone_pct DESC;
