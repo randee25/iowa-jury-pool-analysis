@@ -56,13 +56,6 @@ white_variable <- c(white_non_hispanic = "B03002_003")
 
 # Hispanic or Latino origin, any race (table B03003)
 hispanic_variable <- c(hispanic = "B03003_001")
-# NOTE: original code used B03003_003, which does not exist in that
-# table's standard layout — B03003_001 is total pop, B03003_003 is
-# "Not Hispanic or Latino". If you want the Hispanic/Latino count,
-# the correct variable is B03003_003 in some table versions, but
-# double check against the current ACS variable list for 2024
-# (variables can shift codes between vintages). Confirm with
-# tidycensus::load_variables(2024, "acs5") before finalizing.
 
 ## ---- 4. Pull data from the Census API ----
 # geography = "county", state = "IA" limits results to Iowa counties.
