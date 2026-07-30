@@ -103,12 +103,14 @@ SELECT
     SUM(CASE WHEN TRIM(ethnicity) = 'Hispanic/Latinx/Spanish Origins' THEN total ELSE 0 END) AS hlso_ethnicity,
     SUM(CASE WHEN TRIM(race) = 'Asian' THEN total ELSE 0 END) AS asian,
     SUM(CASE WHEN TRIM(race) = 'American Indian/Alaskan Native ' THEN total ELSE 0 END) AS american_indian_alaskan_native,
+    SUM(CASE WHEN TRIM(race) = 'Native Hawaiian/Other Pacific Islander' THEN total ELSE 0 END) AS native_hawaiian_pacific_islander,
     SUM(CASE WHEN TRIM(race) = 'Multi Race Black/African American, White' THEN total ELSE 0 END) AS mr_bw,
     SUM(CASE WHEN TRIM(race) = 'Multi Race Other, White' THEN total ELSE 0 END) AS mr_ow,
     SUM(CASE WHEN TRIM(race) = 'Multi Race Asian, White' THEN total ELSE 0 END) AS mr_aw,
     SUM(CASE WHEN TRIM(race) = 'Multi Race Unknown' THEN total ELSE 0 END) AS mr_unk,
     SUM(CASE WHEN TRIM(race) = 'Unknown' THEN total ELSE 0 END) AS unknown,
-    SUM(CASE WHEN TRIM(race) = 'Other' THEN total ELSE 0 END) AS other
+    SUM(CASE WHEN TRIM(race) = 'Other' THEN total ELSE 0 END) AS other,
+    SUM(total) as emp_total
 FROM staging.crim_empanelment_data
 GROUP BY court_number,
 court_name,
