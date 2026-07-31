@@ -96,6 +96,30 @@ adjusted_total_check
 # The expected count is the number expected in the jury pool if
 # the court's demographic percentage matched the county Census
 # percentage.
+overall_pool <- main_analytics_view %>%
+  filter(dataset == "Overall Pool") %>%
+  select(-result_status) %>%
+  mutate(
+    court_number = as.character(court_number)
+  ) %>%
+  rename(
+    adjusted_total = adj_total,
+    jury_pool_pct = jury_pct,
+    county_population_pct = census_pct,
+    representation_gap = pt_diff
+  )
+
+# Calculate county population proportions and expected counts
+# needed for the chi-square analyses.
+
+chi_data <- overall_pool %>%
+  mutate(
+    population_proportion =
+      county_population_pct / 100,
+    
+    expected_count =
+      adjusted_total * population_proportion
+  )
 
 chi_data <- overall_pool %>%
   mutate(
