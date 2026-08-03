@@ -546,3 +546,5 @@ FROM analytics.panel_vs_census;
 SELECT *
 FROM analytics.empanelment_vs_census;
 
+SELECT *
+FROM main_analytics_view;
