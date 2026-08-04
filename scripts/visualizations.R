@@ -10,7 +10,7 @@ library(tidyverse)
 # Import processed data ---------------------------------------------------
 
 jury_data <- read_csv(
-  "outputs/overall_pool_final.csv",
+  "data/processed/overall_pool_final.csv",
   show_col_types = FALSE
 )
 
