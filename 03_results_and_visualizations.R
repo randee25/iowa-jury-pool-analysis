@@ -2,19 +2,19 @@
 # IOWA JURY POOL ANALYSIS:
 # FINAL RESULTS AND VISUALIZATION EXPORTS
 # ============================================================
-#   1. Overall summary statistics
-#   2. Race-level representation results
-#   3. Mean absolute error
-#   4. One-sample t-tests
-#   5. Binomial probabilities
-#   6. Equivalent standardized differences
-#   7. Court-level flags
-#   8. Final Tableau exports
+#1. Overall summary statistics
+#2. Race-level representation results
+#3. Mean absolute error
+#4. One-sample t-tests
+#5. Binomial probabilities
+#6. Court-level flags
+#7. Final Tableau exports
 
-# The analysis includes six demographic categories:
+# The analysis includes seven demographic categories:
 #   White
 #   Black/African American
 #   Hispanic/Latino/Spanish Origins
+#   Multiracial
 #   Asian
 #   American Indian/Alaskan Native
 #   Native Hawaiian/Pacific Islander
@@ -31,7 +31,7 @@
 library(tidyverse)
 #  IMPORT THE PRIMARY ANALYTICAL DATASET
 main_analytics_view <- read_csv(
-  "data/processed/main_analytics_view.csv",
+  "data/processed/new_main_view.csv",
   col_types = cols(
     court_number = col_character()
   ))
@@ -360,3 +360,88 @@ probability_summary_by_race <- probability_results %>%
 
 probability_summary_by_race
 View(probability_summary_by_race)
+# ============================================================
+# 6. COURT-LEVEL FLAGS
+# ============================================================
+# This section summarizes the number of demographic groups
+# within each court that fell below the established thresholds.
+
+court_flag_summary <- probability_results %>%
+  group_by(court_number, county_name) %>%
+  summarize(
+    
+    demographic_groups_tested =
+      sum(!is.na(exact_probability)),
+    
+    groups_below_1sd =
+      sum(
+        below_expected_1sd,
+        na.rm = TRUE
+      ),
+    
+    groups_below_2sd =
+      sum(
+        below_expected_2sd,
+        na.rm = TRUE
+      ),
+    
+    percent_groups_below_1sd =
+      mean(
+        below_expected_1sd,
+        na.rm = TRUE
+      ) * 100,
+    
+    percent_groups_below_2sd =
+      mean(
+        below_expected_2sd,
+        na.rm = TRUE
+      ) * 100,
+    
+    .groups = "drop"
+  ) %>%
+  arrange(
+    desc(groups_below_2sd),
+    desc(groups_below_1sd)
+  )
+
+court_flag_summary
+View(court_flag_summary)
+# ============================================================
+# 7. FINAL TABLEAU EXPORTS
+# ============================================================
+write_csv(
+  overall_results_summary,
+  "outputs/overall_results_summary.csv"
+)
+
+write_csv(
+  race_level_summary,
+  "outputs/race_level_summary.csv"
+)
+
+write_csv(
+  mae_summary,
+  "outputs/mae_summary.csv"
+)
+
+write_csv(
+  t_test_summary_by_race,
+  "outputs/t_test_summary_by_race.csv"
+)
+
+write_csv(
+  probability_summary_by_race,
+  "outputs/probability_summary_by_race.csv"
+)
+
+write_csv(
+  court_flag_summary,
+  "outputs/court_flag_summary.csv"
+)
+
+write_csv(
+  probability_results,
+  "outputs/probability_results.csv"
+)
+cat("Analysis complete.\n")
+cat("Results exported to the outputs folder.\n")
