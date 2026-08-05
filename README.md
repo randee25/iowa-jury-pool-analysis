@@ -21,6 +21,7 @@ The right to an impartial jury is a fundamental principle of the American legal 
 ## Summary of Findings
 
 White jurors appeared to be overrepresented relative to county census populations, while Hispanic/Latino and Multiracial populations appeared to be underrepresented. Black, Asian, American Indian or Alaska Native (AIAN), and Native Hawaiian or Pacific Islander (NHPI) populations generally displayed smaller differences. Representation patterns also varied substantially among counties.
+
 ---
 
 # Data
@@ -65,7 +66,6 @@ https://data.census.gov/
 
 ---
 
-## Project Organization
 ## Project Organization
 
 - README.md
