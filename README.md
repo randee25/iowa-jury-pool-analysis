@@ -8,111 +8,170 @@
 
 # Project Summary
 
-Provide a super brief description of the project. (3-6 sentences)
+This project examines whether the racial composition of Iowa jury pools reflects the demographic composition of the counties from which jurors are drawn. County-level census data were combined with Iowa jury pool data to compare expected and observed representation across racial groups. Exploratory data analysis, weighted summary statistics, visualization techniques, and statistical testing methods were used to evaluate potential disparities. An interactive Tableau dashboard was also developed to allow users to explore county-level patterns throughout Iowa.
 
 ## Research Question
 
-What question are you trying to answer? (1-3 sentences)
+To what extent do the racial demographics of Iowa jury pools differ from the racial demographics of the counties they represent? Additionally, are observed differences large enough to suggest systematic underrepresentation rather than random sampling variation?
 
 ## Motivation
 
-Why is this problem important? i.e., why should your chosen audience care? (1-3 sentences)
+The right to an impartial jury is a fundamental principle of the American legal system. If certain groups are consistently underrepresented in jury pools, the fairness and representativeness of the judicial process may be affected. Understanding these patterns may help identify structural barriers to participation and improve the jury selection process.
 
 ## Summary of Findings
 
-Provide a short summary of the most important findings. (2-4 sentences is fine)
-
+White jurors appeared to be overrepresented relative to county census populations, while Hispanic/Latino and Multiracial populations appeared to be underrepresented. Black, Asian, American Indian or Alaska Native (AIAN), and Native Hawaiian or Pacific Islander (NHPI) populations generally displayed smaller differences. Representation patterns also varied substantially among counties.
 ---
 
 # Data
 
 ## Data Source
 
-Describe where the data came from - urls are appropriate here. 
-If you scraped your data, you'll talk about the code you used to do that below. 
+This project combines publicly available data from multiple sources.
 
+Iowa jury pool data
+Jury pool data supplied by Professor Lovell
+County-level empanelment data
+County-level jury pool data
+Census data
+United States Census Bureau
+American Community Survey (ACS) 2024 estimates
+Tables B05003B–B05003I
 
-Examples:
+Source:
 
-- Public data source
-- Company-provided data
-- Survey data
-
-
+https://data.census.gov/
 ## Data Files
 
 | File | Description |
-|--------|--------|
-| data/raw_data.csv | Original data |
-| data/cleaned_data.csv | Cleaned analysis dataset |
+| File                             | Description                        |
+| -------------------------------- | ---------------------------------- |
+| `data/raw/`                      | Original source files              |
+| `data/processed/`                | Cleaned datasets used for analysis |
+| `race_summary.csv`               | Race-specific summary statistics   |
+| `standard_deviation_results.csv` | Standard deviation calculations    |
 
 ## Important Variables
+| Variable                | Description                                                        |
+| ----------------------- | ------------------------------------------------------------------ |
+| `county_name`           | Iowa county name                                                   |
+| `race_short`            | Standardized race category                                         |
+| `jury_pool_pct`         | Percentage of jurors belonging to a particular race                |
+| `county_population_pct` | Percentage of the county population belonging to a particular race |
+| `representation_gap`    | Difference between jury percentage and census percentage           |
+| `adjusted_total`        | Number of jurors included in the analysis                          |
+| `jury_count`            | Number of jurors in a race category                                |
 
-| Variable | Description |
-|-----------|-------------|
-| variable_1 | Description |
-| variable_2 | Description |
-| variable_3 | Description |
-
-If you have extremely large data, this may be too tedious. Feel free to link
-to an existing data dictionary if that is possible.
 
 ---
 
 # Project Organization
 
-Using github is not required for this project. This section is largely relevant for those who choose to use github as a collaboration and sharing tool.
-It is meant to illustrate how you have organized your project directory (folder).
-When you update this section, keep the ```text and ```. Only modify what is between those two bits.
-
-```text
-project/
+iowa-jury-pool-analysis/
 
 ├── README.md
-├── report.Rmd
-├── report.pdf
+│
 ├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── outputs/
+│   ├── figures
+│   ├── summary tables
+│   └── Tableau workbook
+│
 ├── scripts/
-└── figures/
+│   ├── chi_square.R
+│   ├── exploratory_analysis.R
+│   ├── get_census_data.R
+│   ├── main_analysis.R
+│   └── visualizations.R
+│
+└── sql/
+    ├── analytics_views.sql
+    ├── create_clean_tables.sql
+    ├── create_lookup_table.sql
+    ├── create_raw_tables.sql
+    ├── create_schemas.sql
+    └── create_tables.sql
 ```
 
 ## Key Files
 
 ### data/
 
-Describe the contents of this folder.
+This folder contains both the original data files and the processed datasets used throughout the analysis.
+
+### raw/
+Contains the original census files and jury pool datasets.
+
+### processed/
+Contains cleaned and merged datasets used in the final analysis.
 
 ### scripts/
 
-Describe the contents of this folder (should be each of your code files). For example
-- cleaning_code.R: describe what this does
-- modeling_code.R: describe what this does
-- scraping_code.py: describe what this does
+| File                     | Description                                             |
+| ------------------------ | ------------------------------------------------------- |
+| `chi_square.R`           | Performs exploratory chi-square analyses.               |
+| `exploratory_analysis.R` | Produces summary statistics and exploratory analyses.   |
+| `get_census_data.R`      | Imports and cleans census data.                         |
+| `main_analysis.R`        | Merges datasets and calculates representation measures. |
+| `visualizations.R`       | Produces figures used in the final report.              |
 
-### figures/
+### sql/
+This folder contains SQL scripts used to construct the database, import data, clean tables, and create analytical views.
+| File                      | Description                                       |
+| ------------------------- | ------------------------------------------------- |
+| `create_schemas.sql`      | Creates the database schema structure.            |
+| `create_raw_tables.sql`   | Creates tables for the imported raw data.         |
+| `create_clean_tables.sql` | Creates tables containing cleaned data.           |
+| `create_lookup_table.sql` | Creates lookup tables used to standardize values. |
+| `create_tables.sql`       | Creates additional tables required for analysis.  |
+| `analytics_views.sql`     | Creates analytical views used in R.               |
 
-Describe the contents of this folder. For example:
-- figure1.pdf: a scatterplot showing the relationship between temperature and impulsive spending patterns. code to reproduce can be found in scripts/modeling_code.R
-- figure2.pdf: a barchart showing....
 
+### outputs/
+
+Figures
+figure_1_census_vs_jury.png
+figure_2_weighted_mae_by_race.png
+figure_3_minority_census_vs_jury.png
+figure_4_gap_distribution_boxplot.png
+appendix_A1_weighted_representation_gap.png
+appendix_A2_all_races_weighted_error_bars.png
+Tables
+race_summary.csv
+standard_deviation_results.csv
+Tableau
+Iowa_Jury_Representation_Dashboard.twb
+
+Interactive dashboard:
+
+https://public.tableau.com/shared/94TFZHHK3?:display_count=n&:origin=viz_share_link
 ---
 
 # Software Requirements
 
 ## Software
-modify this section to simply explain what software you used.
-- R version: (or python version or Tableau... what did you use for software)
-- RStudio version: (if applicable)
+R version 4.5.1
+RStudio
+Tableau Public
+MySQL Workbench
+Git
+GitHub
 
 ## Required Packages
 
-If you used R or python you almost certainly used packages. list them here.
-Use the formatting i used below (i.e., keep the tickmarks and the r - this will format it correctly when it renders)
 
 ```r
 library(tidyverse)
-library(caret)
-library(randomForest)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(readr)
+library(stringr)
+library(scales)
+library(forcats)
 ```
 
 
@@ -122,67 +181,61 @@ library(randomForest)
 
 Describe how to reproduce the project from start to finish.
 
-1. Open the R Project.
-2. Install required packages.
-3. Run data cleaning scripts. Which ones? in which order?
-4. Run analysis scripts. Which ones? in which order?
-5. Knit report.Rmd.
+1.Open the R project in RStudio.
+2.Install all required packages.
+3.Run the SQL scripts to create and populate the database.
+4.Run the census import script.
+5.Run the analysis scripts.
+6.Run the visualization scripts.
+7.Publish the Tableau dashboard if desired.
 
-Expected runtime: Some of my analyses take days or weeks to run. Is that the case? or is it a matter of minutes?
-
+Expected runtime is generally a matter of minutes.
 ---
 
 # Methods
 
-Describe the analytical methods used.
+The following methods were used throughout the analysis:
 
-Examples:
+Exploratory data analysis (EDA)
+Descriptive statistics
+Weighted mean calculations
+Standard deviation calculations
+Mean absolute error (MAE)
+Monte Carlo simulation
+Binomial probability models
+Chi-square analysis
+County-level visualizations
+Interactive dashboard development in Tableau
 
-- Exploratory Data Analysis
-- Linear Regression
-- Logistic Regression
-- Random Forest
-- Clustering - hierarchical or k-means?
-- Latent Dirichlet Allocation
-
-Explain why these methods were selected.
-
+These methods were selected to evaluate differences between expected and observed representation while allowing both statewide and county-level patterns to be examined.
 ---
 
 # Results
 
-This is a bit redundant given the beginning but it's not a bad idea. 
+##Key Findings
 
-## Key Findings
-
-- Finding 1
-- Finding 2
-- Finding 3
+White jurors were generally overrepresented relative to census estimates.
+Hispanic/Latino and Multiracial populations tended to be underrepresented.
+Representation varied substantially across counties.
+Several observed differences were larger than would be expected under proportional sampling.
 
 ## Recommendation
 
-Provide a practical recommendation based on the results.
+Future work should investigate the factors contributing to underrepresentation, including response rates, eligibility requirements, geographic factors, and the jury selection process itself.
 
 ---
 
 # Limitations
 
-Describe important limitations of the project. I take this portion very seriously.
+Several limitations should be considered when interpreting these findings.
 
-Examples:
-
-- Small sample size
-- Missing data
-- Nonrandom sample (limited ability to generalize)
-- Data might be fake
-- Limited geographic scope
-- Modeling assumptions
-  - e.g., we were unable to explore interactions. This means we are assuming the effect of vehicle power on risky behavior is the same regardless of vehicle usage. 
-  - We are assuming linearity, which is questionable because...
-  - Residual plots show...
-  - The domain of the response is {0,1} but we fit an OLR and this is a problem because...
-  
-
+The study is limited to Iowa counties.
+Race categories required standardization across datasets.
+Several counties had relatively small sample sizes.
+Some counties contained missing information.
+Weighted analyses emphasize counties with larger jury pools.
+Statistical analyses assume proportional random sampling.
+Results may be influenced by differences in county reporting practices.
 
 ---
 
