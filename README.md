@@ -65,8 +65,9 @@ https://data.census.gov/
 
 ---
 
-# Project Organization
+## Project Organization
 
+```text
 iowa-jury-pool-analysis/
 
 ├── README.md
@@ -76,9 +77,9 @@ iowa-jury-pool-analysis/
 │   └── processed/
 │
 ├── outputs/
-│   ├── figures
-│   ├── summary tables
-│   └── Tableau workbook
+│   ├── figures/
+│   ├── summary tables/
+│   └── Tableau workbook/
 │
 ├── scripts/
 │   ├── chi_square.R
