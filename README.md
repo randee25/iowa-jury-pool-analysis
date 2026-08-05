@@ -268,18 +268,23 @@ Future work should investigate the factors contributing to underrepresentation, 
 
 Several limitations should be considered when interpreting these findings.
 
-The study is limited to Iowa counties.
-Race categories required standardization across datasets.
-Several counties had relatively small sample sizes.
-Some counties contained missing information.
-Weighted analyses emphasize counties with larger jury pools.
-Statistical analyses assume proportional random sampling.
-Results may be influenced by differences in county reporting practices.
+- This analysis is limited to Iowa counties and may not be generalizable to other states or jurisdictions.
+
+- Race and ethnicity categories were not defined consistently across all datasets and therefore required standardization before analysis.
+
+- Several counties contained relatively small sample sizes or incomplete information, which may have increased the variability of some estimates.
+
+- Weighted analyses place greater emphasis on counties with larger jury pools, while unweighted analyses treat all counties equally.
+
+- The exact binomial and Monte Carlo methods assume that jury selection occurs randomly according to county population proportions.
+
+- Differences in reporting practices, data quality, eligibility requirements, and other unmeasured factors may influence the results.
 
 ---
 
-# Contact Information
+## Contact Information
 
-**Randee Goeke or Jude Aboagye:** 
+For questions regarding this project, please contact:
 
-**randee.goeke@drake.edu jude.aboagye@drake.edu:** 
+- Randee Goeke – randee.goeke@drake.edu
+- Jude Aboagye – jude.aboagye@drake.edu
