@@ -44,7 +44,7 @@ Source:
 https://data.census.gov/
 ## Data Files
 
-| File | Description |
+
 | File                             | Description                        |
 | -------------------------------- | ---------------------------------- |
 | `data/raw/`                      | Original source files              |
@@ -180,6 +180,7 @@ This folder contains SQL scripts used to construct the database, import data, cl
 - `Iowa_Jury_Representation_Dashboard.twb` – Tableau workbook containing the interactive county-level dashboard.
 
 https://public.tableau.com/shared/94TFZHHK3?:display_count=n&:origin=viz_share_link
+
 ---
 
 # Software Requirements
