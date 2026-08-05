@@ -1,0 +1,807 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0605.2203                               -->
+<workbook original-version='18.1' source-build='2026.1.3 (20261.26.0605.2203)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='IowaJuryRepresentationDashboard' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='overall_pool_final' inline='true' name='federated.1kubb5505rtlsl0zjslj91j655k9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='overall_pool_final' name='textscan.13ssgv00gvakbe13mr4480t5njzn'>
+            <connection class='textscan' directory='C:/Users/Randee/Desktop/iowa-jury-analysis/data/processed' filename='overall_pool_final.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.13ssgv00gvakbe13mr4480t5njzn' name='overall_pool_final.csv' table='[overall_pool_final#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='court_number' ordinal='0' />
+            <column datatype='string' name='county_name' ordinal='1' />
+            <column datatype='string' name='dataset' ordinal='2' />
+            <column datatype='string' name='race' ordinal='3' />
+            <column datatype='integer' name='adjusted_total' ordinal='4' />
+            <column datatype='integer' name='jury_count' ordinal='5' />
+            <column datatype='real' name='jury_pool_pct' ordinal='6' />
+            <column datatype='real' name='county_population_pct' ordinal='7' />
+            <column datatype='real' name='representation_gap' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[overall_pool_final.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>court_number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[court_number]</local-name>
+            <parent-name>[overall_pool_final.csv]</parent-name>
+            <remote-alias>court_number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[county_name]</local-name>
+            <parent-name>[overall_pool_final.csv]</parent-name>
+            <remote-alias>county_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dataset</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dataset]</local-name>
+            <parent-name>[overall_pool_final.csv]</parent-name>
+            <remote-alias>dataset</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[race]</local-name>
+            <parent-name>[overall_pool_final.csv]</parent-name>
+            <remote-alias>race</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adjusted_total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[adjusted_total]</local-name>
+            <parent-name>[overall_pool_final.csv]</parent-name>
+            <remote-alias>adjusted_total</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jury_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[jury_count]</local-name>
+            <parent-name>[overall_pool_final.csv]</parent-name>
+            <remote-alias>jury_count</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jury_pool_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[jury_pool_pct]</local-name>
+            <parent-name>[overall_pool_final.csv]</parent-name>
+            <remote-alias>jury_pool_pct</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_population_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[county_population_pct]</local-name>
+            <parent-name>[overall_pool_final.csv]</parent-name>
+            <remote-alias>county_population_pct</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>representation_gap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[representation_gap]</local-name>
+            <parent-name>[overall_pool_final.csv]</parent-name>
+            <remote-alias>representation_gap</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='State' datatype='string' name='[Calculation_1020927224283136]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <calculation class='tableau' formula='&quot;Iowa&quot;' />
+      </column>
+      <column caption='overall_pool_final.csv' datatype='table' name='[__tableau_internal_object_id__].[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]' role='measure' type='quantitative' />
+      <column caption='Adjusted Total' datatype='integer' name='[adjusted_total]' role='measure' type='quantitative' />
+      <column caption='County Name' datatype='string' name='[county_name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Population Pct' datatype='real' name='[county_population_pct]' role='measure' type='quantitative' />
+      <column caption='Court Number' datatype='integer' name='[court_number]' role='dimension' type='ordinal' />
+      <column caption='Dataset' datatype='string' name='[dataset]' role='dimension' type='nominal' />
+      <column caption='Jury Count' datatype='integer' name='[jury_count]' role='measure' type='quantitative' />
+      <column caption='Jury Pool Pct' datatype='real' name='[jury_pool_pct]' role='measure' type='quantitative' />
+      <column caption='Race' datatype='string' name='[race]' role='dimension' type='nominal' />
+      <column caption='Representation Gap' datatype='real' name='[representation_gap]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Randee/Desktop/overall_pool_final.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='08/04/2026 08:16:29 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='overall_pool_final' increment-value='%null%' refresh-type='create' rows-inserted='700' timestamp-start='2026-08-04 20:16:29.390' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>court_number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[court_number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>court_number</remote-alias>
+              <ordinal>0</ordinal>
+              <family>overall_pool_final.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>county_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[county_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>county_name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>overall_pool_final.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dataset</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dataset]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dataset</remote-alias>
+              <ordinal>2</ordinal>
+              <family>overall_pool_final.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>race</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[race]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>race</remote-alias>
+              <ordinal>3</ordinal>
+              <family>overall_pool_final.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>adjusted_total</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[adjusted_total]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>adjusted_total</remote-alias>
+              <ordinal>4</ordinal>
+              <family>overall_pool_final.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>jury_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[jury_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>jury_count</remote-alias>
+              <ordinal>5</ordinal>
+              <family>overall_pool_final.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>216</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>jury_pool_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[jury_pool_pct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>jury_pool_pct</remote-alias>
+              <ordinal>6</ordinal>
+              <family>overall_pool_final.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>330</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>county_population_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[county_population_pct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>county_population_pct</remote-alias>
+              <ordinal>7</ordinal>
+              <family>overall_pool_final.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>635</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>representation_gap</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[representation_gap]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>representation_gap</remote-alias>
+              <ordinal>8</ordinal>
+              <family>overall_pool_final.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>661</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='overall_pool_final.csv' id='overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1'>
+            <properties context=''>
+              <relation connection='textscan.13ssgv00gvakbe13mr4480t5njzn' name='overall_pool_final.csv' table='[overall_pool_final#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='court_number' ordinal='0' />
+                  <column datatype='string' name='county_name' ordinal='1' />
+                  <column datatype='string' name='dataset' ordinal='2' />
+                  <column datatype='string' name='race' ordinal='3' />
+                  <column datatype='integer' name='adjusted_total' ordinal='4' />
+                  <column datatype='integer' name='jury_count' ordinal='5' />
+                  <column datatype='real' name='jury_pool_pct' ordinal='6' />
+                  <column datatype='real' name='county_population_pct' ordinal='7' />
+                  <column datatype='real' name='representation_gap' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Iowa Jury Representation Dashboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Iowa Jury Representation Map&#10;&#10;</run>
+            <run fontsize='11'>Blue = overrepresented  White = approximately proportional Orange = underrepresented</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='overall_pool_final' name='federated.1kubb5505rtlsl0zjslj91j655k9' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1kubb5505rtlsl0zjslj91j655k9'>
+            <column caption='State' datatype='string' name='[Calculation_1020927224283136]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <calculation class='tableau' formula='&quot;Iowa&quot;' />
+            </column>
+            <column-instance column='[__tableau_internal_object_id__].[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1:qk]' pivot='key' type='quantitative' />
+            <column caption='overall_pool_final.csv' datatype='table' name='[__tableau_internal_object_id__].[overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1]' role='measure' type='quantitative' />
+            <column caption='Adjusted Total' datatype='integer' name='[adjusted_total]' role='measure' type='quantitative' />
+            <column-instance column='[race]' derivation='Attribute' name='[attr:race:nk]' pivot='key' type='nominal' />
+            <column-instance column='[county_population_pct]' derivation='Avg' name='[avg:county_population_pct:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[jury_count]' derivation='Avg' name='[avg:jury_count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[jury_pool_pct]' derivation='Avg' name='[avg:jury_pool_pct:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[representation_gap]' derivation='Avg' name='[avg:representation_gap:qk]' pivot='key' type='quantitative' />
+            <column caption='County Name' datatype='string' name='[county_name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column caption='County Population Pct' datatype='real' name='[county_population_pct]' role='measure' type='quantitative' />
+            <column caption='Jury Count' datatype='integer' name='[jury_count]' role='measure' type='quantitative' />
+            <column caption='Jury Pool Pct' datatype='real' name='[jury_pool_pct]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1020927224283136]' derivation='None' name='[none:Calculation_1020927224283136:nk]' pivot='key' type='nominal' />
+            <column-instance column='[county_name]' derivation='None' name='[none:county_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[race]' derivation='None' name='[none:race:nk]' pivot='key' type='nominal' />
+            <column caption='Race' datatype='string' name='[race]' role='dimension' type='nominal' />
+            <column caption='Representation Gap' datatype='real' name='[representation_gap]' role='measure' type='quantitative' />
+            <column-instance column='[adjusted_total]' derivation='Sum' name='[sum:adjusted_total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[representation_gap]' derivation='Sum' name='[sum:representation_gap:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kubb5505rtlsl0zjslj91j655k9].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kubb5505rtlsl0zjslj91j655k9].[sum:adjusted_total:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kubb5505rtlsl0zjslj91j655k9].[__tableau_internal_object_id__].[cnt:overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:jury_count:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kubb5505rtlsl0zjslj91j655k9].[sum:representation_gap:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1kubb5505rtlsl0zjslj91j655k9].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1kubb5505rtlsl0zjslj91j655k9].[sum:adjusted_total:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1kubb5505rtlsl0zjslj91j655k9].[__tableau_internal_object_id__].[cnt:overall_pool_final.csv_F214CF899A104580BFA19737D9CB1CB1:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:county_population_pct:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:jury_count:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:jury_pool_pct:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1kubb5505rtlsl0zjslj91j655k9].[sum:representation_gap:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1kubb5505rtlsl0zjslj91j655k9].[none:race:nk]'>
+            <groupfilter function='member' level='[none:race:nk]' member='&quot;Black/African American&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1kubb5505rtlsl0zjslj91j655k9].[none:race:nk]</column>
+            <column>[federated.1kubb5505rtlsl0zjslj91j655k9].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1kubb5505rtlsl0zjslj91j655k9].[Longitude (generated)]' field-type='quantitative' max='-9804398.8603518382' min='-11075657.904229546' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1kubb5505rtlsl0zjslj91j655k9].[Latitude (generated)]' field-type='quantitative' max='5467270.8364713108' min='4730173.8413594589' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' center='0.0' field='[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:representation_gap:qk]' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:representation_gap:qk]' />
+              <lod column='[federated.1kubb5505rtlsl0zjslj91j655k9].[none:Calculation_1020927224283136:nk]' />
+              <lod column='[federated.1kubb5505rtlsl0zjslj91j655k9].[none:county_name:nk]' />
+              <lod column='[federated.1kubb5505rtlsl0zjslj91j655k9].[none:county_name:nk]' />
+              <tooltip column='[federated.1kubb5505rtlsl0zjslj91j655k9].[Multiple Values]' />
+              <tooltip column='[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:county_population_pct:qk]' />
+              <tooltip column='[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:jury_pool_pct:qk]' />
+              <tooltip column='[federated.1kubb5505rtlsl0zjslj91j655k9].[attr:race:nk]' />
+              <lod column='[federated.1kubb5505rtlsl0zjslj91j655k9].[:Measure Names]' />
+              <geometry column='[federated.1kubb5505rtlsl0zjslj91j655k9].[Geometry (generated)]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#000000'><![CDATA[County Name:	<[federated.1kubb5505rtlsl0zjslj91j655k9].[none:county_name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000'><![CDATA[Race: <[federated.1kubb5505rtlsl0zjslj91j655k9].[attr:race:nk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+                <run fontcolor='#000000'><![CDATA[Census Percentage:  <[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:county_population_pct:qk]>%]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000'><![CDATA[Jury Pool Percentage:  <[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:jury_pool_pct:qk]>%]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000'>Representation Gap:&#9;</run>
+                <run fontcolor='#000000'><![CDATA[<[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:representation_gap:qk]>]]></run>
+                <run fontcolor='#000000'>%</run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.1kubb5505rtlsl0zjslj91j655k9].[Latitude (generated)]</rows>
+        <cols>[federated.1kubb5505rtlsl0zjslj91j655k9].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{8085757E-FFF4-4C77-9645-90ABD576C67B}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Iowa Jury Representation Dashboard'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1kubb5505rtlsl0zjslj91j655k9].[none:race:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:representation_gap:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kubb5505rtlsl0zjslj91j655k9].[avg:representation_gap:qk]</field>
+            <field>[federated.1kubb5505rtlsl0zjslj91j655k9].[none:county_name:nk]</field>
+            <field>[federated.1kubb5505rtlsl0zjslj91j655k9].[none:race:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{264F9039-8874-4C5F-B1B6-4FB628D856C5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Iowa Jury Representation Dashboard' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

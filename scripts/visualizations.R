@@ -271,7 +271,6 @@ ggsave(
   bg = "white"
 )
 
-
 # ========================================================================
 # FIGURE 3
 # Census versus jury pool percentages for minority groups
@@ -423,7 +422,6 @@ ggsave(
   dpi = 300,
   bg = "white"
 )
-
 
 # ========================================================================
 # FIGURE 4
@@ -609,4 +607,259 @@ ggsave(
   height = 6,
   dpi = 300,
   bg = "white"
-) 
+)
+
+
+# ========================================================================
+# APPENDIX FIGURE A2
+# Weighted census versus jury pool percentages by race
+# with binomial error bars and individual panels
+# ========================================================================
+
+race_order_all <- c(
+  "AIAN",
+  "Asian",
+  "Black",
+  "Hispanic/Latino",
+  "Multiracial",
+  "NHPI",
+  "White"
+)
+
+
+# Calculate weighted percentages and binomial intervals -------------------
+
+race_comparison_summary <- jury_data_plot %>%
+  filter(
+    !is.na(race_short),
+    !is.na(adjusted_total),
+    adjusted_total > 0,
+    !is.na(jury_count),
+    !is.na(county_population_pct)
+  ) %>%
+  group_by(race_short) %>%
+  summarise(
+    total_jury_pool = sum(
+      adjusted_total,
+      na.rm = TRUE
+    ),
+    
+    total_race_count = sum(
+      jury_count,
+      na.rm = TRUE
+    ),
+    
+    census_proportion = weighted.mean(
+      county_population_pct / 100,
+      w = adjusted_total,
+      na.rm = TRUE
+    ),
+    
+    jury_proportion =
+      total_race_count / total_jury_pool,
+    
+    .groups = "drop"
+  ) %>%
+  mutate(
+    binomial_se = sqrt(
+      census_proportion *
+        (1 - census_proportion) /
+        total_jury_pool
+    ),
+    
+    lower_proportion = pmax(
+      0,
+      census_proportion - 1.96 * binomial_se
+    ),
+    
+    upper_proportion = pmin(
+      1,
+      census_proportion + 1.96 * binomial_se
+    ),
+    
+    census_pct = census_proportion * 100,
+    jury_pct = jury_proportion * 100,
+    lower_pct = lower_proportion * 100,
+    upper_pct = upper_proportion * 100,
+    
+    race_short = factor(
+      race_short,
+      levels = race_order_all
+    )
+  )
+
+
+# Convert the two percentages to long format ------------------------------
+
+race_comparison_long <- race_comparison_summary %>%
+  select(
+    race_short,
+    census_pct,
+    jury_pct
+  ) %>%
+  pivot_longer(
+    cols = c(
+      census_pct,
+      jury_pct
+    ),
+    names_to = "measure",
+    values_to = "percentage"
+  ) %>%
+  mutate(
+    measure = recode(
+      measure,
+      census_pct = "Census %",
+      jury_pct = "Jury %"
+    ),
+    
+    measure = factor(
+      measure,
+      levels = c(
+        "Census %",
+        "Jury %"
+      )
+    )
+  )
+
+
+# Create faceted comparison chart -----------------------------------------
+
+race_comparison_plot <- ggplot(
+  race_comparison_long,
+  aes(
+    x = measure,
+    y = percentage,
+    fill = measure
+  )
+) +
+  geom_col(
+    width = 0.45,
+    color = "black",
+    linewidth = 0.4
+  ) +
+  
+  # Expected binomial interval under proportional selection
+  geom_errorbar(
+    data = race_comparison_summary,
+    aes(
+      x = "Census %",
+      ymin = lower_pct,
+      ymax = upper_pct
+    ),
+    inherit.aes = FALSE,
+    width = 0.08,
+    linewidth = 0.5
+  ) +
+  
+  geom_text(
+    aes(
+      label = sprintf(
+        "%.2f",
+        percentage
+      )
+    ),
+    vjust = -0.8,
+    size = 3
+  ) +
+  
+  facet_wrap(
+    ~ race_short,
+    scales = "free_y",
+    ncol = 4
+  ) +
+  
+  scale_fill_manual(
+    values = c(
+      "Census %" = "grey85",
+      "Jury %" = "black"
+    )
+  ) +
+  
+  scale_y_continuous(
+    expand = expansion(
+      mult = c(0, 0.22)
+    )
+  ) +
+  
+  labs(
+    title = "Census and Jury Pool Representation by Race",
+    
+    subtitle = paste(
+      "Percentages are weighted by adjusted jury pool size.",
+      "Error bars show the approximate 95% interval expected",
+      "under proportional sampling."
+    ),
+    
+    x = NULL,
+    y = "Percentage",
+    fill = NULL,
+    
+    caption = paste(
+      "Gray bars show weighted Census percentages;",
+      "black bars show observed jury pool percentages.",
+      "Each panel uses its own y-axis scale."
+    )
+  ) +
+  
+  theme_classic() +
+  
+  theme(
+    plot.title = element_text(
+      face = "bold",
+      size = 16,
+      hjust = 0.5
+    ),
+    
+    plot.subtitle = element_text(
+      size = 10.5,
+      hjust = 0.5
+    ),
+    
+    strip.background = element_blank(),
+    
+    strip.text = element_text(
+      face = "bold",
+      size = 10
+    ),
+    
+    axis.text.x = element_text(
+      face = "bold",
+      size = 8
+    ),
+    
+    axis.title.y = element_text(
+      size = 11
+    ),
+    
+    legend.position = "top",
+    
+    legend.key = element_rect(
+      color = "black"
+    ),
+    
+    plot.caption = element_text(
+      size = 9
+    ),
+    
+    panel.spacing = unit(
+      1.1,
+      "lines"
+    )
+  )
+
+
+# Display Appendix Figure A2 --------------------------------------------------------
+
+print(race_comparison_plot)
+
+
+# Save Appendix Figure A2 -----------------------------------------------------------
+
+ggsave(
+  filename = "outputs/appendix_A2_all_races_weighted_error_bars.png",
+  plot = race_comparison_plot,
+  width = 11,
+  height = 7.5,
+  dpi = 300,
+  bg = "white"
+)
