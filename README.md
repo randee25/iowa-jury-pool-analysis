@@ -194,25 +194,25 @@ Expected runtime is generally a matter of minutes.
 
 # Methods
 
-The following methods were used throughout the analysis:
+he following methods were used throughout the analysis:
 
-Exploratory data analysis (EDA)
-Descriptive statistics
-Weighted mean calculations
-Standard deviation calculations
-Mean absolute error (MAE)
-Monte Carlo simulation
-Binomial probability models
-Chi-square analysis
-County-level visualizations
-Interactive dashboard development in Tableau
-
+- Exploratory data analysis (EDA)
+- Descriptive statistics
+- Weighted mean calculations
+- Standard deviation calculations
+- Mean absolute error (MAE)
+- Monte Carlo simulation
+- Binomial probability models
+- Chi-square analysis
+- County-level visualizations
+- Interactive dashboard development in Tableau
 These methods were selected to evaluate differences between expected and observed representation while allowing both statewide and county-level patterns to be examined.
+
 ---
 
 # Results
 
-##Key Findings
+### Key Findings
 
 White jurors were generally overrepresented relative to census estimates.
 Hispanic/Latino and Multiracial populations tended to be underrepresented.
