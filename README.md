@@ -126,14 +126,14 @@ Performs the primary statistical analyses used throughout the project.
 
 Analyses include:
 
--descriptive statistics;
--mean absolute error (MAE) and root mean squared error (RMSE);
--one-sample t-tests;
--exact binomial tests;
--Monte Carlo simulations;
--court-level summaries;
--data exports and visualizations.
-
+- Descriptive statistics
+- Mean absolute error (MAE) and root mean squared error (RMSE)
+- One-sample t-tests
+- Exact binomial tests
+- Monte Carlo simulations
+- Court-level summaries
+- Data exports
+- Preparation of data for visualizations
 ---
 
 ### `visualizations.R`
