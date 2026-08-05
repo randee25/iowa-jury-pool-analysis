@@ -96,7 +96,7 @@ iowa-jury-pool-analysis/
     └── create_tables.sql
 ```
 
-## Key Files
+## Key Files/
 
 ### data/
 
@@ -132,20 +132,21 @@ This folder contains SQL scripts used to construct the database, import data, cl
 
 ### outputs/
 
-Figures
-figure_1_census_vs_jury.png
-figure_2_weighted_mae_by_race.png
-figure_3_minority_census_vs_jury.png
-figure_4_gap_distribution_boxplot.png
-appendix_A1_weighted_representation_gap.png
-appendix_A2_all_races_weighted_error_bars.png
-Tables
-race_summary.csv
-standard_deviation_results.csv
-Tableau
-Iowa_Jury_Representation_Dashboard.twb
+### Figures
 
-Interactive dashboard:
+- `figure_1_census_vs_jury.png` – Scatterplot comparing county census percentages with jury pool percentages for each racial group.
+
+- `figure_2_weighted_mae_by_race.png` – Mean absolute error (MAE) plot summarizing the average magnitude of representation differences across racial groups.
+
+- `figure_3_minority_census_vs_jury.png` – Bar chart comparing weighted census percentages with weighted jury pool percentages for minority populations.
+
+- `figure_4_gap_distribution_boxplot.png` – Boxplots illustrating the distribution of county-level representation gaps for each racial group.
+
+- `appendix_A1_weighted_representation_gap.png` – Weighted representation-gap plot showing the direction and magnitude of overrepresentation and underrepresentation.
+
+- `appendix_A2_all_races_weighted_error_bars.png` – Weighted census-versus-jury comparison with approximate 95% binomial error intervals.
+
+- `Iowa_Jury_Representation_Dashboard.twb` – Tableau workbook containing the interactive county-level dashboard.
 
 https://public.tableau.com/shared/94TFZHHK3?:display_count=n&:origin=viz_share_link
 ---
