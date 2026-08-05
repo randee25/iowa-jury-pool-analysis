@@ -159,8 +159,24 @@ This folder contains SQL scripts used to construct the database, import data, cl
 | `analytics_views.sql`     | Creates analytical views used in R.               |
 
 
-### outputs/
+## outputs/
+### Tables
 
+- `overall_results_summary.csv` – Summary statistics for all demographic groups, including mean representation gap, median gap, mean absolute error (MAE), root mean squared error (RMSE), and correlation measures.
+
+- `race_level_summary.csv` – Summary statistics calculated separately for each demographic group.
+
+- `t_test_summary.csv` – Results of one-sample t-tests comparing observed jury representation with expected Census representation.
+
+- `binomial_summary_by_race.csv` – Summary of exact binomial test results for each demographic group.
+
+- `court_flag_summary.csv` – Court-level summary of demographic groups flagged as significantly underrepresented and those falling below the one-standard-deviation and two-standard-deviation thresholds.
+
+- `significant_underrepresentation_results.csv` – Detailed list of court-demographic-group combinations identified as significantly underrepresented.
+
+- `binomial_results.csv` – Complete set of exact binomial test results for all court-demographic-group combinations.
+
+- `monte_carlo_validation.csv` – Summary of agreement between the exact binomial and Monte Carlo methods.
 ### Figures
 
 - `figure_1_census_vs_jury.png` – Scatterplot comparing county census percentages with jury pool percentages for each racial group.
