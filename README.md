@@ -179,22 +179,29 @@ library(forcats)
 
 # Reproducing the Analysis
 
-Describe how to reproduce the project from start to finish.
+Follow these steps to reproduce the analysis:
 
-  1.Open the R project in RStudio.
-  2.Install all required packages.
-  3.Run the SQL scripts to create and populate the database.
-  4.Run the census import script.
-  5.Run the analysis scripts.
-  6.Run the visualization scripts.
-  7.Publish the Tableau dashboard if desired.
+1. Open the R project in RStudio.
 
-Expected runtime is generally a matter of minutes.
+2. Install all required packages.
+
+3. Run the SQL scripts to create and populate the database.
+
+4. Run the census import script.
+
+5. Run the analysis scripts.
+
+6. Run the visualization scripts.
+
+7. Publish the Tableau dashboard if desired.
+
+Expected runtime: a matter of minutes.
+
 ---
 
 # Methods
 
-he following methods were used throughout the analysis:
+The following methods were used throughout the analysis:
 
 - Exploratory data analysis (EDA)
 - Descriptive statistics
