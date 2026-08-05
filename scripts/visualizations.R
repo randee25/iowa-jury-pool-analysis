@@ -689,13 +689,14 @@ race_comparison_summary <- jury_data_plot %>%
   )
 
 
-# Convert the two percentages to long format ------------------------------
+# Convert percentages to long format and set label positions --------------
 
 race_comparison_long <- race_comparison_summary %>%
   select(
     race_short,
     census_pct,
-    jury_pct
+    jury_pct,
+    upper_pct
   ) %>%
   pivot_longer(
     cols = c(
@@ -718,6 +719,16 @@ race_comparison_long <- race_comparison_summary %>%
         "Census %",
         "Jury %"
       )
+    ),
+    
+    # Census labels sit above the error bar;
+    # jury labels sit above the bar.
+    label_position = case_when(
+      measure == "Census %" ~
+        upper_pct + pmax(upper_pct * 0.04, 0.02),
+      
+      measure == "Jury %" ~
+        percentage + pmax(percentage * 0.04, 0.02)
     )
   )
 
@@ -738,7 +749,6 @@ race_comparison_plot <- ggplot(
     linewidth = 0.4
   ) +
   
-  # Expected binomial interval under proportional selection
   geom_errorbar(
     data = race_comparison_summary,
     aes(
@@ -753,12 +763,9 @@ race_comparison_plot <- ggplot(
   
   geom_text(
     aes(
-      label = sprintf(
-        "%.2f",
-        percentage
-      )
+      y = label_position,
+      label = sprintf("%.2f", percentage)
     ),
-    vjust = -0.8,
     size = 3
   ) +
   
@@ -777,7 +784,7 @@ race_comparison_plot <- ggplot(
   
   scale_y_continuous(
     expand = expansion(
-      mult = c(0, 0.22)
+      mult = c(0, 0.25)
     )
   ) +
   
@@ -848,12 +855,12 @@ race_comparison_plot <- ggplot(
   )
 
 
-# Display Appendix Figure A2 --------------------------------------------------------
+# Display Appendix Figure A2 ----------------------------------------------
 
 print(race_comparison_plot)
 
 
-# Save Appendix Figure A2 -----------------------------------------------------------
+# Save Appendix Figure A2 -------------------------------------------------
 
 ggsave(
   filename = "outputs/appendix_A2_all_races_weighted_error_bars.png",

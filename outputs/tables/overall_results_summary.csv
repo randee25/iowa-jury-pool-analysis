@@ -1,0 +1,11 @@
+metric,value
+Number of observations,700
+Number of courts,100
+Number of demographic groups,7
+Mean representation gap,-0.18432568646625516
+Median representation gap,-0.10306248367052753
+Mean absolute error (MAE),2.0735294139202476
+Standard deviation,3.7016127254484608
+Minimum representation gap,-17.73876021379861
+Maximum representation gap,24.37078253746447
+Pearson correlation,0.9959523669308433
