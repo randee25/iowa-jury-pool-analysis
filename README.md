@@ -80,11 +80,9 @@ https://data.census.gov/
   - Tableau workbook
 
 - scripts
-  - chi_square.R
-  - exploratory_analysis.R
-  - get_census_data.R
-  - main_analysis.R
-  - visualizations.R
+  -  get_census_data.R
+  -  main_analysis.R
+  -  visualizations.R
 
 - sql
   - analytics_views.sql
@@ -107,15 +105,49 @@ Contains the original census files and jury pool datasets.
 ### processed/
 Contains cleaned and merged datasets used in the final analysis.
 
-### scripts/
+## Script descriptions
 
-| File                     | Description                                             |
-| ------------------------ | ------------------------------------------------------- |
-| `chi_square.R`           | Performs exploratory chi-square analyses.               |
-| `exploratory_analysis.R` | Produces summary statistics and exploratory analyses.   |
-| `get_census_data.R`      | Imports and cleans census data.                         |
-| `main_analysis.R`        | Merges datasets and calculates representation measures. |
-| `visualizations.R`       | Produces figures used in the final report.              |
+### `get_census_data.R`
+
+Imports, cleans, and processes county-level demographic data obtained from the United States Census Bureau.
+
+Primary tasks include:
+
+- importing Census tables;
+- filtering data to Iowa counties;
+- standardizing race and ethnicity categories;
+- creating processed datasets for analysis.
+
+---
+
+### `main_analysis.R`
+
+Performs the primary statistical analyses used throughout the project.
+
+Analyses include:
+
+- overall summary statistics;
+- race-level summaries;
+- mean absolute error (MAE);
+- Pearson correlation coefficients;
+- one-sample t-tests;
+- exact one-sided binomial tests;
+- Monte Carlo simulations;
+- court-level summaries;
+- export procedures.
+
+---
+
+### `visualizations.R`
+
+Creates the figures used in the report, appendix, and Tableau dashboard.
+
+Tasks include:
+
+- reshaping data for visualization;
+- creating publication-quality graphics;
+- exporting figures to the `outputs/figures` directory;
+- maintaining consistent formatting, labeling, and color schemes.
 
 ### sql/
 This folder contains SQL scripts used to construct the database, import data, clean tables, and create analytical views.
