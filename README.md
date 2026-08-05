@@ -66,36 +66,34 @@ https://data.census.gov/
 ---
 
 ## Project Organization
+## Project Organization
 
-```text
-iowa-jury-pool-analysis/
+- README.md
 
-├── README.md
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── outputs/
-│   ├── figures/
-│   ├── summary tables/
-│   └── Tableau workbook/
-│
-├── scripts/
-│   ├── chi_square.R
-│   ├── exploratory_analysis.R
-│   ├── get_census_data.R
-│   ├── main_analysis.R
-│   └── visualizations.R
-│
-└── sql/
-    ├── analytics_views.sql
-    ├── create_clean_tables.sql
-    ├── create_lookup_table.sql
-    ├── create_raw_tables.sql
-    ├── create_schemas.sql
-    └── create_tables.sql
-```
+- data
+  - raw
+  - processed
+
+- outputs
+  - figures
+  - summary tables
+  - Tableau workbook
+
+- scripts
+  - chi_square.R
+  - exploratory_analysis.R
+  - get_census_data.R
+  - main_analysis.R
+  - visualizations.R
+
+- sql
+  - analytics_views.sql
+  - create_clean_tables.sql
+  - create_lookup_table.sql
+  - create_raw_tables.sql
+  - create_schemas.sql
+  - create_tables.sql
+ 
 
 ## Key Files/
 
