@@ -126,15 +126,13 @@ Performs the primary statistical analyses used throughout the project.
 
 Analyses include:
 
-- overall summary statistics;
-- race-level summaries;
-- mean absolute error (MAE);
-- Pearson correlation coefficients;
-- one-sample t-tests;
-- exact one-sided binomial tests;
-- Monte Carlo simulations;
-- court-level summaries;
-- export procedures.
+-descriptive statistics;
+-mean absolute error (MAE) and root mean squared error (RMSE);
+-one-sample t-tests;
+-exact binomial tests;
+-Monte Carlo simulations;
+-court-level summaries;
+-data exports and visualizations.
 
 ---
 
