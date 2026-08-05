@@ -6,11 +6,10 @@
 # 1. Data preparation and validation
 # 2. Overall summary statistics
 # 3. Race-level representation results
-# 4. Mean absolute error
-# 5. One-sample t-tests
-# 6. Exact one-sided binomial tests
+# 4. One-sample t-tests
+# 5. Exact one-sided binomial tests
+# 6. Court-level flags and final exports
 # 7. Monte Carlo tests
-# 8. Court-level flags and final exports
 #
 # The analysis includes seven demographic categories:
 #   White
@@ -26,13 +25,16 @@
 # because the Multiracial category may not be defined
 # consistently across the jury and Census datasets.
 #
-# Hispanic/Latino/Spanish Origins is an ethnicity category and
-# may overlap conceptually with the race categories. It is
-# analyzed independently and should not be added to the race
-# percentages to create a total demographic distribution.
-# ============================================================
-
-
+## Hispanic/Latino/Spanish origin is treated separately
+# because the Census defines it as an ethnicity rather
+# than a race. Individuals may identify as both Hispanic
+# and a racial category (for example, White or Black),
+# so these percentages should not be added to race-based
+# percentages to create a total distribution.
+#
+# Because the Census and jury data may define Hispanic
+# origin differently, results for this category should
+# be interpreted cautiously.
 # ============================================================
 # LOAD REQUIRED PACKAGES
 # ============================================================
@@ -63,24 +65,18 @@ dir.create(
   recursive = TRUE,
   showWarnings = FALSE
 )
-
-
 # ============================================================
 # 1. IMPORT AND PREPARE THE ANALYTICAL DATA
 # ============================================================
-
 main_analytics_view <- read_csv(
   "data/processed/new_main_view.csv",
   col_types = cols(
     court_number = col_character()
   )
 )
-
-
 # ------------------------------------------------------------
 # Prepare the Overall Pool dataset
 # ------------------------------------------------------------
-
 overall_pool <- main_analytics_view %>%
   filter(
     dataset == "Overall Pool"
@@ -97,12 +93,9 @@ overall_pool <- main_analytics_view %>%
     county_population_pct = census_pct,
     representation_gap = pt_diff
   )
-
-
 # ------------------------------------------------------------
 # Confirm required columns exist
 # ------------------------------------------------------------
-
 required_columns <- c(
   "court_number",
   "county_name",
@@ -129,11 +122,9 @@ if (length(missing_columns) > 0) {
   )
 }
 
-
 # ------------------------------------------------------------
 # Check for missing or invalid values
 # ------------------------------------------------------------
-
 invalid_value_check <- overall_pool %>%
   filter(
     is.na(adjusted_total) |
@@ -156,8 +147,6 @@ if (nrow(invalid_value_check) > 0) {
     )
   )
 }
-
-
 # ------------------------------------------------------------
 # Check that adjusted_total is consistent within each court
 # ------------------------------------------------------------
@@ -165,7 +154,6 @@ if (nrow(invalid_value_check) > 0) {
 # rows belonging to the same court.
 #
 # Zero returned rows means this check was satisfied.
-
 adjusted_total_check <- overall_pool %>%
   group_by(
     court_number,
@@ -188,8 +176,6 @@ adjusted_total_check <- overall_pool %>%
   )
 
 adjusted_total_check
-
-
 # ------------------------------------------------------------
 # Check for duplicate court-race observations
 # ------------------------------------------------------------
@@ -210,14 +196,11 @@ duplicate_check <- overall_pool %>%
   )
 
 duplicate_check
-
-
 # ------------------------------------------------------------
 # Create a testing-ready dataset
 # ------------------------------------------------------------
 # Statistical tests require a valid total, observed count, and
 # Census percentage.
-
 overall_pool_testable <- overall_pool %>%
   filter(
     !is.na(adjusted_total),
@@ -229,14 +212,11 @@ overall_pool_testable <- overall_pool %>%
     county_population_pct >= 0,
     county_population_pct <= 100
   )
-
-
 # ============================================================
 # 2. OVERALL SUMMARY STATISTICS
 # ============================================================
 # Representation gap:
-#
-#   Jury pool percentage - county population percentage
+#Jury pool percentage - county population percentage
 #
 # Positive values indicate overrepresentation.
 # Negative values indicate underrepresentation.
@@ -249,6 +229,9 @@ overall_results_summary <- tibble(
     "Mean representation gap",
     "Median representation gap",
     "Mean absolute error (MAE)",
+    "Root mean squared error (RMSE)",
+    "Percentage of gaps ≤ -5",
+    "Percentage of gaps ≤ 5",
     "Standard deviation",
     "Minimum representation gap",
     "Maximum representation gap",
@@ -281,6 +264,23 @@ overall_results_summary <- tibble(
       na.rm = TRUE
     ),
     
+    sqrt(
+      mean(
+        overall_pool$representation_gap^2,
+        na.rm = TRUE
+      )
+    ),
+    
+    mean(
+      overall_pool$representation_gap <= -5,
+      na.rm = TRUE
+    )*100,
+    
+    mean(
+      overall_pool$representation_gap >= 5,
+      na.rm = TRUE
+    )*100,
+    
     sd(
       overall_pool$representation_gap,
       na.rm = TRUE
@@ -304,140 +304,106 @@ overall_results_summary <- tibble(
     )
   )
 )
-
-overall_results_summary
+overall_results_summary <- overall_results_summary %>%
+  mutate(
+    across(
+      where(is.numeric),
+      ~ round(.x, 4)
+    )
+  )
 
 View(overall_results_summary)
-
-
 # ============================================================
 # 3. RACE-LEVEL REPRESENTATION RESULTS
 # ============================================================
+# Representation gap:
+# Jury pool percentage - county population percentage
+#
+# Positive values indicate overrepresentation.
+# Negative values indicate underrepresentation.
 
 race_level_summary <- overall_pool %>%
-  group_by(
-    race
+  mutate(
+    race = recode(
+      race,
+      "HLSO Ethnicity" = "Hispanic/Latino"
+    )
   ) %>%
+  group_by(race) %>%
   summarize(
-    observations =
-      sum(!is.na(representation_gap)),
     
-    courts =
-      n_distinct(court_number),
+    mean_jury_pct = mean(
+      jury_pool_pct,
+      na.rm = TRUE
+    ),
     
-    mean_jury_pool_pct =
+    mean_census_pct = mean(
+      county_population_pct,
+      na.rm = TRUE
+    ),
+    
+    mean_gap = mean(
+      representation_gap,
+      na.rm = TRUE
+    ),
+    
+    median_gap = median(
+      representation_gap,
+      na.rm = TRUE
+    ),
+    
+    minimum_gap = min(
+      representation_gap,
+      na.rm = TRUE
+    ),
+    
+    maximum_gap = max(
+      representation_gap,
+      na.rm = TRUE
+    ),
+    
+    mae = mean(
+      abs(representation_gap),
+      na.rm = TRUE
+    ),
+    
+    rmse = sqrt(
       mean(
-        jury_pool_pct,
+        representation_gap^2,
         na.rm = TRUE
-      ),
+      )
+    ),
     
-    mean_county_population_pct =
-      mean(
-        county_population_pct,
-        na.rm = TRUE
-      ),
+    standard_deviation = sd(
+      representation_gap,
+      na.rm = TRUE
+    ),
     
-    mean_gap =
-      mean(
-        representation_gap,
-        na.rm = TRUE
-      ),
-    
-    median_gap =
-      median(
-        representation_gap,
-        na.rm = TRUE
-      ),
-    
-    minimum_gap =
-      min(
-        representation_gap,
-        na.rm = TRUE
-      ),
-    
-    maximum_gap =
-      max(
-        representation_gap,
-        na.rm = TRUE
-      ),
-    
-    standard_deviation =
-      sd(
-        representation_gap,
-        na.rm = TRUE
-      ),
-    
-    correlation =
-      cor(
-        jury_pool_pct,
-        county_population_pct,
-        use = "complete.obs",
-        method = "pearson"
-      ),
+    pearson_correlation = cor(
+      jury_pool_pct,
+      county_population_pct,
+      use = "complete.obs",
+      method = "pearson"
+    ),
     
     .groups = "drop"
   ) %>%
-  arrange(
-    mean_gap
-  )
+  arrange(mean_gap)
 
-race_level_summary
+race_level_summary <- race_level_summary %>%
+  mutate(
+    across(
+      where(is.numeric),
+      ~ round(.x, 4)
+    )
+  )
 
 View(race_level_summary)
-
-
 # ============================================================
-# 4. MEAN ABSOLUTE ERROR
-# ============================================================
-# MAE measures the average absolute difference between the jury
-# pool percentage and county population percentage.
-#
-# Because absolute values are used, MAE measures the size of
-# the mismatch but not its direction.
-
-mae_summary <- overall_pool %>%
-  group_by(
-    race
-  ) %>%
-  summarize(
-    observations =
-      sum(!is.na(representation_gap)),
-    
-    mean_absolute_error =
-      mean(
-        abs(representation_gap),
-        na.rm = TRUE
-      ),
-    
-    median_absolute_error =
-      median(
-        abs(representation_gap),
-        na.rm = TRUE
-      ),
-    
-    maximum_absolute_error =
-      max(
-        abs(representation_gap),
-        na.rm = TRUE
-      ),
-    
-    .groups = "drop"
-  ) %>%
-  arrange(
-    desc(mean_absolute_error)
-  )
-
-mae_summary
-
-View(mae_summary)
-
-
-# ============================================================
-# 5. ONE-SAMPLE T-TESTS
+# 4. ONE-SAMPLE T-TESTS
 # ============================================================
 # These one-sample t-tests evaluate whether the average
-# representation gap across courts differs significantly from
-# zero.
+# representation gap differs significantly from zero.
 #
 # Null hypothesis:
 #   Mean representation gap = 0
@@ -462,6 +428,10 @@ View(mae_summary)
 # 3. No multiple-comparison adjustment is applied because the
 #    t-tests are secondary and exploratory.
 #
+# 4. The overall test combines all court-group observations and
+#    should be interpreted cautiously because each court appears
+#    once for every demographic group.
+#
 # The primary court-level inferential analyses are the exact
 # one-sided binomial and Monte Carlo tests.
 
@@ -476,19 +446,16 @@ overall_t_test <- t.test(
   alternative = "two.sided"
 )
 
-overall_t_test_summary <- tibble(
-  analysis =
-    "All demographic groups combined",
+overall_t_test_row <- tibble(
+  group = "Overall",
   
-  observations =
-    sum(
-      !is.na(overall_pool$representation_gap)
-    ),
+  observations = sum(
+    !is.na(overall_pool$representation_gap)
+  ),
   
-  mean_gap =
-    as.numeric(
-      overall_t_test$estimate
-    ),
+  mean_gap = as.numeric(
+    overall_t_test$estimate
+  ),
   
   confidence_interval_lower =
     overall_t_test$conf.int[1],
@@ -496,47 +463,31 @@ overall_t_test_summary <- tibble(
   confidence_interval_upper =
     overall_t_test$conf.int[2],
   
-  t_statistic =
-    as.numeric(
-      overall_t_test$statistic
-    ),
-  
-  degrees_freedom =
-    as.numeric(
-      overall_t_test$parameter
-    ),
+  t_statistic = as.numeric(
+    overall_t_test$statistic
+  ),
   
   p_value =
-    overall_t_test$p.value
-) %>%
-  mutate(
-    statistically_significant =
-      p_value < 0.05,
-    
-    average_direction = case_when(
-      mean_gap < 0 ~
-        "Underrepresented on average",
-      
-      mean_gap > 0 ~
-        "Overrepresented on average",
-      
-      TRUE ~
-        "No average difference"
-    )
-  )
-
-overall_t_test_summary
-
-View(overall_t_test_summary)
+    overall_t_test$p.value,
+  
+  statistically_significant =
+    overall_t_test$p.value < 0.05
+)
 
 
 # ------------------------------------------------------------
-# Race-specific t-tests
+# T-tests by demographic group
 # ------------------------------------------------------------
 
-t_test_summary_by_race <- overall_pool %>%
+t_test_rows_by_group <- overall_pool %>%
   filter(
     !is.na(representation_gap)
+  ) %>%
+  mutate(
+    race = recode(
+      race,
+      "HLSO Ethnicity" = "Hispanic/Latino"
+    )
   ) %>%
   group_by(
     race
@@ -551,15 +502,11 @@ t_test_summary_by_race <- overall_pool %>%
       )
       
       tibble(
-        courts_analyzed =
-          sum(
-            !is.na(.x$representation_gap)
-          ),
+        observations = nrow(.x),
         
-        mean_gap =
-          as.numeric(
-            test_result$estimate
-          ),
+        mean_gap = as.numeric(
+          test_result$estimate
+        ),
         
         confidence_interval_lower =
           test_result$conf.int[1],
@@ -567,46 +514,96 @@ t_test_summary_by_race <- overall_pool %>%
         confidence_interval_upper =
           test_result$conf.int[2],
         
-        t_statistic =
-          as.numeric(
-            test_result$statistic
-          ),
-        
-        degrees_freedom =
-          as.numeric(
-            test_result$parameter
-          ),
+        t_statistic = as.numeric(
+          test_result$statistic
+        ),
         
         p_value =
-          test_result$p.value
+          test_result$p.value,
+        
+        statistically_significant =
+          test_result$p.value < 0.05
       )
     }
   ) %>%
   ungroup() %>%
+  rename(
+    group = race
+  )
+# ------------------------------------------------------------
+# Combined t-test summary
+# ------------------------------------------------------------
+
+t_test_summary <- bind_rows(
+  overall_t_test_row,
+  t_test_rows_by_group
+) %>%
   mutate(
-    statistically_significant =
-      p_value < 0.05,
-    
-    average_direction = case_when(
-      mean_gap < 0 ~
-        "Underrepresented on average",
-      
-      mean_gap > 0 ~
-        "Overrepresented on average",
-      
-      TRUE ~
-        "No average difference"
+    group = factor(
+      group,
+      levels = c(
+        "Overall",
+        "Multiracial",
+        "Hispanic/Latino",
+        "Black/African American",
+        "Asian",
+        "Native Hawaiian/Pacific Islander",
+        "American Indian/Alaskan Native",
+        "White"
+      )
     )
   ) %>%
   arrange(
-    mean_gap
+    group
+  ) %>%
+  mutate(
+    group = as.character(group)
+  ) %>%
+  rename(
+    ci_lower = confidence_interval_lower,
+    ci_upper = confidence_interval_upper
+  ) %>%
+  mutate(
+    significance = if_else(
+      statistically_significant,
+      "Significant",
+      "Not significant"
+    )
+  ) %>%
+  select(
+    group,
+    observations,
+    mean_gap,
+    ci_lower,
+    ci_upper,
+    t_statistic,
+    p_value,
+    significance
+  ) %>%
+  mutate(
+    across(
+      c(
+        mean_gap,
+        ci_lower,
+        ci_upper,
+        t_statistic
+      ),
+      ~ round(.x, 4)
+    ),
+    
+    p_value = if_else(
+      p_value < 0.0001,
+      "< 0.0001",
+      format(
+        round(p_value, 4),
+        nsmall = 4
+      )
+    )
   )
 
-t_test_summary_by_race
+t_test_summary
 
-View(t_test_summary_by_race)
-
-
+View(t_test_summary)
 # ============================================================
 # 6. EXACT ONE-SIDED BINOMIAL TESTS
 # ============================================================
@@ -636,7 +633,11 @@ View(t_test_summary_by_race)
 #   p-value < 0.025
 #     Approximately below a two-standard-deviation threshold.
 
-
+# Because separate tests are conducted for every court-group
+# combination, some statistically significant results may occur
+# by chance due to multiple testing. Results are therefore
+# interpreted using both the individual p-values and the overall
+# pattern across courts.
 # ------------------------------------------------------------
 # Calculate exact one-sided p-values
 # ------------------------------------------------------------
@@ -693,92 +694,167 @@ binomial_results <- overall_pool_testable %>%
 binomial_results
 
 View(binomial_results)
-
-
 # ------------------------------------------------------------
 # Summarize exact binomial results by demographic group
 # ------------------------------------------------------------
 
 binomial_summary_by_race <- binomial_results %>%
+  mutate(
+    race = recode(
+      race,
+      "HLSO Ethnicity" = "Hispanic/Latino"
+    )
+  ) %>%
   group_by(
     race
   ) %>%
   summarize(
-    courts_tested =
-      sum(
-        !is.na(exact_p_value)
-      ),
+    courts_tested = sum(
+      !is.na(exact_p_value)
+    ),
     
-    courts_below_expected =
-      sum(
+    percent_below_expected = mean(
+      jury_count < expected_count,
+      na.rm = TRUE
+    ) * 100,
+    
+    percent_significantly_underrepresented = mean(
+      statistically_significant &
         jury_count < expected_count,
-        na.rm = TRUE
-      ),
+      na.rm = TRUE
+    ) * 100,
     
-    courts_significantly_underrepresented =
-      sum(
-        statistically_significant &
-          jury_count < expected_count,
-        na.rm = TRUE
-      ),
+    percent_below_1sd = mean(
+      below_expected_1sd,
+      na.rm = TRUE
+    ) * 100,
     
-    percent_significantly_underrepresented =
-      mean(
-        statistically_significant &
-          jury_count < expected_count,
-        na.rm = TRUE
-      ) * 100,
-    
-    courts_below_1sd =
-      sum(
-        below_expected_1sd,
-        na.rm = TRUE
-      ),
-    
-    percent_courts_below_1sd =
-      mean(
-        below_expected_1sd,
-        na.rm = TRUE
-      ) * 100,
-    
-    courts_below_2sd =
-      sum(
-        below_expected_2sd,
-        na.rm = TRUE
-      ),
-    
-    percent_courts_below_2sd =
-      mean(
-        below_expected_2sd,
-        na.rm = TRUE
-      ) * 100,
-    
-    median_exact_p_value =
-      median(
-        exact_p_value,
-        na.rm = TRUE
-      ),
+    percent_below_2sd = mean(
+      below_expected_2sd,
+      na.rm = TRUE
+    ) * 100,
     
     .groups = "drop"
   ) %>%
   arrange(
-    desc(
-      percent_significantly_underrepresented
+    desc(percent_significantly_underrepresented)
+  ) %>%
+  mutate(
+    across(
+      where(is.numeric),
+      ~ round(.x, 2)
     )
   )
 
 binomial_summary_by_race
 
 View(binomial_summary_by_race)
-
-
 # ============================================================
-# 7. MONTE CARLO TESTS
+# 7. COURT-LEVEL FLAGS
 # ============================================================
-# This section uses a simulation-based version of the same
-# one-sided test.
+# This section summarizes how many demographic groups within
+# each court were flagged by the exact binomial analysis.
 #
-# For each demographic group within each court:
+# Note:
+# These categories overlap.
+#
+# groups_below_1sd:
+#     exact_p_value < 0.16
+#
+# groups_significantly_underrepresented:
+#     exact_p_value < 0.05
+#
+# groups_below_2sd:
+#     exact_p_value < 0.025
+#
+# The 2-SD threshold is the most stringent criterion,
+# whereas the 1-SD threshold is the least stringent.
+
+
+# ------------------------------------------------------------
+# Court-level exact binomial flags
+# ------------------------------------------------------------
+
+court_flag_summary <- binomial_results %>%
+  group_by(
+    court_number,
+    county_name
+  ) %>%
+  summarize(
+    groups_tested = sum(
+      !is.na(exact_p_value)
+    ),
+    
+    groups_significantly_underrepresented = sum(
+      statistically_significant &
+        jury_count < expected_count,
+      na.rm = TRUE
+    ),
+    
+    groups_below_1sd = sum(
+      below_expected_1sd,
+      na.rm = TRUE
+    ),
+    
+    groups_below_2sd = sum(
+      below_expected_2sd,
+      na.rm = TRUE
+    ),
+    
+    .groups = "drop"
+  ) %>%
+  arrange(
+    desc(groups_significantly_underrepresented),
+    desc(groups_below_2sd),
+    desc(groups_below_1sd)
+  )
+
+court_flag_summary
+
+View(court_flag_summary)
+
+
+# ------------------------------------------------------------
+# Detailed list of significant exact binomial results
+# ------------------------------------------------------------
+
+significant_underrepresentation_results <- binomial_results %>%
+  filter(
+    statistically_significant,
+    jury_count < expected_count
+  ) %>%
+  mutate(
+    race = recode(
+      race,
+      "HLSO Ethnicity" = "Hispanic/Latino"
+    )
+  ) %>%
+  select(
+    court_number,
+    county_name,
+    race,
+    adjusted_total,
+    jury_count,
+    expected_count,
+    jury_pool_pct,
+    county_population_pct,
+    representation_gap,
+    court_binomial_p_value = exact_p_value
+  ) %>%
+  arrange(
+    court_binomial_p_value,
+    representation_gap
+  )
+
+significant_underrepresentation_results
+
+View(significant_underrepresentation_results)
+# ============================================================
+# 8. MONTE CARLO VALIDATION
+# ============================================================
+# This section performs the simulation-based one-sided test.
+#
+# For each court and demographic group:
 #
 # Null hypothesis:
 #   Jury pool proportion = county population proportion
@@ -786,17 +862,19 @@ View(binomial_summary_by_race)
 # Alternative hypothesis:
 #   Jury pool proportion < county population proportion
 #
-# For every court-race observation, 10,000 jury-pool counts are
-# simulated under the Census-based null probability.
+# A total of 10,000 jury-pool counts are simulated under the
+# Census-based null probability.
 #
 # The Monte Carlo p-value is the proportion of simulated counts
 # that are less than or equal to the observed jury count.
 #
-# The +1 correction in the numerator and denominator prevents a
-# simulated p-value of exactly zero and produces a valid Monte
-# Carlo estimate.
-
-
+# The +1 correction prevents an estimated p-value of exactly
+# zero and produces a valid Monte Carlo estimate.
+#
+# The Monte Carlo results are used as a validation analysis.
+# The primary court-level results are reported using the exact
+# binomial tests.
+# ============================================================
 # ------------------------------------------------------------
 # Set simulation options
 # ------------------------------------------------------------
@@ -804,10 +882,8 @@ View(binomial_summary_by_race)
 set.seed(230)
 
 number_of_simulations <- 10000
-
-
 # ------------------------------------------------------------
-# Run the Monte Carlo tests
+# Run Monte Carlo tests
 # ------------------------------------------------------------
 
 monte_carlo_results <- overall_pool_testable %>%
@@ -838,26 +914,8 @@ monte_carlo_results <- overall_pool_testable %>%
         number_of_simulations + 1
       ),
     
-    statistically_significant =
-      monte_carlo_p_value < 0.05,
-    
-    monte_carlo_result = case_when(
-      statistically_significant &
-        jury_count < expected_count ~
-        "Significantly underrepresented",
-      
-      jury_count < expected_count ~
-        "Below expected, not significant",
-      
-      jury_count == expected_count ~
-        "Equal to expected",
-      
-      jury_count > expected_count ~
-        "At or above expected",
-      
-      TRUE ~
-        NA_character_
-    )
+    monte_carlo_significant =
+      monte_carlo_p_value < 0.05
   ) %>%
   select(
     -simulated_counts
@@ -866,89 +924,15 @@ monte_carlo_results <- overall_pool_testable %>%
 
 monte_carlo_results
 
-View(monte_carlo_results)
-
-
 # ------------------------------------------------------------
-# Summarize Monte Carlo results by demographic group
+# Compare Monte Carlo and exact binomial classifications
 # ------------------------------------------------------------
 
-monte_carlo_summary_by_race <- monte_carlo_results %>%
-  group_by(
-    race
-  ) %>%
-  summarize(
-    courts_tested =
-      sum(
-        !is.na(monte_carlo_p_value)
-      ),
-    
-    courts_below_expected =
-      sum(
-        jury_count < expected_count,
-        na.rm = TRUE
-      ),
-    
-    significant_underrepresentation =
-      sum(
-        statistically_significant &
-          jury_count < expected_count,
-        na.rm = TRUE
-      ),
-    
-    percent_significant_underrepresentation =
-      mean(
-        statistically_significant &
-          jury_count < expected_count,
-        na.rm = TRUE
-      ) * 100,
-    
-    median_monte_carlo_p_value =
-      median(
-        monte_carlo_p_value,
-        na.rm = TRUE
-      ),
-    
-    minimum_monte_carlo_p_value =
-      min(
-        monte_carlo_p_value,
-        na.rm = TRUE
-      ),
-    
-    maximum_monte_carlo_p_value =
-      max(
-        monte_carlo_p_value,
-        na.rm = TRUE
-      ),
-    
-    .groups = "drop"
-  ) %>%
-  arrange(
-    desc(
-      percent_significant_underrepresentation
-    )
-  )
-
-monte_carlo_summary_by_race
-
-View(monte_carlo_summary_by_race)
-
-
-# ------------------------------------------------------------
-# Compare exact binomial and Monte Carlo results
-# ------------------------------------------------------------
-
-test_method_comparison <- binomial_results %>%
+monte_carlo_validation <- binomial_results %>%
   select(
     court_number,
     county_name,
     race,
-    adjusted_total,
-    jury_count,
-    jury_pool_pct,
-    county_population_pct,
-    expected_count,
-    exact_p_value,
     exact_significant =
       statistically_significant
   ) %>%
@@ -958,9 +942,7 @@ test_method_comparison <- binomial_results %>%
         court_number,
         county_name,
         race,
-        monte_carlo_p_value,
-        monte_carlo_significant =
-          statistically_significant
+        monte_carlo_significant
       ),
     
     by = c(
@@ -969,207 +951,24 @@ test_method_comparison <- binomial_results %>%
       "race"
     )
   ) %>%
-  mutate(
-    absolute_p_value_difference =
-      abs(
-        exact_p_value -
-          monte_carlo_p_value
-      ),
-    
-    methods_agree =
-      exact_significant ==
-      monte_carlo_significant,
-    
-    comparison_result = case_when(
-      methods_agree ~
-        "Methods agree",
-      
-      !methods_agree ~
-        "Methods differ",
-      
-      TRUE ~
-        NA_character_
-    )
-  ) %>%
-  arrange(
-    desc(
-      absolute_p_value_difference
-    )
-  )
-
-test_method_comparison
-
-View(test_method_comparison)
-
-
-# ------------------------------------------------------------
-# Overall comparison between the two methods
-# ------------------------------------------------------------
-
-test_comparison_summary <- test_method_comparison %>%
   summarize(
     observations_compared =
       sum(
-        !is.na(methods_agree)
+        !is.na(exact_significant) &
+          !is.na(monte_carlo_significant)
       ),
     
-    number_methods_agree =
+    disagreements =
       sum(
-        methods_agree,
-        na.rm = TRUE
-      ),
-    
-    number_methods_differ =
-      sum(
-        !methods_agree,
-        na.rm = TRUE
-      ),
-    
-    percent_agreement =
-      mean(
-        methods_agree,
-        na.rm = TRUE
-      ) * 100,
-    
-    mean_absolute_p_value_difference =
-      mean(
-        absolute_p_value_difference,
-        na.rm = TRUE
-      ),
-    
-    median_absolute_p_value_difference =
-      median(
-        absolute_p_value_difference,
-        na.rm = TRUE
-      ),
-    
-    maximum_absolute_p_value_difference =
-      max(
-        absolute_p_value_difference,
+        exact_significant !=
+          monte_carlo_significant,
         na.rm = TRUE
       )
   )
 
-test_comparison_summary
+monte_carlo_validation
 
-View(test_comparison_summary)
-
-
-# ============================================================
-# 8. COURT-LEVEL FLAGS
-# ============================================================
-# This section summarizes how many demographic groups within
-# each court were flagged by the exact binomial analysis.
-
-
-# ------------------------------------------------------------
-# Court-level exact binomial flags
-# ------------------------------------------------------------
-
-court_flag_summary <- binomial_results %>%
-  group_by(
-    court_number,
-    county_name
-  ) %>%
-  summarize(
-    demographic_groups_tested =
-      sum(
-        !is.na(exact_p_value)
-      ),
-    
-    groups_below_expected =
-      sum(
-        jury_count < expected_count,
-        na.rm = TRUE
-      ),
-    
-    groups_significantly_underrepresented =
-      sum(
-        statistically_significant &
-          jury_count < expected_count,
-        na.rm = TRUE
-      ),
-    
-    percent_groups_significantly_underrepresented =
-      mean(
-        statistically_significant &
-          jury_count < expected_count,
-        na.rm = TRUE
-      ) * 100,
-    
-    groups_below_1sd =
-      sum(
-        below_expected_1sd,
-        na.rm = TRUE
-      ),
-    
-    groups_below_2sd =
-      sum(
-        below_expected_2sd,
-        na.rm = TRUE
-      ),
-    
-    percent_groups_below_1sd =
-      mean(
-        below_expected_1sd,
-        na.rm = TRUE
-      ) * 100,
-    
-    percent_groups_below_2sd =
-      mean(
-        below_expected_2sd,
-        na.rm = TRUE
-      ) * 100,
-    
-    .groups = "drop"
-  ) %>%
-  arrange(
-    desc(
-      groups_significantly_underrepresented
-    ),
-    desc(
-      groups_below_2sd
-    ),
-    desc(
-      groups_below_1sd
-    )
-  )
-
-court_flag_summary
-
-View(court_flag_summary)
-
-
-# ------------------------------------------------------------
-# Detailed list of significant exact binomial results
-# ------------------------------------------------------------
-
-significant_underrepresentation_results <- binomial_results %>%
-  filter(
-    statistically_significant,
-    jury_count < expected_count
-  ) %>%
-  select(
-    court_number,
-    county_name,
-    race,
-    adjusted_total,
-    jury_count,
-    expected_count,
-    jury_pool_pct,
-    county_population_pct,
-    representation_gap,
-    exact_p_value
-  ) %>%
-  arrange(
-    exact_p_value,
-    representation_gap
-  )
-
-significant_underrepresentation_results
-
-View(significant_underrepresentation_results)
-
+View(monte_carlo_validation)
 
 # ============================================================
 # FINAL TABLE EXPORTS
@@ -1192,13 +991,8 @@ write_csv(
 )
 
 write_csv(
-  mae_summary,
-  "outputs/tables/mae_summary.csv"
-)
-
-write_csv(
-  t_test_summary_by_race,
-  "outputs/tables/t_test_summary_by_race.csv"
+  t_test_summary,
+  "outputs/tables/t_test_summary.csv"
 )
 
 write_csv(
@@ -1207,8 +1001,8 @@ write_csv(
 )
 
 write_csv(
-  monte_carlo_summary_by_race,
-  "outputs/tables/monte_carlo_summary_by_race.csv"
+  binomial_summary_by_race,
+  "outputs/tables/binomial_summary_by_race.csv"
 )
 
 write_csv(
@@ -1216,20 +1010,22 @@ write_csv(
   "outputs/tables/court_flag_summary.csv"
 )
 
-cat("Analysis complete.\n")
-cat("Final tables exported to outputs/tables.\n")
+write_csv(
+  significant_underrepresentation_results,
+  "outputs/tables/significant_underrepresentation_results.csv"
+)
 
-
-# ============================================================
-# COMPLETION MESSAGE
-# ============================================================
-
-cat("\n")
-cat("===============================================\n")
+write_csv(
+  monte_carlo_validation,
+  "outputs/tables/monte_carlo_validation.csv"
+)
+cat("\n===============================================\n")
 cat("Iowa jury pool analysis complete.\n")
-cat("Tables exported to: outputs/tables\n")
-cat("Monte Carlo simulations per test: ",
-    number_of_simulations,
-    "\n",
-    sep = "")
+cat("Tables exported to outputs/tables.\n")
+cat(
+  "Monte Carlo simulations per test: ",
+  number_of_simulations,
+  "\n",
+  sep = ""
+)
 cat("===============================================\n")
