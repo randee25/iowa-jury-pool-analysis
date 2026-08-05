@@ -1,0 +1,8 @@
+race,courts_tested,courts_below_expected,significant_underrepresentation,percent_significant_underrepresentation,median_monte_carlo_p_value,minimum_monte_carlo_p_value,maximum_monte_carlo_p_value
+Multiracial,100,100,100,100,9.999000099990002e-5,9.999000099990002e-5,0.015498450154984501
+HLSO Ethnicity,100,98,84,84,9.99900009999e-4,9.999000099990002e-5,1
+Black/African American,100,72,40,40,0.1840815918408159,9.999000099990002e-5,1
+Asian,100,52,27,27,0.587991200879912,9.999000099990002e-5,1
+American Indian/Alaskan Native,100,47,11,11,0.737976202379762,9.999000099990002e-5,1
+Native Hawaiian/Pacific Islander,100,32,9,9,1,9.999000099990002e-5,1
+White,100,0,0,0,1,0.9883011698830118,1
