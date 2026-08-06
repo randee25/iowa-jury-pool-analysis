@@ -1,0 +1,7 @@
+race,Pool → Panel,Panel → Juror,Pool → Juror,Pool → Panel p,Panel → Juror p,Pool → Juror p
+American Indian/Alaska Native,<0.001,0,-0.28,0.004,<0.001,<0.001
+Asian,<0.001,0,-0.595,<0.001,0.001,<0.001
+Black/African American,<0.001,0,-0.555,<0.001,0.385,<0.001
+Hispanic/Latino,<0.001,-0.34,-1.49,<0.001,0.004,<0.001
+Native Hawaiian/Pacific Islander,<0.001,0,-0.03,0.065,0.005,<0.001
+White,1.195,1.38,3.04,<0.001,0.001,<0.001
