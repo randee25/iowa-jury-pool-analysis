@@ -260,6 +260,7 @@ The following methods were used throughout the analysis:
 - Chi-square analysis
 - County-level visualizations
 - Interactive dashboard development in Tableau
+  
 These methods were selected to evaluate differences between expected and observed representation while allowing both statewide and county-level patterns to be examined.
 
 ---
