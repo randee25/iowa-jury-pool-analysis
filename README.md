@@ -297,6 +297,25 @@ Future work should investigate the factors contributing to underrepresentation, 
 - Census estimates are themselves subject to sampling error and should therefore be interpreted as estimates rather than exact population values.
 
 - This study focuses exclusively on jury-pool composition and does not evaluate later stages of the selection process, such as voir dire, excusals, attorney strikes, or final jury empanelment.
+
+ ## Limitations
+
+- Observed differences do not necessarily indicate bias or flaws within the jury selection process. Jury pools are influenced by numerous factors, including voter registration records, driver's license records, eligibility requirements, excusals, disqualifications, nonresponses, reporting practices, and ordinary sampling variability.
+
+- This analysis is limited to Iowa counties and may not be generalizable to other states or jurisdictions.
+
+- Several decisions were required to standardize racial and ethnic categories across datasets. For example, "White alone" and "Hispanic only" categories were used to reduce overlap among demographic groups. In addition, the jury data relied on self-reported information, and some records were classified as "Unknown" or "Not provided" and were excluded from portions of the analysis.
+
+- Additional caution is warranted when interpreting the multiracial category. Both the Census and jury datasets define multiracial individuals as those identifying with two or more races. However, differences in the way racial identities were reported, categorized, or recorded across the two datasets may have influenced the observed representation gaps.
+
+- Several counties contained relatively small sample sizes, which may have increased the variability of some estimates.
+
+- Weighted analyses place greater emphasis on counties with larger jury pools, whereas unweighted analyses assign equal importance to all counties.
+
+- The exact binomial and Monte Carlo methods assume that jury selection occurs randomly according to county population proportions.
+
+- Census estimates are themselves subject to sampling error and should therefore be interpreted as estimates rather than exact population values.
+
 ---
 
 ## Contact Information
