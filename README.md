@@ -53,26 +53,26 @@ Source:
 https://data.census.gov/
 ## Data Files
 
+- `data/raw/`   -  Original source files    
+- `data/processed/`  - Cleaned datasets used for analysis
 
-| File                             | Description                        |
-| -------------------------------- | ---------------------------------- |
-| `data/raw/`                      | Original source files              |
-| `data/processed/`                | Cleaned datasets used for analysis |
-| `race_summary.csv`               | Race-specific summary statistics   |
-| `standard_deviation_results.csv` | Standard deviation calculations    |
 
 ## Important Variables
-| Variable                | Description                                                        |
-| ----------------------- | ------------------------------------------------------------------ |
-| `county_name`           | Iowa county name                                                   |
-| `race_short`            | Standardized race category                                         |
-| `jury_pool_pct`         | Percentage of jurors belonging to a particular race                |
+
+| Variable | Description |
+|---|---|
+| `county_name` | Iowa county name |
+| `race_short` | Standardized race or ethnicity category |
+| `jury_pool_pct` | Percentage of individuals belonging to a particular race within the overall jury pool |
 | `county_population_pct` | Percentage of the county population belonging to a particular race |
-| `representation_gap`    | Difference between jury percentage and census percentage           |
-| `adjusted_total`        | Number of jurors included in the analysis                          |
-| `jury_count`            | Number of jurors in a race category                                |
-
-
+| `representation_gap` | Difference between jury and census percentages |
+| `adjusted_total` | Number of jurors included in the analysis |
+| `jury_count` | Number of jurors belonging to a particular race category |
+| `panel_pct` | Percentage of individuals belonging to a particular race within the criminal panel stage |
+| `juror_pct` | Percentage of individuals belonging to a particular race among empaneled jurors |
+| `pool_to_panel_change` | Percentage-point change from the pool stage to the panel stage |
+| `panel_to_juror_change` | Percentage-point change from the panel stage to the empaneled juror stage |
+| `pool_to_juror_change` | Percentage-point change from the pool stage to the empaneled juror stage |
 ---
 
 ## Project Organization
