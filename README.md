@@ -160,23 +160,31 @@ This folder contains SQL scripts used to construct the database, import data, cl
 
 
 ## outputs/
+
 ### Tables
 
-- `overall_results_summary.csv` – Summary statistics for all demographic groups, including mean representation gap, median gap, mean absolute error (MAE), root mean squared error (RMSE), and correlation measures.
+#### Overall analysis
 
-- `race_level_summary.csv` – Summary statistics calculated separately for each demographic group.
+| File | Description |
+|------|-------------|
+| `overall_results_summary.csv` | Summary statistics for all demographic groups, including mean representation gap, median gap, mean absolute error (MAE), root mean squared error (RMSE), and correlation measures. |
+| `race_level_summary.csv` | Summary statistics calculated separately for each demographic group. |
+| `t_test_summary.csv` | Results of one-sample t-tests comparing observed jury representation with expected Census representation. |
+| `binomial_summary_by_race.csv` | Summary of exact binomial test results for each demographic group. |
+| `court_flag_summary.csv` | Court-level summary of demographic groups flagged as significantly underrepresented and those falling below one-standard-deviation and two-standard-deviation thresholds. |
+| `significant_underrepresentation_results.csv` | Detailed results for court-demographic-group combinations identified as significantly underrepresented. |
+| `binomial_results.csv` | Complete set of exact binomial test results. |
+| `monte_carlo_validation.csv` | Summary of agreement between the exact binomial and Monte Carlo approaches. |
 
-- `t_test_summary.csv` – Results of one-sample t-tests comparing observed jury representation with expected Census representation.
+#### Stage analysis
 
-- `binomial_summary_by_race.csv` – Summary of exact binomial test results for each demographic group.
+| File | Description |
+|------|-------------|
+| `statewide_stage_composition.csv` | Statewide racial and ethnic composition at each stage of the jury-selection process. |
+| `statewide_stage_changes.csv` | Percentage-point changes in representation between jury-selection stages. |
+| `county_stage_changes.csv` | County-level changes in representation across stages. |
+| `stage_wilcoxon_tests.csv` | Results of Wilcoxon signed-rank tests comparing changes in representation across stages. |
 
-- `court_flag_summary.csv` – Court-level summary of demographic groups flagged as significantly underrepresented and those falling below the one-standard-deviation and two-standard-deviation thresholds.
-
-- `significant_underrepresentation_results.csv` – Detailed list of court-demographic-group combinations identified as significantly underrepresented.
-
-- `binomial_results.csv` – Complete set of exact binomial test results for all court-demographic-group combinations.
-
-- `monte_carlo_validation.csv` – Summary of agreement between the exact binomial and Monte Carlo methods.
 ### Figures
 
 - `figure_1_census_vs_jury.png` – Scatterplot comparing county census percentages with jury pool percentages for each racial group.
@@ -186,6 +194,10 @@ This folder contains SQL scripts used to construct the database, import data, cl
 - `figure_3_minority_census_vs_jury.png` – Bar chart comparing weighted census percentages with weighted jury pool percentages for minority populations.
 
 - `figure_4_gap_distribution_boxplot.png` – Boxplots illustrating the distribution of county-level representation gaps for each racial group.
+  
+- `figure_5_stage_composition_barplot.png` – Comparison of racial and ethnic composition across the jury pool, criminal panel, and empaneled juror stages.
+  
+- `figure_6_stage_percentage_point_changes.png` – Percentage-point changes in representation across jury-selection stages.
 
 - `appendix_A1_weighted_representation_gap.png` – Weighted representation-gap plot showing the direction and magnitude of overrepresentation and underrepresentation.
 
@@ -279,24 +291,6 @@ Several observed differences were larger than would be expected under proportion
 Future work should investigate the factors contributing to underrepresentation, including response rates, eligibility requirements, geographic factors, and the jury selection process itself.
 
 ---
-
-### Limitations
-
-- Observed differences do not necessarily indicate bias or flaws within the jury selection process. Jury pools are influenced by numerous factors, including voter registration records, driver's license records, eligibility requirements, excusals, disqualifications, nonresponses, reporting practices, and ordinary sampling variability.
-
-- This analysis is limited to Iowa counties and may not be generalizable to other states or jurisdictions.
-
-- Several decisions were required to standardize racial and ethnic categories across datasets. For example, "White alone" and "Hispanic only" categories were used to reduce overlap among demographic groups. In addition, the jury data relied on self-reported information, and some records were classified as "Unknown" or "Not provided" and were excluded from portions of the analysis.
-
-- Several counties contained relatively small sample sizes, which may have increased the variability of some estimates.
-
-- Weighted analyses place greater emphasis on counties with larger jury pools, whereas unweighted analyses assign equal importance to all counties.
-
-- The exact binomial and Monte Carlo methods assume that jury selection occurs randomly according to county population proportions.
-
-- Census estimates are themselves subject to sampling error and should therefore be interpreted as estimates rather than exact population values.
-
-- This study focuses exclusively on jury-pool composition and does not evaluate later stages of the selection process, such as voir dire, excusals, attorney strikes, or final jury empanelment.
 
  ## Limitations
 
