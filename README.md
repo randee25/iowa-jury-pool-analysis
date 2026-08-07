@@ -74,34 +74,31 @@ https://data.census.gov/
 | `panel_to_juror_change` | Percentage-point change from the panel stage to the empaneled juror stage |
 | `pool_to_juror_change` | Percentage-point change from the pool stage to the empaneled juror stage |
 ---
-
 ## Project Organization
 
-- README.md
-
-- data
-  - raw
-  - processed
-
-- outputs
-  - figures
-  - summary tables
-  - Tableau workbook
-
-- scripts
-  -  get_census_data.R
-  -  main_analysis.R
-  -  stage_analysis.R
-  -  visualizations.R
-
-- sql
-  - analytics_views.sql
-  - create_clean_tables.sql
-  - create_lookup_table.sql
-  - create_raw_tables.sql
-  - create_schemas.sql
-  - create_tables.sql
- 
+```
+.
+├── README.md
+├── data/
+│   ├── raw/
+│   └── processed/
+├── outputs/
+│   ├── figures/
+│   ├── summary tables/
+│   └── Tableau workbook/
+├── scripts/
+│   ├── get_census_data.R
+│   ├── main_analysis.R
+│   ├── stage_analysis.R
+│   └── visualizations.R
+└── sql/
+    ├── analytics_views.sql
+    ├── create_clean_tables.sql
+    ├── create_lookup_table.sql
+    ├── create_raw_tables.sql
+    ├── create_schemas.sql
+    └── create_tables.sql
+```
 
 ## Key Files
 
