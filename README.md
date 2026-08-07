@@ -303,19 +303,25 @@ These methods were selected to evaluate differences between expected and observe
 # Results
 ## Key Findings
 
-- White jurors generally appeared to be overrepresented relative to county census populations.
+- Across all 700 court–race combinations, the average representation gap was −0.18 percentage points, with a mean absolute error (MAE) of 2.07 percentage points and a Pearson correlation of 0.996 between jury composition and county census composition.
 
-- Multiracial and Hispanic/Latino populations exhibited the largest representation gaps across counties.
+- White jurors were consistently overrepresented relative to county census estimates, with an average representation gap of +6.23 percentage points.
 
-- Black and Asian populations also demonstrated evidence of underrepresentation, although the magnitude of these differences was generally smaller.
+- Multiracial populations exhibited the largest and most consistent pattern of underrepresentation, with an average representation gap of −4.54 percentage points and a comparatively weak correlation between census and jury percentages (*r* = 0.359).
 
-- American Indian or Alaska Native (AIAN) and Native Hawaiian or Pacific Islander (NHPI) populations showed less consistent patterns, likely because of their relatively small population sizes in many counties.
+- Hispanic/Latino populations also exhibited substantial underrepresentation, with an average representation gap of −2.44 percentage points.
 
-- Representation patterns varied substantially across counties, indicating that disparities were not uniformly distributed throughout the state.
+- Black/African American populations (−0.32 percentage points) and Asian populations (−0.18 percentage points) demonstrated smaller but still measurable differences.
 
-- Exact binomial tests and Monte Carlo simulations produced highly consistent results, suggesting that many observed differences were unlikely to be attributable solely to random sampling variation.
+- American Indian or Alaska Native (AIAN) and Native Hawaiian or Pacific Islander (NHPI) populations exhibited the smallest average differences.
 
-- Supplementary analyses revealed relatively small changes in demographic composition across successive stages of the jury-selection process.
+- Exact binomial tests and Monte Carlo simulations produced highly consistent results, indicating that many observed differences were unlikely to be explained by random sampling variation alone.
+
+- Supplementary analyses identified statistically significant changes across the jury-selection process. Hispanic/Latino representation decreased by approximately 1.49 percentage points from the initial pool stage to empanelment, whereas White representation increased by approximately 3.04 percentage points. Changes observed for other demographic groups were comparatively small.
+
+### Notes on Interpretation
+
+These findings should be interpreted cautiously. Differences in demographic classifications between the Census and jury data, relatively small population sizes for some demographic groups, and substantial county-level variation may have influenced the observed results. Consequently, the findings should be viewed as evidence of patterns of representation rather than definitive evidence of bias or intentional exclusion.
 
 ---
 ## Recommendations
