@@ -249,18 +249,12 @@ GitHub
 
 ```r
 library(tidyverse)
-library(dplyr)
-library(tidyr)
-library(ggplot2)
-library(readr)
-library(stringr)
+library(tidycensus)
 library(scales)
-library(forcats)
 ```
 
 
 ---
-
 # Reproducing the Analysis
 
 Follow these steps to reproduce the analysis:
@@ -271,13 +265,15 @@ Follow these steps to reproduce the analysis:
 
 3. Run the SQL scripts to create and populate the database.
 
-4. Run the census import script.
+4. Run `get_census_data.R` to import and process Census data.
 
-5. Run the analysis scripts.
+5. Run `main_analysis.R` to perform the primary analyses.
 
-6. Run the visualization scripts.
+6. Run `stage_analysis.R` to perform the supplementary stage analyses.
 
-7. Publish the Tableau dashboard if desired.
+7. Run `visualizations.R` to generate tables and figures.
+
+8. Publish the Tableau dashboard if desired.
 
 Expected runtime: a matter of minutes.
 
@@ -292,28 +288,39 @@ The following methods were used throughout the analysis:
 - Weighted mean calculations
 - Standard deviation calculations
 - Mean absolute error (MAE)
-- Monte Carlo simulation
-- Binomial probability models
-- Chi-square analysis
+- Root mean squared error (RMSE)
+- One-sample t-tests
+- Exact binomial tests
+- Monte Carlo simulations
+- Wilcoxon signed-rank tests
 - County-level visualizations
 - Interactive dashboard development in Tableau
-  
+
 These methods were selected to evaluate differences between expected and observed representation while allowing both statewide and county-level patterns to be examined.
 
 ---
 
 # Results
+## Key Findings
 
-### Key Findings
+- White jurors generally appeared to be overrepresented relative to county census populations.
 
-White jurors were generally overrepresented relative to census estimates.
-Hispanic/Latino and Multiracial populations tended to be underrepresented.
-Representation varied substantially across counties.
-Several observed differences were larger than would be expected under proportional sampling.
+- Multiracial and Hispanic/Latino populations exhibited the largest representation gaps across counties.
 
-## Recommendation
+- Black and Asian populations also demonstrated evidence of underrepresentation, although the magnitude of these differences was generally smaller.
 
-Future work should investigate the factors contributing to underrepresentation, including response rates, eligibility requirements, geographic factors, and the jury selection process itself.
+- American Indian or Alaska Native (AIAN) and Native Hawaiian or Pacific Islander (NHPI) populations showed less consistent patterns, likely because of their relatively small population sizes in many counties.
+
+- Representation patterns varied substantially across counties, indicating that disparities were not uniformly distributed throughout the state.
+
+- Exact binomial tests and Monte Carlo simulations produced highly consistent results, suggesting that many observed differences were unlikely to be attributable solely to random sampling variation.
+
+- Supplementary analyses revealed relatively small changes in demographic composition across successive stages of the jury-selection process.
+
+---
+## Recommendations
+
+Future work should investigate factors contributing to underrepresentation, including response rates, eligibility requirements, geographic factors, and other aspects of the jury-selection process.
 
 ---
 
