@@ -5,22 +5,31 @@
 **Summer 2026:** 
 
 ---
-
 # Project Summary
 
-This project examines whether the racial composition of Iowa jury pools reflects the demographic composition of the counties from which jurors are drawn. County-level census data were combined with Iowa jury pool data to compare expected and observed representation across racial groups. Exploratory data analysis, weighted summary statistics, visualization techniques, and statistical testing methods were used to evaluate potential disparities. An interactive Tableau dashboard was also developed to allow users to explore county-level patterns throughout Iowa.
+This project examines whether the racial composition of Iowa jury pools reflects the demographic composition of the counties from which jurors are drawn. County-level census data were combined with Iowa jury data to compare expected and observed representation across racial and ethnic groups. Exploratory data analysis, weighted summary statistics, visualization techniques, and statistical tests were used to evaluate potential disparities. A supplementary analysis was also conducted to examine changes in racial and ethnic representation across multiple stages of the jury-selection process. An interactive Tableau dashboard was developed to allow users to explore county-level patterns throughout Iowa.
+
+---
 
 ## Research Question
 
 To what extent do the racial demographics of Iowa jury pools differ from the racial demographics of the counties they represent? Additionally, are observed differences large enough to suggest systematic underrepresentation rather than random sampling variation?
 
+A secondary analysis examined whether racial and ethnic representation changed across successive stages of the jury-selection process.
+
+---
+
 ## Motivation
 
-The right to an impartial jury is a fundamental principle of the American legal system. If certain groups are consistently underrepresented in jury pools, the fairness and representativeness of the judicial process may be affected. Understanding these patterns may help identify structural barriers to participation and improve the jury selection process.
+The right to an impartial jury is a fundamental principle of the American legal system. If certain groups are consistently underrepresented in jury pools, the fairness and representativeness of the judicial process may be affected. Understanding these patterns may help identify structural barriers to participation and improve the jury-selection process.
+
+---
 
 ## Summary of Findings
 
-White jurors appeared to be overrepresented relative to county census populations, while Hispanic/Latino and Multiracial populations appeared to be underrepresented. Black, Asian, American Indian or Alaska Native (AIAN), and Native Hawaiian or Pacific Islander (NHPI) populations generally displayed smaller differences. Representation patterns also varied substantially among counties.
+White jurors generally appeared to be overrepresented relative to county census populations, whereas Hispanic/Latino and Multiracial populations appeared to be underrepresented. Black, Asian, American Indian or Alaska Native (AIAN), and Native Hawaiian or Pacific Islander (NHPI) populations generally displayed smaller differences. Representation patterns also varied substantially across counties.
+
+Supplementary analyses indicated that the demographic composition of jurors may change across successive stages of the jury-selection process, suggesting that disparities can emerge or widen after the initial jury pool is assembled.
 
 ---
 
@@ -82,6 +91,7 @@ https://data.census.gov/
 - scripts
   -  get_census_data.R
   -  main_analysis.R
+  -  stage_analysis.R
   -  visualizations.R
 
 - sql
@@ -134,6 +144,21 @@ Analyses include:
 - Court-level summaries
 - Data exports
 - Preparation of data for visualizations
+---
+
+### `stage_analysis.R`
+
+Performs supplementary analyses examining changes in racial and ethnic representation across multiple stages of the jury-selection process.
+
+Analyses include:
+
+- Calculating statewide racial and ethnic composition at each stage;
+- Measuring percentage-point changes between the overall pool, criminal panel, and empaneled juror stages;
+- Generating county-level summaries;
+- Performing Wilcoxon signed-rank tests;
+- Exporting summary tables and figures;
+- Preparing data for stage-based visualizations.
+
 ---
 
 ### `visualizations.R`
