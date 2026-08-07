@@ -77,7 +77,6 @@ https://data.census.gov/
 ## Project Organization
 
 ```
-.
 ├── README.md
 ├── data/
 │   ├── raw/
