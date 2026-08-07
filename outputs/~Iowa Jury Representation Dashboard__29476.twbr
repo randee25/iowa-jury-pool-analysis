@@ -21,326 +21,6 @@
     <preference name='ui.shelf.height' value='26' />
   </preferences>
   <datasources>
-    <datasource caption='census_counts_standardized' inline='true' name='federated.0xn6v2b0sehl831c245mv1yawrqz' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='census_counts_standardized' name='textscan.1tyy62z1g4hg7f1ad10oy02879hg'>
-            <connection class='textscan' directory='C:/Users/Randee/Desktop/iowa-jury-analysis' filename='census_counts_standardized.csv' password='' server='' />
-          </named-connection>
-          <named-connection caption='overall_pool_final' name='textscan.1n9w66x0ad6lwl13y1uid1gjw2lc'>
-            <connection class='textscan' directory='C:/Users/Randee/Desktop/iowa-jury-analysis/data/processed' filename='overall_pool_final.csv' password='' server='' />
-          </named-connection>
-          <named-connection caption='overall_pool_final_with_counts' name='textscan.1u359z41iau0st1fnjd6i1wn095v'>
-            <connection class='textscan' directory='C:/Users/Randee/Desktop/iowa-jury-analysis' filename='overall_pool_final_with_counts.csv' password='' server='' />
-          </named-connection>
-        </named-connections>
-        <relation connection='textscan.1tyy62z1g4hg7f1ad10oy02879hg' name='census_counts_standardized.csv' table='[census_counts_standardized#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='string' name='county_name' ordinal='0' />
-            <column datatype='string' name='race' ordinal='1' />
-            <column datatype='integer' name='census_count' ordinal='2' />
-          </columns>
-        </relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[census_counts_standardized.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>county_name</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[county_name]</local-name>
-            <parent-name>[census_counts_standardized.csv]</parent-name>
-            <remote-alias>county_name</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <object-id>[census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>race</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[race]</local-name>
-            <parent-name>[census_counts_standardized.csv]</parent-name>
-            <remote-alias>race</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <object-id>[census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>census_count</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[census_count]</local-name>
-            <parent-name>[census_counts_standardized.csv]</parent-name>
-            <remote-alias>census_count</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4]</object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='census_counts_standardized.csv' datatype='table' name='[__tableau_internal_object_id__].[census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4]' role='measure' type='quantitative' />
-      <column caption='Census Count' datatype='integer' name='[census_count]' role='measure' type='quantitative' />
-      <column caption='County Name' datatype='string' name='[county_name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
-      <column caption='Race' datatype='string' name='[race]' role='dimension' type='nominal' />
-      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <object-graph>
-        <objects>
-          <object caption='census_counts_standardized.csv' id='census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4'>
-            <properties context=''>
-              <relation connection='textscan.1tyy62z1g4hg7f1ad10oy02879hg' name='census_counts_standardized.csv' table='[census_counts_standardized#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                  <column datatype='string' name='county_name' ordinal='0' />
-                  <column datatype='string' name='race' ordinal='1' />
-                  <column datatype='integer' name='census_count' ordinal='2' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </object-graph>
-    </datasource>
-    <datasource caption='overall_pool_final_with_counts' inline='true' name='federated.117fzwn0au8gz710rweao0qdntik' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='overall_pool_final_with_counts' name='textscan.1vrw6wi0q5u5g214ozivv0yqmj30'>
-            <connection class='textscan' directory='C:/Users/Randee/Desktop/iowa-jury-analysis' filename='overall_pool_final_with_counts.csv' password='' server='' />
-          </named-connection>
-        </named-connections>
-        <relation connection='textscan.1vrw6wi0q5u5g214ozivv0yqmj30' name='overall_pool_final_with_counts.csv' table='[overall_pool_final_with_counts#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='court_number' ordinal='0' />
-            <column datatype='string' name='county_name' ordinal='1' />
-            <column datatype='string' name='dataset' ordinal='2' />
-            <column datatype='string' name='race' ordinal='3' />
-            <column datatype='integer' name='adjusted_total' ordinal='4' />
-            <column datatype='integer' name='jury_count' ordinal='5' />
-            <column datatype='real' name='jury_pool_pct' ordinal='6' />
-            <column datatype='real' name='county_population_pct' ordinal='7' />
-            <column datatype='real' name='representation_gap' ordinal='8' />
-            <column datatype='integer' name='census_count' ordinal='9' />
-          </columns>
-        </relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>court_number</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[court_number]</local-name>
-            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
-            <remote-alias>court_number</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>county_name</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[county_name]</local-name>
-            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
-            <remote-alias>county_name</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>dataset</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[dataset]</local-name>
-            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
-            <remote-alias>dataset</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>race</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[race]</local-name>
-            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
-            <remote-alias>race</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>adjusted_total</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[adjusted_total]</local-name>
-            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
-            <remote-alias>adjusted_total</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>jury_count</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[jury_count]</local-name>
-            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
-            <remote-alias>jury_count</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>jury_pool_pct</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[jury_pool_pct]</local-name>
-            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
-            <remote-alias>jury_pool_pct</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>county_population_pct</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[county_population_pct]</local-name>
-            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
-            <remote-alias>county_population_pct</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>representation_gap</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[representation_gap]</local-name>
-            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
-            <remote-alias>representation_gap</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>census_count</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[census_count]</local-name>
-            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
-            <remote-alias>census_count</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='State' datatype='string' name='[Calculation_1020927224283136]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
-        <calculation class='tableau' formula='&quot;Iowa&quot;' />
-      </column>
-      <column caption='Relative Difference' datatype='real' name='[Calculation_1020927909969921]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='IF [county_population_pct] = 0 THEN&#13;&#10;    NULL&#13;&#10;ELSE&#13;&#10;    ROUND(&#13;&#10;        (([jury_pool_pct] - [county_population_pct]) /&#13;&#10;        [county_population_pct]) * 100,&#13;&#10;        1&#13;&#10;    )&#13;&#10;END' />
-      </column>
-      <column caption='overall_pool_final_with_counts.csv' datatype='table' name='[__tableau_internal_object_id__].[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]' role='measure' type='quantitative' />
-      <column caption='Adjusted Total' datatype='integer' name='[adjusted_total]' role='measure' type='quantitative' />
-      <column caption='Census Count' datatype='integer' name='[census_count]' role='measure' type='quantitative' />
-      <column caption='County Name' datatype='string' name='[county_name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
-      <column caption='County Population Pct' datatype='real' name='[county_population_pct]' role='measure' type='quantitative' />
-      <column caption='Court Number' datatype='integer' name='[court_number]' role='dimension' type='ordinal' />
-      <column caption='Dataset' datatype='string' name='[dataset]' role='dimension' type='nominal' />
-      <column caption='Jury Count' datatype='integer' name='[jury_count]' role='measure' type='quantitative' />
-      <column caption='Jury Pool Pct' datatype='real' name='[jury_pool_pct]' role='measure' type='quantitative' />
-      <column caption='Race' datatype='string' name='[race]' role='dimension' type='nominal' />
-      <column caption='Representation Gap' datatype='real' name='[representation_gap]' role='measure' type='quantitative' />
-      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <object-graph>
-        <objects>
-          <object caption='overall_pool_final_with_counts.csv' id='overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C'>
-            <properties context=''>
-              <relation connection='textscan.1vrw6wi0q5u5g214ozivv0yqmj30' name='overall_pool_final_with_counts.csv' table='[overall_pool_final_with_counts#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                  <column datatype='integer' name='court_number' ordinal='0' />
-                  <column datatype='string' name='county_name' ordinal='1' />
-                  <column datatype='string' name='dataset' ordinal='2' />
-                  <column datatype='string' name='race' ordinal='3' />
-                  <column datatype='integer' name='adjusted_total' ordinal='4' />
-                  <column datatype='integer' name='jury_count' ordinal='5' />
-                  <column datatype='real' name='jury_pool_pct' ordinal='6' />
-                  <column datatype='real' name='county_population_pct' ordinal='7' />
-                  <column datatype='real' name='representation_gap' ordinal='8' />
-                  <column datatype='integer' name='census_count' ordinal='9' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </object-graph>
-    </datasource>
     <datasource caption='overall_pool_final' inline='true' name='federated.1kubb5505rtlsl0zjslj91j655k9' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -679,6 +359,536 @@
         </objects>
       </object-graph>
     </datasource>
+    <datasource caption='overall_pool_final_with_counts' inline='true' name='federated.117fzwn0au8gz710rweao0qdntik' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='overall_pool_final_with_counts' name='textscan.1vrw6wi0q5u5g214ozivv0yqmj30'>
+            <connection class='textscan' directory='C:/Users/Randee/Desktop/iowa-jury-analysis' filename='overall_pool_final_with_counts.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1vrw6wi0q5u5g214ozivv0yqmj30' name='overall_pool_final_with_counts.csv' table='[overall_pool_final_with_counts#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='court_number' ordinal='0' />
+            <column datatype='string' name='county_name' ordinal='1' />
+            <column datatype='string' name='dataset' ordinal='2' />
+            <column datatype='string' name='race' ordinal='3' />
+            <column datatype='integer' name='adjusted_total' ordinal='4' />
+            <column datatype='integer' name='jury_count' ordinal='5' />
+            <column datatype='real' name='jury_pool_pct' ordinal='6' />
+            <column datatype='real' name='county_population_pct' ordinal='7' />
+            <column datatype='real' name='representation_gap' ordinal='8' />
+            <column datatype='integer' name='census_count' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>court_number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[court_number]</local-name>
+            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
+            <remote-alias>court_number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[county_name]</local-name>
+            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
+            <remote-alias>county_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dataset</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dataset]</local-name>
+            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
+            <remote-alias>dataset</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[race]</local-name>
+            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
+            <remote-alias>race</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>adjusted_total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[adjusted_total]</local-name>
+            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
+            <remote-alias>adjusted_total</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jury_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[jury_count]</local-name>
+            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
+            <remote-alias>jury_count</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jury_pool_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[jury_pool_pct]</local-name>
+            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
+            <remote-alias>jury_pool_pct</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_population_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[county_population_pct]</local-name>
+            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
+            <remote-alias>county_population_pct</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>representation_gap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[representation_gap]</local-name>
+            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
+            <remote-alias>representation_gap</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>census_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[census_count]</local-name>
+            <parent-name>[overall_pool_final_with_counts.csv]</parent-name>
+            <remote-alias>census_count</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='State' datatype='string' name='[Calculation_1020927224283136]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <calculation class='tableau' formula='&quot;Iowa&quot;' />
+      </column>
+      <column caption='Relative Difference' datatype='real' name='[Calculation_1020927909969921]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [county_population_pct] = 0 THEN&#13;&#10;    NULL&#13;&#10;ELSE&#13;&#10;    ROUND(&#13;&#10;        (([jury_pool_pct] - [county_population_pct]) /&#13;&#10;        [county_population_pct]) * 100,&#13;&#10;        1&#13;&#10;    )&#13;&#10;END' />
+      </column>
+      <column caption='overall_pool_final_with_counts.csv' datatype='table' name='[__tableau_internal_object_id__].[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]' role='measure' type='quantitative' />
+      <column caption='Adjusted Total' datatype='integer' name='[adjusted_total]' role='measure' type='quantitative' />
+      <column caption='Census Count' datatype='integer' name='[census_count]' role='measure' type='quantitative' />
+      <column caption='County Name' datatype='string' name='[county_name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Population Pct' datatype='real' name='[county_population_pct]' role='measure' type='quantitative' />
+      <column caption='Court Number' datatype='integer' name='[court_number]' role='dimension' type='ordinal' />
+      <column caption='Dataset' datatype='string' name='[dataset]' role='dimension' type='nominal' />
+      <column caption='Jury Count' datatype='integer' name='[jury_count]' role='measure' type='quantitative' />
+      <column caption='Jury Pool Pct' datatype='real' name='[jury_pool_pct]' role='measure' type='quantitative' />
+      <column caption='Race' datatype='string' name='[race]' role='dimension' type='nominal' />
+      <column caption='Representation Gap' datatype='real' name='[representation_gap]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Randee/Desktop/overall_pool_final_with_counts.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>court_number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[court_number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>court_number</remote-alias>
+              <ordinal>0</ordinal>
+              <family>overall_pool_final_with_counts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>county_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[county_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>county_name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>overall_pool_final_with_counts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dataset</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dataset]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dataset</remote-alias>
+              <ordinal>2</ordinal>
+              <family>overall_pool_final_with_counts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>race</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[race]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>race</remote-alias>
+              <ordinal>3</ordinal>
+              <family>overall_pool_final_with_counts.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>adjusted_total</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[adjusted_total]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>adjusted_total</remote-alias>
+              <ordinal>4</ordinal>
+              <family>overall_pool_final_with_counts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>jury_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[jury_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>jury_count</remote-alias>
+              <ordinal>5</ordinal>
+              <family>overall_pool_final_with_counts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>216</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>jury_pool_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[jury_pool_pct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>jury_pool_pct</remote-alias>
+              <ordinal>6</ordinal>
+              <family>overall_pool_final_with_counts.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>330</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>county_population_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[county_population_pct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>county_population_pct</remote-alias>
+              <ordinal>7</ordinal>
+              <family>overall_pool_final_with_counts.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>635</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>representation_gap</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[representation_gap]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>representation_gap</remote-alias>
+              <ordinal>8</ordinal>
+              <family>overall_pool_final_with_counts.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>661</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>census_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[census_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>census_count</remote-alias>
+              <ordinal>9</ordinal>
+              <family>overall_pool_final_with_counts.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>490</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='overall_pool_final_with_counts.csv' id='overall_pool_final_with_counts.csv_1EFF96501A1245608774C64985A36D2C'>
+            <properties context=''>
+              <relation connection='textscan.1vrw6wi0q5u5g214ozivv0yqmj30' name='overall_pool_final_with_counts.csv' table='[overall_pool_final_with_counts#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='court_number' ordinal='0' />
+                  <column datatype='string' name='county_name' ordinal='1' />
+                  <column datatype='string' name='dataset' ordinal='2' />
+                  <column datatype='string' name='race' ordinal='3' />
+                  <column datatype='integer' name='adjusted_total' ordinal='4' />
+                  <column datatype='integer' name='jury_count' ordinal='5' />
+                  <column datatype='real' name='jury_pool_pct' ordinal='6' />
+                  <column datatype='real' name='county_population_pct' ordinal='7' />
+                  <column datatype='real' name='representation_gap' ordinal='8' />
+                  <column datatype='integer' name='census_count' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='census_counts_standardized' inline='true' name='federated.0xn6v2b0sehl831c245mv1yawrqz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='census_counts_standardized' name='textscan.1tyy62z1g4hg7f1ad10oy02879hg'>
+            <connection class='textscan' directory='C:/Users/Randee/Desktop/iowa-jury-analysis' filename='census_counts_standardized.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='overall_pool_final' name='textscan.1n9w66x0ad6lwl13y1uid1gjw2lc'>
+            <connection class='textscan' directory='C:/Users/Randee/Desktop/iowa-jury-analysis/data/processed' filename='overall_pool_final.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='overall_pool_final_with_counts' name='textscan.1u359z41iau0st1fnjd6i1wn095v'>
+            <connection class='textscan' directory='C:/Users/Randee/Desktop/iowa-jury-analysis' filename='overall_pool_final_with_counts.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1tyy62z1g4hg7f1ad10oy02879hg' name='census_counts_standardized.csv' table='[census_counts_standardized#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='county_name' ordinal='0' />
+            <column datatype='string' name='race' ordinal='1' />
+            <column datatype='integer' name='census_count' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[census_counts_standardized.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[county_name]</local-name>
+            <parent-name>[census_counts_standardized.csv]</parent-name>
+            <remote-alias>county_name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[race]</local-name>
+            <parent-name>[census_counts_standardized.csv]</parent-name>
+            <remote-alias>race</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>census_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[census_count]</local-name>
+            <parent-name>[census_counts_standardized.csv]</parent-name>
+            <remote-alias>census_count</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='census_counts_standardized.csv' datatype='table' name='[__tableau_internal_object_id__].[census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4]' role='measure' type='quantitative' />
+      <column caption='Census Count' datatype='integer' name='[census_count]' role='measure' type='quantitative' />
+      <column caption='County Name' datatype='string' name='[county_name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Race' datatype='string' name='[race]' role='dimension' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Randee/Desktop/census_counts_standardized.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='08/06/2026 07:16:48 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='census_counts_standardized' increment-value='%null%' refresh-type='create' rows-inserted='693' timestamp-start='2026-08-06 19:16:48' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>county_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[county_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>county_name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>census_counts_standardized.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>race</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[race]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>race</remote-alias>
+              <ordinal>1</ordinal>
+              <family>census_counts_standardized.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>census_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[census_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>census_count</remote-alias>
+              <ordinal>2</ordinal>
+              <family>census_counts_standardized.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>490</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='census_counts_standardized.csv' id='census_counts_standardized.csv_5C66D1974D744987BBD83165EB48CEA4'>
+            <properties context=''>
+              <relation connection='textscan.1tyy62z1g4hg7f1ad10oy02879hg' name='census_counts_standardized.csv' table='[census_counts_standardized#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='county_name' ordinal='0' />
+                  <column datatype='string' name='race' ordinal='1' />
+                  <column datatype='integer' name='census_count' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
   </datasources>
   <mapsources>
     <mapsource name='Tableau' />
@@ -821,7 +1031,7 @@
       <simple-id uuid='{8085757E-FFF4-4C77-9645-90ABD576C67B}' />
     </worksheet>
   </worksheets>
-  <windows source-height='87'>
+  <windows source-height='106'>
     <window class='worksheet' maximized='true' name='Iowa Jury Representation Dashboard'>
       <cards>
         <edge name='left'>
@@ -850,295 +1060,7 @@
           </strip>
         </edge>
       </cards>
-      <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.117fzwn0au8gz710rweao0qdntik].[avg:representation_gap:qk]</field>
-            <field>[federated.117fzwn0au8gz710rweao0qdntik].[none:county_name:nk]</field>
-            <field>[federated.117fzwn0au8gz710rweao0qdntik].[none:race:nk]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
       <simple-id uuid='{264F9039-8874-4C5F-B1B6-4FB628D856C5}' />
     </window>
   </windows>
-  <thumbnails>
-    <thumbnail height='192' name='Iowa Jury Representation Dashboard' width='192'>
-      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
-      TkSuQmCC
-    </thumbnail>
-  </thumbnails>
 </workbook>

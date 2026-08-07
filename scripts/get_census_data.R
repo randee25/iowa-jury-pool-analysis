@@ -124,7 +124,63 @@ iowa_race <- bind_rows(race_data, white_data, hispanic_data) %>%
 
 # Quick look at the long-format result
 iowa_race
+## ---- 6. Create Census count table for Tableau ----
+# This table standardizes county names and race labels so they
+# match the jury dataset exactly. The resulting file can be
+# merged with the Tableau dataset to display Census counts
+# alongside jury counts in tooltips.
 
+census_counts <- iowa_race %>%
+  transmute(
+    county_name = str_remove(county, " County, Iowa$"),
+    
+    race = recode(
+      category,
+      
+      "Asian alone" =
+        "Asian",
+      
+      "Native Hawaiian and Pacific Islander alone" =
+        "Native Hawaiian/Pacific Islander",
+      
+      "White alone, not Hispanic or Latino" =
+        "White",
+      
+      "American Indian and Alaska Native alone" =
+        "American Indian/Alaskan Native",
+      
+      "Black or African American alone" =
+        "Black/African American",
+      
+      "Two or more races" =
+        "Multiracial",
+      
+      "Hispanic or Latino" =
+        "HLSO",
+      
+      .default = NA_character_
+    ),
+    
+    census_count = round(population)
+  ) %>%
+  filter(!is.na(race))
+
+# Confirm that all race labels were recoded correctly.
+sort(unique(census_counts$race))
+
+# Verify that each county-race combination appears only once.
+census_counts %>%
+  count(county_name, race) %>%
+  filter(n > 1)
+
+# Preview the dataset.
+View(census_counts)
+
+# Export the file for Tableau.
+write_csv(
+  census_counts,
+  "census_counts_standardized.csv"
+)
 ## ---- 6. Reshape to wide format ----
 # One row per county, one column per race/ethnicity category,
 # values = percent of county population. Easier to scan or export

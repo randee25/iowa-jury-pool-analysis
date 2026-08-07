@@ -12,7 +12,8 @@
 # - Stage composition figure
 # - Percentage-point change table
 # - Percentage-point change figure
-# - County-level summary table
+# - County-level summar
+y table
 # - Wilcoxon signed-rank test results
 # ============================================================
 
