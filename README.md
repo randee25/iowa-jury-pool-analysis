@@ -103,39 +103,33 @@ https://data.census.gov/
   - create_tables.sql
  
 
-## Key Files/
+## Key Files
 
-### data/
-
+### `data/`
 This folder contains both the original data files and the processed datasets used throughout the analysis.
 
-### raw/
-Contains the original census files and jury pool datasets.
+- `raw/` — Contains the original census files and jury pool datasets.
+- `processed/` — Contains cleaned and merged datasets used in the final analysis.
 
-### processed/
-Contains cleaned and merged datasets used in the final analysis.
+---
 
-## Script descriptions
+## Script Descriptions
 
 ### `get_census_data.R`
-
 Imports, cleans, and processes county-level demographic data obtained from the United States Census Bureau.
 
 Primary tasks include:
-
-- importing Census tables;
-- filtering data to Iowa counties;
-- standardizing race and ethnicity categories;
-- creating processed datasets for analysis.
+- Importing Census tables
+- Filtering data to Iowa counties
+- Standardizing race and ethnicity categories
+- Creating processed datasets for analysis
 
 ---
 
 ### `main_analysis.R`
-
 Performs the primary statistical analyses used throughout the project.
 
 Analyses include:
-
 - Descriptive statistics
 - Mean absolute error (MAE) and root mean squared error (RMSE)
 - One-sample t-tests
@@ -144,45 +138,46 @@ Analyses include:
 - Court-level summaries
 - Data exports
 - Preparation of data for visualizations
+
 ---
 
 ### `stage_analysis.R`
-
 Performs supplementary analyses examining changes in racial and ethnic representation across multiple stages of the jury-selection process.
 
 Analyses include:
-
-- Calculating statewide racial and ethnic composition at each stage;
-- Measuring percentage-point changes between the overall pool, criminal panel, and empaneled juror stages;
-- Generating county-level summaries;
-- Performing Wilcoxon signed-rank tests;
-- Exporting summary tables and figures;
-- Preparing data for stage-based visualizations.
+- Calculating statewide racial and ethnic composition at each stage
+- Measuring percentage-point changes between the overall pool, criminal panel, and empaneled juror stages
+- Generating county-level summaries
+- Performing Wilcoxon signed-rank tests
+- Exporting summary tables and figures
+- Preparing data for stage-based visualizations
 
 ---
 
 ### `visualizations.R`
-
 Creates the figures used in the report, appendix, and Tableau dashboard.
 
 Tasks include:
+- Reshaping data for visualization
+- Creating publication-quality graphics
+- Exporting figures to the `outputs/figures` directory
+- Maintaining consistent formatting, labeling, and color schemes
 
-- reshaping data for visualization;
-- creating publication-quality graphics;
-- exporting figures to the `outputs/figures` directory;
-- maintaining consistent formatting, labeling, and color schemes.
+---
 
-### sql/
+### `sql/`
 This folder contains SQL scripts used to construct the database, import data, clean tables, and create analytical views.
-| File                      | Description                                       |
-| ------------------------- | ------------------------------------------------- |
-| `create_schemas.sql`      | Creates the database schema structure.            |
-| `create_raw_tables.sql`   | Creates tables for the imported raw data.         |
-| `create_clean_tables.sql` | Creates tables containing cleaned data.           |
-| `create_lookup_table.sql` | Creates lookup tables used to standardize values. |
-| `create_tables.sql`       | Creates additional tables required for analysis.  |
-| `analytics_views.sql`     | Creates analytical views used in R.               |
 
+| File | Description |
+|------|-------------|
+| `create_schemas.sql` | Creates the database schema structure. |
+| `create_raw_tables.sql` | Creates tables for the imported raw data. |
+| `create_clean_tables.sql` | Creates tables containing cleaned data. |
+| `create_lookup_table.sql` | Creates lookup tables used to standardize values. |
+| `create_tables.sql` | Creates additional tables required for analysis. |
+| `analytics_views.sql` | Creates analytical views used in R. |
+
+---
 
 ## outputs/
 
