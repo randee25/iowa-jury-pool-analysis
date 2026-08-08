@@ -13,7 +13,7 @@
 # - Percentage-point change table
 # - Percentage-point change figure
 # - County-level summar
-y table
+#y table
 # - Wilcoxon signed-rank test results
 # ============================================================
 

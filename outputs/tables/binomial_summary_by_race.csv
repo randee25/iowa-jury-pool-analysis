@@ -1,0 +1,8 @@
+race,courts_tested,percent_below_expected,percent_significantly_underrepresented,percent_below_1sd,percent_below_2sd
+Multiracial,100,100,100,100,100
+Hispanic/Latino,100,98,84,93,75
+Black/African American,100,72,40,47,33
+Asian,100,52,27,33,23
+American Indian/Alaskan Native,100,47,11,18,11
+Native Hawaiian/Pacific Islander,100,32,9,12,7
+White,100,0,0,0,0
