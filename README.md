@@ -1,4 +1,4 @@
-# Racial Disparity in Iowa Jury Pools 
+# Racial Representation in Iowa Jury Pools 
 
 **Jude Aboagye and Randee Goeke:** 
 **STAT 230:** 
@@ -83,8 +83,8 @@ https://data.census.gov/
 │   └── processed/
 ├── outputs/
 │   ├── figures/
-│   ├── summary tables/
-│   └── Tableau workbook/
+│   ├── tables/
+│   └── Tableau/
 ├── scripts/
 │   ├── get_census_data.R
 │   ├── main_analysis.R
@@ -228,7 +228,7 @@ https://public.tableau.com/shared/94TFZHHK3?:display_count=n&:origin=viz_share_l
 # Software Requirements
 
 ## Software
-R version 4.5.1
+R (version 4.6.1)
 RStudio
 Tableau Public
 MySQL Workbench
@@ -276,10 +276,10 @@ The following methods were used throughout the analysis:
 
 - Exploratory data analysis (EDA)
 - Descriptive statistics
-- Weighted mean calculations
-- Standard deviation calculations
+- Weighted summary statistics
 - Mean absolute error (MAE)
 - Root mean squared error (RMSE)
+- Pearson correlation analysis
 - One-sample t-tests
 - Exact binomial tests
 - Monte Carlo simulations
