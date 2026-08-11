@@ -37,23 +37,24 @@ Supplementary analyses indicated that the demographic composition of jurors may 
 
 ## Data Source
 
-Iowa jury pool data
+### Iowa Jury Data
 
--Jury pool data supplied by Professor Lovell
+- Jury data supplied by Professor Lovell
+- County-level jury pool data
+- County-level empanelment data
 
-    County-level empanelment data
+### Census Data
 
-    County-level jury pool data
-    
-Census data
+- U.S. Census Bureau
+- American Community Survey (ACS) 2024 5-Year Estimates
+- County-level estimates for Iowa
+- Tables used:
+  - **B02001 – Race**
+  - **B03002 – Hispanic or Latino Origin by Race**
+  - **B03003 – Hispanic or Latino Origin**
 
--United States Census Bureau
+Source: https://data.census.gov/
 
-    American Community Survey (ACS) 2024 estimates : Tables B05003B–B05003I
-
-Source:
-
-https://data.census.gov/
 ## Data Files
 
 - `data/raw/`   -  Original source files    
@@ -101,6 +102,7 @@ https://data.census.gov/
     ├── create_schemas.sql
     └── create_tables.sql
 ```
+---
 
 ## Key Files
 
@@ -154,7 +156,7 @@ Analyses include:
 ---
 
 ### `visualizations.R`
-Creates the figures used in the report, appendix, and Tableau dashboard.
+Creates the figures used in the report and appendix.
 
 Tasks include:
 - Reshaping data for visualization
@@ -222,9 +224,14 @@ This folder contains SQL scripts used to construct the database, import data, cl
 
 - `appendix_A2_all_races_weighted_error_bars.png` – Weighted census-versus-jury comparison with approximate 95% binomial error intervals.
 
-- `Iowa_Jury_Representation_Dashboard.twb` – Tableau workbook containing the interactive county-level dashboard.
+---
 
-https://public.tableau.com/shared/94TFZHHK3?:display_count=n&:origin=viz_share_link
+## Interactive Tableau Dashboard
+
+An interactive Tableau dashboard was developed to allow users to explore county-level jury representation patterns across Iowa. Users can examine Census and jury percentages, raw counts, absolute representation gaps, relative differences, and geographic patterns for each demographic group.
+
+**Tableau dashboard:**  
+https://public.tableau.com/shared/B4SZM9Z2P?:display_count=n&:origin=viz_share_link
 
 ---
 
@@ -320,7 +327,14 @@ These findings should be interpreted cautiously. Differences in demographic clas
 ---
 ## Recommendations
 
-Future work should investigate factors contributing to underrepresentation, including response rates, eligibility requirements, geographic factors, and other aspects of the jury-selection process.
+Future work could incorporate multiple years of jury pool data to determine whether observed representation patterns persist over time. Longitudinal analyses could help distinguish persistent patterns of underrepresentation from ordinary year-to-year variation.
+
+Additional demographic characteristics, including age, sex, educational attainment, socioeconomic status, and geographic accessibility, could also be examined to develop a more comprehensive understanding of jury representativeness.
+
+Future work could further investigate changes that occur throughout the jury-selection process, including the potential effects of excusals, nonresponses, disqualifications, peremptory challenges, and strikes for cause.
+
+The analytical framework developed for this project could eventually be incorporated into an interactive monitoring tool that updates as new Census and jury data become available, allowing courts and researchers to evaluate jury representativeness over time.
+
 
 ---
 
