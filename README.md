@@ -144,58 +144,52 @@ This folder contains the R scripts used to retrieve Census data, perform the sta
 
 ---
 
+### `outputs/`
 
----
+This folder contains the tables, figures, and Tableau materials generated from the primary and supplementary analyses.
 
-### outputs/
+#### Tables
 
-### Tables
-
-#### Overall analysis
+**Overall Analysis**
 
 | File | Description |
-|------|-------------|
-| `overall_results_summary.csv` | Summary statistics for all demographic groups, including mean representation gap, median gap, mean absolute error (MAE), root mean squared error (RMSE), and correlation measures. |
+|---|---|
+| `overall_results_summary.csv` | Summary statistics across all demographic groups, including representation gaps, MAE, RMSE, and correlation measures. |
 | `race_level_summary.csv` | Summary statistics calculated separately for each demographic group. |
-| `t_test_summary.csv` | Results of one-sample t-tests comparing observed jury representation with expected Census representation. |
+| `t_test_summary.csv` | Results of one-sample t-tests evaluating average representation gaps by demographic group. |
 | `binomial_summary_by_race.csv` | Summary of exact binomial test results for each demographic group. |
-| `court_flag_summary.csv` | Court-level summary of demographic groups flagged as significantly underrepresented and those falling below one-standard-deviation and two-standard-deviation thresholds. |
-| `significant_underrepresentation_results.csv` | Detailed results for court-demographic-group combinations identified as significantly underrepresented. |
-| `binomial_results.csv` | Complete set of exact binomial test results. |
-| `monte_carlo_validation.csv` | Summary of agreement between the exact binomial and Monte Carlo approaches. |
+| `court_flag_summary.csv` | Court-level summary of demographic groups identified by statistical and descriptive underrepresentation thresholds. |
+| `significant_underrepresentation_results.csv` | Detailed results for court–demographic group combinations identified as significantly underrepresented. |
+| `binomial_results.csv` | Complete results from the exact binomial tests. |
+| `monte_carlo_validation.csv` | Comparison of exact binomial and Monte Carlo results used to assess agreement between the two approaches. |
 
-#### Stage analysis
+**Stage Analysis**
 
 | File | Description |
-|------|-------------|
-| `statewide_stage_composition.csv` | Statewide racial and ethnic composition at each stage of the jury-selection process. |
-| `statewide_stage_changes.csv` | Percentage-point changes in representation between jury-selection stages. |
-| `county_stage_changes.csv` | County-level changes in representation across stages. |
-| `stage_wilcoxon_tests.csv` | Results of Wilcoxon signed-rank tests comparing changes in representation across stages. |
+|---|---|
+| `statewide_stage_composition.csv` | Statewide racial and ethnic composition at the overall pool, criminal panel, and empaneled juror stages. |
+| `statewide_stage_changes.csv` | Statewide percentage-point changes in representation between jury-selection stages. |
+| `county_stage_changes.csv` | County-level changes in representation across jury-selection stages. |
+| `stage_wilcoxon_tests.csv` | Results of Wilcoxon signed-rank tests comparing representation across stages. |
 
-### Figures
+#### Figures
 
-- `figure_1_census_vs_jury.png` – Scatterplot comparing county census percentages with jury pool percentages for each racial group.
-
-- `figure_2_weighted_mae_by_race.png` – Mean absolute error (MAE) plot summarizing the average magnitude of representation differences across racial groups.
-
-- `figure_3_minority_census_vs_jury.png` – Bar chart comparing weighted census percentages with weighted jury pool percentages for minority populations.
-
-- `figure_4_gap_distribution_boxplot.png` – Boxplots illustrating the distribution of county-level representation gaps for each racial group.
-  
-- `figure_5_stage_composition_barplot.png` – Comparison of racial and ethnic composition across the jury pool, criminal panel, and empaneled juror stages.
-  
-- `figure_6_stage_percentage_point_changes.png` – Percentage-point changes in representation across jury-selection stages.
-
-- `appendix_A1_weighted_representation_gap.png` – Weighted representation-gap plot showing the direction and magnitude of overrepresentation and underrepresentation.
-
-- `appendix_A2_all_races_weighted_error_bars.png` – Weighted census-versus-jury comparison with approximate 95% binomial error intervals.
+| File | Description |
+|---|---|
+| `figure_1_census_vs_jury.png` | Scatterplot comparing county Census percentages with jury pool percentages for each demographic group. |
+| `figure_2_weighted_mae_by_race.png` | Mean absolute error (MAE) plot showing the average magnitude of representation differences by demographic group. |
+| `figure_3_minority_census_vs_jury.png` | Comparison of weighted Census and jury pool percentages for minority populations. |
+| `figure_4_gap_distribution_boxplot.png` | Distribution of county-level representation gaps for each demographic group. |
+| `figure_5_stage_composition_barplot.png` | Comparison of racial and ethnic composition across the overall pool, criminal panel, and empaneled juror stages. |
+| `figure_6_stage_percentage_point_changes.png` | Percentage-point changes in representation across jury-selection stages. |
+| `appendix_A1_weighted_representation_gap.png` | Weighted representation gaps showing the direction and magnitude of overrepresentation and underrepresentation. |
+| `appendix_A2_all_races_weighted_error_bars.png` | Weighted Census-versus-jury comparison with approximate 95% binomial error intervals. |
 
 ---
 
-## Interactive Tableau Dashboard
+### Interactive Tableau Dashboard
 
-An interactive Tableau dashboard was developed to allow users to explore county-level jury representation patterns across Iowa. Users can examine Census and jury percentages, raw counts, absolute representation gaps, relative differences, and geographic patterns for each demographic group.
+An interactive dashboard was developed in Tableau Public to allow users to explore county-level jury representation patterns across Iowa. Users can examine Census and jury percentages, raw counts, absolute representation gaps, relative differences, and geographic patterns for each demographic group.
 
 **Tableau dashboard:**  
 https://public.tableau.com/shared/B4SZM9Z2P?:display_count=n&:origin=viz_share_link
