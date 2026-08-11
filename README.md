@@ -2,7 +2,7 @@
 
 **Jude Aboagye and Randee Goeke:** 
 **STAT 230:** 
-**Summer 2026** 
+**August 2026** 
 
 ---
 # Project Summary
@@ -296,7 +296,7 @@ Future work could incorporate multiple years of jury data, examine additional de
   
 - Jury representation may be influenced by factors not captured in the available data, including eligibility requirements, excusals, disqualifications, nonresponses, and other stages of jury selection.
   
-- Results are specific to on year in Iowa and should not be assumed to generalize to other jurisdictions.
+- Results are specific to one year in Iowa and should not be assumed to generalize to other jurisdictions.
 
 ---
 
