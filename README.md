@@ -108,15 +108,13 @@ Source: https://data.census.gov/
 ### `data/`
 This folder contains both the original data files and the processed datasets used throughout the analysis.
 
-- `raw/` — Contains the original census files and jury pool datasets.
-- `processed/` — Contains cleaned and merged datasets used in the final analysis.
-- | File | Description |
-|------|-------------|
-overall_pool_final.csv — Primary jury pool dataset used for the main representation analysis.
-pct_statepool_vs_census.csv — Combines jury pool and Census percentages for county-level demographic comparisons.
-new_main_view.csv — Analysis-ready view containing standardized jury data used in the main analysis.
-state_pool_percentages.csv and crim_panel_percentages.csv — Stage-level demographic percentages used in the supplementary jury-selection analysis.
-race_empanelment_clean_.csv — Cleaned empanelment data used to evaluate the final stage of jury selection.
+| File | Description |
+|---|---|
+| `data/raw/iowa_race.csv` | County-level Census demographic data used to provide expected racial and ethnic population proportions for comparison with the jury data. |
+| `data/processed/new_main_view.csv` | Consolidated analysis-ready dataset containing court, county, jury-selection stage, race or ethnicity, jury counts and percentages, Census percentages, and representation differences. |
+| `data/processed/overall_pool_final.csv` | Final processed dataset for the overall jury pool used in the primary analysis comparing jury pool composition with county Census demographics. |
+
+Additional raw, intermediate, and processed files are retained in the repository to document the complete data-cleaning and preparation workflow.
 ---
 
 ## Script Descriptions
@@ -244,10 +242,10 @@ https://public.tableau.com/shared/B4SZM9Z2P?:display_count=n&:origin=viz_share_l
 
 ## Software
 - **R 4.6.1 / RStudio** — Statistical analysis, Census data retrieval, data processing, and visualization
-- **MySQL Workbench** — SQL-based data cleaning, restructuring, standardization, and creation of analytical views
-- **Tableau Public** — Development and publication of the interactive county-level dashboard
+- **MySQL Workbench 8.0.47** — SQL-based data cleaning, restructuring, standardization, and creation of analytical views
+- **Tableau Public 2026.2.1** — Development and publication of the interactive county-level dashboard
 - **Git / GitHub** — Version control, project organization, and repository hosting
-
+  
 ## Required Packages
 
 ```r
@@ -262,21 +260,21 @@ library(scales)
 
 Follow these steps to reproduce the analysis:
 
-1. Open the R project in RStudio.
+1. Open the R project in RStudio and install the required R packages.
 
-2. Install all required packages.
+2. Run `get_census_data.R` to retrieve and prepare the county-level Census data.
 
-3. Run the SQL scripts to create and populate the database.
+3. Run the SQL scripts in the `sql/` directory to import, clean, standardize, and organize the jury and Census data into analysis-ready tables and views.
 
-4. Run `get_census_data.R` to import and process Census data.
+4. Run `main_analysis.R` to perform the primary analysis comparing overall jury pool composition with county Census demographics.
 
-5. Run `main_analysis.R` to perform the primary analyses.
+5. Run `stage_analysis.R` to perform the supplementary analysis examining changes across the overall pool, criminal panel, and empanelment stages.
 
-6. Run `stage_analysis.R` to perform the supplementary stage analyses.
+6. Run `visualizations.R` to generate the figures and tables used in the report.
 
-7. Run `visualizations.R` to generate tables and figures.
+7. To recreate the interactive dashboard, open Tableau Public and connect to `data/processed/overall_pool_final.csv`.
 
-8. Publish the Tableau dashboard if desired.
+8. Build or update the Tableau dashboard using the processed overall-pool data and publish to Tableau Public if desired.
 
 Expected runtime: a matter of minutes.
 
