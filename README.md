@@ -112,63 +112,11 @@ This folder contains both the original data files and the processed datasets use
 |---|---|
 | `data/raw/iowa_race.csv` | County-level Census demographic data used to provide expected racial and ethnic population proportions for comparison with the jury data. |
 | `data/processed/new_main_view.csv` | Consolidated analysis-ready dataset containing court, county, jury-selection stage, race or ethnicity, jury counts and percentages, Census percentages, and representation differences. |
-| `data/processed/overall_pool_final.csv` | Final processed dataset for the overall jury pool used in the primary analysis comparing jury pool composition with county Census demographics. |
+| `data/processed/overall_pool_final.csv` | Final processed dataset for the overall jury pool used in the primary analysis comparing jury pool composition with county Census demographics. | 
 
 Additional raw, intermediate, and processed files are retained in the repository to document the complete data-cleaning and preparation workflow.
----
-
-## Script Descriptions
-
-### `get_census_data.R`
-Imports, cleans, and processes county-level demographic data obtained from the United States Census Bureau.
-
-Primary tasks include:
-- Importing Census tables
-- Filtering data to Iowa counties
-- Standardizing race and ethnicity categories
-- Creating processed datasets for analysis
 
 ---
-
-### `main_analysis.R`
-Performs the primary statistical analyses used throughout the project.
-
-Analyses include:
-- Descriptive statistics
-- Mean absolute error (MAE) and root mean squared error (RMSE)
-- One-sample t-tests
-- Exact binomial tests
-- Monte Carlo simulations
-- Court-level summaries
-- Data exports
-- Preparation of data for visualizations
-
----
-
-### `stage_analysis.R`
-Performs supplementary analyses examining changes in racial and ethnic representation across multiple stages of the jury-selection process.
-
-Analyses include:
-- Calculating statewide racial and ethnic composition at each stage
-- Measuring percentage-point changes between the overall pool, criminal panel, and empaneled juror stages
-- Generating county-level summaries
-- Performing Wilcoxon signed-rank tests
-- Exporting summary tables and figures
-- Preparing data for stage-based visualizations
-
----
-
-### `visualizations.R`
-Creates the figures used in the report and appendix.
-
-Tasks include:
-- Reshaping data for visualization
-- Creating publication-quality graphics
-- Exporting figures to the `outputs/figures` directory
-- Maintaining consistent formatting, labeling, and color schemes
-
----
-
 ### `sql/`
 This folder contains SQL scripts used to construct the database, import data, clean tables, and create analytical views.
 
@@ -183,7 +131,23 @@ This folder contains SQL scripts used to construct the database, import data, cl
 
 ---
 
-## outputs/
+### `scripts/`
+
+This folder contains the R scripts used to retrieve Census data, perform the statistical analyses, and create visualizations.
+
+| File | Description |
+|---|---|
+| `get_census_data.R` | Retrieves county-level Census data, filters to Iowa counties, standardizes demographic categories, and prepares the Census data for analysis. |
+| `main_analysis.R` | Performs the primary analysis of overall jury pool representation, including descriptive statistics, MAE, RMSE, correlations, t-tests, exact binomial tests, Monte Carlo simulations, and court-level summaries. |
+| `stage_analysis.R` | Performs the supplementary analysis of changes across the overall pool, criminal panel, and empaneled juror stages, including statewide and county-level summaries and Wilcoxon signed-rank tests. |
+| `visualizations.R` | Creates and exports the figures used in the report and appendix. |
+
+---
+
+
+---
+
+### outputs/
 
 ### Tables
 
