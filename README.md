@@ -37,16 +37,19 @@ Supplementary analyses indicated that the demographic composition of jurors may 
 
 ## Data Source
 
-This project combines publicly available data from multiple sources.
-
 Iowa jury pool data
-Jury pool data supplied by Professor Lovell
-County-level empanelment data
-County-level jury pool data
+
+-"Jury pool data supplied by Professor Lovell"
+
+    -"County-level empanelment data"
+
+    -"County-level jury pool data"
+    
 Census data
-United States Census Bureau
-American Community Survey (ACS) 2024 estimates
-Tables B05003B–B05003I
+
+-"United States Census Bureau"
+
+    -"American Community Survey (ACS) 2024 estimates : Tables B05003B–B05003I"
 
 Source:
 
