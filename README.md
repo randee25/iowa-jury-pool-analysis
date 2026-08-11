@@ -2,7 +2,7 @@
 
 **Jude Aboagye and Randee Goeke:** 
 **STAT 230:** 
-**Summer 2026:** 
+**Summer 2026** 
 
 ---
 # Project Summary
@@ -57,9 +57,8 @@ Source: https://data.census.gov/
 
 ## Data Files
 
-- `data/raw/`   -  Original source files    
-- `data/processed/`  - Cleaned datasets used for analysis
-
+- `data/raw/`   -  Contains the original Iowa jury datasets used in the project, including county-level jury pool and empanelment data. 
+- `data/processed/`  - Contains cleaned, standardized, and merged datasets created from the raw jury data and ACS Census data. These files serve as the primary inputs for the statistical analyses and visualizations
 
 ## Important Variables
 
@@ -111,7 +110,13 @@ This folder contains both the original data files and the processed datasets use
 
 - `raw/` — Contains the original census files and jury pool datasets.
 - `processed/` — Contains cleaned and merged datasets used in the final analysis.
-
+- | File | Description |
+|------|-------------|
+overall_pool_final.csv — Primary jury pool dataset used for the main representation analysis.
+pct_statepool_vs_census.csv — Combines jury pool and Census percentages for county-level demographic comparisons.
+new_main_view.csv — Analysis-ready view containing standardized jury data used in the main analysis.
+state_pool_percentages.csv and crim_panel_percentages.csv — Stage-level demographic percentages used in the supplementary jury-selection analysis.
+race_empanelment_clean_.csv — Cleaned empanelment data used to evaluate the final stage of jury selection.
 ---
 
 ## Script Descriptions
@@ -238,15 +243,12 @@ https://public.tableau.com/shared/B4SZM9Z2P?:display_count=n&:origin=viz_share_l
 # Software Requirements
 
 ## Software
-R (version 4.6.1)
-RStudio
-Tableau Public
-MySQL Workbench
-Git
-GitHub
+- **R 4.6.1 / RStudio** — Statistical analysis, Census data retrieval, data processing, and visualization
+- **MySQL Workbench** — SQL-based data cleaning, restructuring, standardization, and creation of analytical views
+- **Tableau Public** — Development and publication of the interactive county-level dashboard
+- **Git / GitHub** — Version control, project organization, and repository hosting
 
 ## Required Packages
-
 
 ```r
 library(tidyverse)
@@ -304,21 +306,15 @@ These methods were selected to evaluate differences between expected and observe
 # Results
 ## Key Findings
 
-- Across all 700 court–race combinations, the average representation gap was −0.18 percentage points, with a mean absolute error (MAE) of 2.07 percentage points and a Pearson correlation of 0.996 between jury composition and county census composition.
-
-- White jurors were consistently overrepresented relative to county census estimates, with an average representation gap of +6.23 percentage points.
-
-- Multiracial populations exhibited the largest and most consistent pattern of underrepresentation, with an average representation gap of −4.54 percentage points and a comparatively weak correlation between census and jury percentages (*r* = 0.359).
-
-- Hispanic/Latino populations also exhibited substantial underrepresentation, with an average representation gap of −2.44 percentage points.
-
-- Black/African American populations (−0.32 percentage points) and Asian populations (−0.18 percentage points) demonstrated smaller but still measurable differences.
-
-- American Indian or Alaska Native (AIAN) and Native Hawaiian or Pacific Islander (NHPI) populations exhibited the smallest average differences.
-
-- Exact binomial tests and Monte Carlo simulations produced highly consistent results, indicating that many observed differences were unlikely to be explained by random sampling variation alone.
-
-- Supplementary analyses identified statistically significant changes across the jury-selection process. Hispanic/Latino representation decreased by approximately 1.49 percentage points from the initial pool stage to empanelment, whereas White representation increased by approximately 3.04 percentage points. Changes observed for other demographic groups were comparatively small.
+- Jury composition generally reflected county demographics, but meaningful differences were observed for several racial and ethnic groups.
+  
+- White jurors tended to be overrepresented, while Multiracial and Hispanic/Latino populations showed the largest patterns of underrepresentation.
+  
+- Representation patterns varied across counties, demonstrating the importance of examining both statewide and county-level results.
+  
+- Exact binomial tests and Monte Carlo simulations produced highly consistent results when evaluating potential underrepresentation.
+  
+- Supplementary stage analyses indicated that demographic composition may change between the initial jury pool, criminal panel, and empaneled juror stages.
 
 ### Notes on Interpretation
 
@@ -327,34 +323,24 @@ These findings should be interpreted cautiously. Differences in demographic clas
 ---
 ## Recommendations
 
-Future work could incorporate multiple years of jury pool data to determine whether observed representation patterns persist over time. Longitudinal analyses could help distinguish persistent patterns of underrepresentation from ordinary year-to-year variation.
-
-Additional demographic characteristics, including age, sex, educational attainment, socioeconomic status, and geographic accessibility, could also be examined to develop a more comprehensive understanding of jury representativeness.
-
-Future work could further investigate changes that occur throughout the jury-selection process, including the potential effects of excusals, nonresponses, disqualifications, peremptory challenges, and strikes for cause.
-
-The analytical framework developed for this project could eventually be incorporated into an interactive monitoring tool that updates as new Census and jury data become available, allowing courts and researchers to evaluate jury representativeness over time.
+Future work could incorporate multiple years of jury data, examine additional demographic characteristics, and further investigate how representation changes throughout the jury-selection process. The analytical framework could also be developed into an interactive monitoring tool that updates as new Census and jury data become available.
 
 
 ---
 
  ## Limitations
 
-- Observed differences do not necessarily indicate bias or flaws within the jury selection process. Jury pools are influenced by numerous factors, including voter registration records, driver's license records, eligibility requirements, excusals, disqualifications, nonresponses, reporting practices, and ordinary sampling variability.
-
-- This analysis is limited to Iowa counties and may not be generalizable to other states or jurisdictions.
-
+- Differences in demographic definitions, reporting, and classification between Census and jury data may affect comparisons.
+  
 - Several decisions were required to standardize racial and ethnic categories across datasets. For example, "White alone" and "Hispanic only" categories were used to reduce overlap among demographic groups. In addition, the jury data relied on self-reported information, and some records were classified as "Unknown" or "Not provided" and were excluded from portions of the analysis.
-
-- Additional caution is warranted when interpreting the multiracial category. Both the Census and jury datasets define multiracial individuals as those identifying with two or more races. However, differences in the way racial identities were reported, categorized, or recorded across the two datasets may have influenced the observed representation gaps.
-
-- Several counties contained relatively small sample sizes, which may have increased the variability of some estimates.
-
-- Weighted analyses place greater emphasis on counties with larger jury pools, whereas unweighted analyses assign equal importance to all counties.
-
-- The exact binomial and Monte Carlo methods assume that jury selection occurs randomly according to county population proportions.
-
-- Census estimates are themselves subject to sampling error and should therefore be interpreted as estimates rather than exact population values.
+  
+- Small sample sizes for some counties and demographic groups may increase variability.
+  
+- Census values are estimates and are themselves subject to sampling error.
+  
+- Jury representation may be influenced by factors not captured in the available data, including eligibility requirements, excusals, disqualifications, nonresponses, and other stages of jury selection.
+  
+- Results are specific to on year in Iowa and should not be assumed to generalize to other jurisdictions.
 
 ---
 
