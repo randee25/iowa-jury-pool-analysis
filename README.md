@@ -67,11 +67,10 @@ Source: https://data.census.gov/
 | `county_name` | Iowa county name |
 | `race_short` | Standardized race or ethnicity category |
 | `jury_pool_pct` | Percentage of individuals belonging to a particular race within the overall jury pool |
-| `county_population_pct` | Percentage of the county population belonging to a particular race |
+| `county_population_pct` | Percentage of the county population belonging to a particular racial or ethnic group, based on ACS Census estimates |
 | `representation_gap` | Difference between jury and census percentages |
-| `adjusted_total` | Number of jurors included in the analysis |
+| `adjusted_total` | Total number of prospective jurors used to calculate jury pool percentages, excluding records categorized as “Not Provided” |
 | `jury_count` | Number of jurors belonging to a particular race category |
-| `panel_pct` | Percentage of individuals belonging to a particular race within the criminal panel stage |
 | `juror_pct` | Percentage of individuals belonging to a particular race among empaneled jurors |
 | `pool_to_panel_change` | Percentage-point change from the pool stage to the panel stage |
 | `panel_to_juror_change` | Percentage-point change from the panel stage to the empaneled juror stage |
