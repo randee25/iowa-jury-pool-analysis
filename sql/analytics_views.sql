@@ -1,7 +1,7 @@
 --Creating views to summarize major details between the steps of the process
 
 --Displaying state pool data by race% of the total
-DROP VIEW analytics.spr_jury_pct; (in case you need to edit/recreate)
+DROP TABLE analytics.spr_jury_pct; (in case you need to edit/recreate)
 
 CREATE TABLE analytics.spr_jury_pct AS
 SELECT
@@ -23,6 +23,7 @@ SELECT
     ROUND((100.0 * white) / adj_total, 2) AS jp_white,
     ROUND((100.0 * black_african_american) / adj_total, 2) AS jp_black,
     ROUND((100.0 * hispanic_latino_spanish_origins) / adj_total, 2) AS jp_hisp,
+    ROUND((100.0 * hlso_ethnicity) / adj_total, 2) AS jp_hlso_ethnicity,
     ROUND((100.0 * asian) / adj_total, 2) AS jp_asian,
     ROUND((100.0 * american_indian_alaskan_native) / adj_total, 2) AS jp_aian,
     ROUND((100.0 * multi_race) / adj_total, 2) AS jp_mr,
@@ -32,8 +33,9 @@ SELECT
 FROM staging.state_pool_race;
 
 --Presenting criminal panel data as race% of the total(counties with reported totals of 0 omitted)
-DROP VIEW analytics.scp_pct;
-CREATE VIEW analytics.scp_pct AS
+ALTER VIEW analytics.scp_pct
+RENAME COLUMN jp_hlso_ethnicity TO cp_hlso_ethnicity;
+CREATE OR REPLACE VIEW analytics.scp_pct AS
 SELECT
     court_number,
     court_name,
@@ -58,7 +60,8 @@ SELECT
     ROUND((100.0 * multi_race) / NULLIF(adj_total, 0), 2) AS cp_mr,
     ROUND((100.0 * native_hawaiian_pacific_islander) / NULLIF(adj_total, 0), 2) AS cp_nhpi,
     ROUND((100.0 * other) / NULLIF(adj_total, 0), 2) AS cp_other,
-    ROUND((100.0 * unknown) / NULLIF(adj_total, 0), 2) AS cp_unk
+    ROUND((100.0 * unknown) / NULLIF(adj_total, 0), 2) AS cp_unk,
+    ROUND((100.0 * hlso_ethnicity) / adj_total, 2) AS cp_hlso_ethnicity
 FROM staging.state_crim_panel_race
 WHERE adj_total > 0;
 
@@ -66,7 +69,7 @@ WHERE adj_total > 0;
 --Comparing total jury pool percentages vs census percentages of each race
 DROP VIEW jury_vs_census; (in case you need to edit/recreate)
 
-CREATE VIEW jury_vs_census AS
+CREATE OR REPLACE VIEW jury_vs_census AS
 SELECT
     cl.court_number,
     cl.county_name,
@@ -91,7 +94,7 @@ SELECT
     sp.jp_black AS pool_pct_black,
     cr.black_alone_pct AS census_pct_black,
 
-    sp.jp_hisp AS jury_pct_hisp,
+    sp.jp_hlso_ethnicity AS jury_pct_hlso_ethnicity,
     cr.hisp_latino_pct AS census_pct_hisp,
 
     sp.jp_mr AS jury_pct_mr,
@@ -106,6 +109,9 @@ SELECT
     sp.jp_nhpi AS jury_pct_nhpi,
     cr.nh_pacific_isl_alone_pct AS census_pct_nhpi
 
+    
+
+
 FROM analytics.spr_pct sp
 JOIN staging.county_lookup cl
     ON sp.court_number = cl.court_number
@@ -115,7 +121,7 @@ JOIN staging.census_race cr
 --Creating view of percentage of criminal panel in each county by race compared to census percentages
 
 DROP VIEW panel_vs_census;
-CREATE VIEW panel_vs_census AS
+CREATE OR REPLACE VIEW panel_vs_census AS
 SELECT
     cl.court_number,
     cl.county_name,
@@ -153,14 +159,16 @@ SELECT
     cr.ai_native_alone_pct AS census_pct_aian,
 
     cp.cp_nhpi AS panel_pct_nhpi,
-    cr.nh_pacific_isl_alone_pct AS census_pct_nhpi
+    cr.nh_pacific_isl_alone_pct AS census_pct_nhpi,
+
+    cp.cp_hlso_ethnicity AS panel_pct_hlso_ethnicity
 
 FROM analytics.scp_pct cp
 JOIN staging.county_lookup cl ON cp.court_number = cl.court_number
 JOIN staging.census_race cr ON cl.county_name = cr.county_name;
 
 --Creating view comparing final empanelment percentages to census percentages
-CREATE VIEW analytics.empanelment_vs_census AS
+CREATE  OR REPLACE VIEW analytics.empanelment_vs_census AS
 SELECT
     cl.court_number,
     cl.county_name,
@@ -192,7 +200,11 @@ SELECT
     cr.ai_native_alone_pct AS census_pct_aian,
 
     ROUND((100.0 * e.native_hawaiian_pacific_islander) / NULLIF(emp_total, 0), 2) AS emp_nhpi_pct,
-    cr.nh_pacific_isl_alone_pct AS census_pct_nhpi
+    cr.nh_pacific_isl_alone_pct AS census_pct_nhpi,
+
+    ROUND((100.0 * e.hlso_ethnicity) / NULLIF(emp_total, 0), 2) AS emp_hlso_ethnicity_pct,
+
+    e.hlso_ethnicity
 
 
 FROM staging.crim_empanelment_race e
@@ -202,7 +214,7 @@ JOIN staging.census_race cr ON cr.county_name = cl.county_name;
 
 
 
-CREATE VIEW tidy_race_stats AS
+CREATE VIEW new_tidy_race_stats AS
 SELECT
     court_number,
     county_name,
@@ -214,7 +226,7 @@ SELECT
     pool_pct_white AS jury_pct,
     census_pct_white AS census_pct,
     pool_pct_white - census_pct_white AS pt_diff
-FROM analytics.census_vs_jury
+FROM analytics.new_census_vs_jury
 
 UNION ALL
 
@@ -232,6 +244,8 @@ SELECT
 FROM analytics.census_vs_jury
 
 
+
+
 UNION ALL
 
 SELECT
@@ -239,13 +253,29 @@ SELECT
     county_name,
     'Overall Pool',
     NULL,
-    'Hispanic/Latino/Spanish Origins',
+    'Multiracial',
     adj_total,
-    hispanic_latino_spanish_origins,
-    jury_pct_hisp,
-    census_pct_hisp,
-    jury_pct_hisp - census_pct_hisp
+    multi_race,
+    jury_pct_mr,
+    census_pct_mr,
+    jury_pct_mr - census_pct_mr
 FROM analytics.census_vs_jury
+
+UNION ALL
+
+
+SELECT
+    court_number,
+    county_name,
+    'Overall Pool',
+    NULL,
+    'HLSO Ethnicity',
+    adj_total,
+    hlso_ethnicity,
+    jury_pct_hlso_ethnicity,
+    census_pct_hisp,
+    jury_pct_hlso_ethnicity - census_pct_hisp
+FROM analytics.new_census_vs_jury
 
 UNION ALL
 
@@ -335,12 +365,27 @@ SELECT
     county_name,
     'Criminal Panel',
     NULL,
-    'Hispanic/Latino/Spanish Origins',
+    'Multiracial',
     adj_total,
-    hispanic_latino_spanish_origins,
-    panel_pct_hisp,
+    multi_race,
+    panel_pct_mr,
+    census_pct_mr,
+    panel_pct_mr - census_pct_mr
+FROM analytics.panel_vs_census
+
+UNION ALL
+
+SELECT
+    court_number,
+    county_name,
+    'Criminal Panel',
+    NULL,
+    'HLSO Ethnicity',
+    adj_total,
+    hlso_ethnicity,
+    panel_pct_hlso_ethnicity,
     census_pct_hisp,
-    panel_pct_hisp - census_pct_hisp
+    panel_pct_hlso_ethnicity - census_pct_hisp
 FROM analytics.panel_vs_census
 
 UNION ALL
@@ -423,19 +468,22 @@ SELECT
 FROM analytics.empanelment_vs_census
 
 
+
+
 UNION ALL
+
 
 SELECT
     court_number,
     county_name,
     'Empanelment',
     result_status,
-    'Hispanic/Latino/Spanish Origins',
+    'HLSO',
     emp_total,
-    hlso_race,
-    emp_hisp_pct,
+    hlso_ethnicity,
+    emp_hlso_ethnicity_pct,
     census_pct_hisp,
-    emp_hisp_pct - census_pct_hisp
+    emp_hlso_ethnicity_pct - census_pct_hisp
 FROM analytics.empanelment_vs_census
 
 UNION ALL
@@ -518,13 +566,13 @@ FROM analytics.scp_pct;
 
 DROP TABLE analytics.census_vs_jury;
 
-CREATE TABLE analytics.census_vs_jury AS
+CREATE TABLE analytics.new_census_vs_jury AS
 SELECT *
 FROM analytics.jury_vs_census;
 
-CREATE TABLE main_analytics_view AS
+CREATE TABLE new_main_analytics_view AS
 SELECT *
-FROM tidy_race_stats
+FROM new_tidy_race_stats
 
 ORDER BY county_name;
 
@@ -538,7 +586,7 @@ SELECT *
 FROM analytics.scp_pct_;
 
 SELECT *
-FROM analytics.census_vs_jury;
+FROM analytics.new_census_vs_jury;
 
 SELECT *
 FROM analytics.panel_vs_census;
@@ -547,4 +595,4 @@ SELECT *
 FROM analytics.empanelment_vs_census;
 
 SELECT *
-FROM main_analytics_view;
+FROM new_main_analytics_view;
